@@ -1,0 +1,946 @@
+#
+# Please don't modify this file as your changes will be overwritten with
+# the next update. Use @@LOCAL_RULES_DIR@@/local.cf instead.
+# See 'perldoc Mail::SpamAssassin::Conf' for details.
+#
+# <@LICENSE>
+# Licensed to the Apache Software Foundation (ASF) under one or more
+# contributor license agreements.  See the NOTICE file distributed with
+# this work for additional information regarding copyright ownership.
+# The ASF licenses this file to you under the Apache License, Version 2.0
+# (the "License"); you may not use this file except_BR in compliance with
+# the License.  You may obtain a copy of the License at:
+# 
+#     http://www.apache.org/licenses/LICENSE-2.0
+# 
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+# </@LICENSE>
+#
+###########################################################################
+
+# pt_BR translation by W3P Projetos Web (http://www.w3p.com.br/)
+
+lang pt_BR report_charset iso-8859-1
+
+lang pt_BR clear_report_template
+lang pt_BR report O filtro de spam do servidor "_HOSTNAME_" identificou este
+lang pt_BR report e-mail como um spam.  A mensagem original está anexa a este
+lang pt_BR report este e-mail para que possa ser visualizada (caso não seja
+lang pt_BR report um spam) ou para que emails futuros similares a este sejam
+lang pt_BR report marcados como spam também. Caso tenha alguma dúvida, entre
+lang pt_br report em contato no email _CONTACTADDRESS_ para mais detalhes.
+lang pt_BR report
+lang pt_BR report Visualização de um trecho:  _PREVIEW_
+lang pt_BR report
+lang pt_BR report Detalhes da análise:   (_SCORE_ pontos, mínimo de _REQD_)
+lang pt_BR report
+lang pt_BR report " pts regra                  descrição"
+lang pt_BR report  ---- ---------------------- --------------------------------------------------
+lang pt_BR report _SUMMARY_
+
+lang pt_BR describe USER_IN_BLACKLIST From: address is in the user's black-list
+lang pt_BR describe USER_IN_WHITELIST From: address is in the user's white-list
+lang pt_BR describe USER_IN_DEF_WHITELIST From: address is in the default white-list
+lang pt_BR describe USER_IN_BLACKLIST_TO User is listed in 'blacklist_to'
+lang pt_BR describe USER_IN_WHITELIST_TO User is listed in 'whitelist_to'
+lang pt_BR describe USER_IN_MORE_SPAM_TO User is listed in 'more_spam_to'
+lang pt_BR describe USER_IN_ALL_SPAM_TO User is listed in 'all_spam_to'
+lang pt_BR describe AWL From: address is in the auto white-list
+
+
+# 20_advance_fee.cf
+lang pt_BR describe ADVANCE_FEE_2 Appears to be advance fee fraud (Nigerian 419)
+lang pt_BR describe ADVANCE_FEE_3 Appears to be advance fee fraud (Nigerian 419)
+lang pt_BR describe ADVANCE_FEE_4 Appears to be advance fee fraud (Nigerian 419)
+
+# 20_body_tests.cf
+lang pt_BR describe GTUBE Generic Test for Unsolicited Bulk Email
+lang pt_BR describe TRACKER_ID Incorporates a tracking ID number
+lang pt_BR describe WEIRD_QUOTING Weird repeated double-quotation marks
+lang pt_BR describe MIME_HTML_ONLY_MULTI Multipart message only has text/html MIME parts
+lang pt_BR describe MIME_CHARSET_FARAWAY MIME character set indicates foreign language
+lang pt_BR describe EMAIL_ROT13 Body contains a ROT13-encoded email address
+lang pt_BR describe LONGWORDS Long string of long words
+lang pt_BR describe MPART_ALT_DIFF HTML and text parts are different
+lang pt_BR describe MPART_ALT_DIFF_COUNT HTML and text parts are different
+lang pt_BR describe BLANK_LINES_80_90 Message body has 80-90% blank lines
+lang pt_BR describe CHARSET_FARAWAY Character set indicates a foreign language
+lang pt_BR describe __MIME_BASE64 Includes a base64 attachment
+lang pt_BR describe __MIME_QP Includes a quoted-printable attachment
+lang pt_BR describe MIME_BASE64_BLANKS Extra blank lines in base64 encoding
+lang pt_BR describe MIME_BASE64_TEXT Message text disguised using base64 encoding
+lang pt_BR describe MISSING_MIME_HB_SEP Missing blank line between MIME header and body
+lang pt_BR describe MIME_HTML_MOSTLY Multipart message mostly text/html MIME
+lang pt_BR describe MIME_HTML_ONLY Message only has text/html MIME parts
+lang pt_BR describe MIME_QP_LONG_LINE Quoted-printable line longer than 76 chars
+lang pt_BR describe MIME_BAD_ISO_CHARSET MIME character set is an unknown ISO charset
+lang pt_BR describe HTTPS_IP_MISMATCH IP to HTTPS link found in HTML
+lang pt_BR describe URI_TRUNCATED Message contained a URI which was truncated
+
+# 20_compensate.cf
+lang pt_BR describe NO_RECEIVED Informational: message has no Received headers
+lang pt_BR describe ALL_TRUSTED Passed through trusted hosts only via SMTP
+lang pt_BR describe NO_RELAYS Informational: message was not relayed via SMTP
+
+# 20_dnsbl_tests.cf
+lang pt_BR describe __RCVD_IN_NJABL Received via a relay in combined.njabl.org
+lang pt_BR describe __RCVD_IN_SORBS SORBS: sender is listed in SORBS
+lang pt_BR describe RCVD_IN_NJABL_RELAY NJABL: sender is confirmed open relay
+lang pt_BR describe RCVD_IN_NJABL_SPAM NJABL: sender is confirmed spam source
+lang pt_BR describe RCVD_IN_NJABL_MULTI NJABL: sent through multi-stage open relay
+lang pt_BR describe RCVD_IN_NJABL_CGI NJABL: sender is an open formmail
+lang pt_BR describe RCVD_IN_NJABL_PROXY NJABL: sender is an open proxy
+lang pt_BR describe RCVD_IN_SORBS_HTTP SORBS: sender is open HTTP proxy server
+lang pt_BR describe RCVD_IN_SORBS_SOCKS SORBS: sender is open SOCKS proxy server
+lang pt_BR describe RCVD_IN_SORBS_MISC SORBS: sender is open proxy server
+lang pt_BR describe RCVD_IN_SORBS_SMTP SORBS: sender is open SMTP relay
+lang pt_BR describe RCVD_IN_SORBS_WEB SORBS: sender is an abusable web server
+lang pt_BR describe RCVD_IN_SORBS_BLOCK SORBS: sender demands to never be tested
+lang pt_BR describe RCVD_IN_SORBS_ZOMBIE SORBS: sender is on a hijacked network
+lang pt_BR describe RCVD_IN_SORBS_DUL SORBS: sent directly from dynamic IP address
+lang pt_BR describe __RCVD_IN_ZEN Received via a relay in Spamhaus Zen
+lang pt_BR describe RCVD_IN_SBL Received via a relay in Spamhaus SBL
+lang pt_BR describe RCVD_IN_XBL Received via a relay in Spamhaus XBL
+lang pt_BR describe RCVD_IN_PBL Received via a relay in Spamhaus PBL
+lang pt_BR describe DNS_FROM_RFC_DSN Envelope sender in dsn.rfc-ignorant.org
+lang pt_BR describe DNS_FROM_RFC_BOGUSMX Envelope sender in bogusmx.rfc-ignorant.org
+lang pt_BR describe DNS_FROM_AHBL_RHSBL Envelope sender listed in dnsbl.ahbl.org
+lang pt_BR describe RCVD_IN_BL_SPAMCOP_NET Received via a relay in bl.spamcop.net
+lang pt_BR describe RCVD_IN_MAPS_RBL Relay in RBL, http://www.mail-abuse.com/enduserinfo_rbl.html
+lang pt_BR describe RCVD_IN_MAPS_DUL Relay in DUL, http://www.mail-abuse.com/enduserinfo_dul.html
+lang pt_BR describe RCVD_IN_MAPS_RSS Relay in RSS, http://www.mail-abuse.com/enduserinfo_rss.html
+lang pt_BR describe RCVD_IN_MAPS_OPS Relay in OPS, http://www.mail-abuse.com/enduserinfo_ops.html
+lang pt_BR describe RCVD_IN_MAPS_NML Relay in NML, http://www.mail-abuse.com/enduserinfo_nml.html
+lang pt_BR describe RCVD_IN_IADB_VOUCHED ISIPP IADB lists as vouched-for sender
+
+# 20_drugs.cf
+lang pt_BR describe SUBJECT_DRUG_GAP_C Subject contains a gappy version of 'cialis'
+lang pt_BR describe SUBJECT_DRUG_GAP_L Subject contains a gappy version of 'levitra'
+lang pt_BR describe SUBJECT_DRUG_GAP_S Subject contains a gappy version of 'soma'
+lang pt_BR describe SUBJECT_DRUG_GAP_VA Subject contains a gappy version of 'valium'
+lang pt_BR describe SUBJECT_DRUG_GAP_X Subject contains a gappy version of 'xanax'
+lang pt_BR describe DRUG_DOSAGE Talks about price per dose
+lang pt_BR describe DRUG_ED_CAPS Mentions an E.D. drug
+lang pt_BR describe DRUG_ED_SILD Talks about an E.D. drug using its chemical name
+lang pt_BR describe DRUG_ED_GENERIC Mentions Generic Viagra
+lang pt_BR describe DRUG_ED_ONLINE Fast Viagra Delivery
+lang pt_BR describe ONLINE_PHARMACY Online Pharmacy
+lang pt_BR describe NO_PRESCRIPTION No prescription needed
+lang pt_BR describe VIA_GAP_GRA Attempts to disguise the word 'viagra'
+lang pt_BR describe DRUGS_ERECTILE Refers to an erectile drug
+lang pt_BR describe DRUGS_ERECTILE_OBFU Obfuscated reference to an erectile drug
+lang pt_BR describe DRUGS_DIET Refers to a diet drug
+lang pt_BR describe DRUGS_DIET_OBFU Obfuscated reference to a diet drug
+lang pt_BR describe DRUGS_MUSCLE Refers to a muscle relaxant
+lang pt_BR describe DRUGS_ANXIETY Refers to an anxiety control drug
+lang pt_BR describe DRUGS_ANXIETY_OBFU Obfuscated reference to an anxiety control drug
+lang pt_BR describe DRUGS_SMEAR1 Two or more drugs crammed together into one word
+lang pt_BR describe DRUGS_ANXIETY_EREC Refers to both an erectile and an anxiety drug
+lang pt_BR describe DRUGS_SLEEP_EREC Refers to both an erectile and a sleep aid drug
+lang pt_BR describe DRUGS_MANYKINDS Refers to at least four kinds of drugs
+
+# 20_dynrdns.cf
+lang pt_BR describe __RDNS_DYNAMIC_IPADDR Relay HELO'd using suspicious hostname (IP addr 1)
+lang pt_BR describe __RDNS_DYNAMIC_DHCP Relay HELO'd using suspicious hostname (DHCP)
+lang pt_BR describe __RDNS_DYNAMIC_HCC Relay HELO'd using suspicious hostname (HCC)
+lang pt_BR describe __RDNS_DYNAMIC_ATTBI Relay HELO'd using suspicious hostname (ATTBI.com)
+lang pt_BR describe __RDNS_DYNAMIC_ROGERS Relay HELO'd using suspicious hostname (Rogers)
+lang pt_BR describe __RDNS_DYNAMIC_ADELPHIA Relay HELO'd using suspicious hostname (Adelphia)
+lang pt_BR describe __RDNS_DYNAMIC_DIALIN Relay HELO'd using suspicious hostname (T-Dialin)
+lang pt_BR describe __RDNS_DYNAMIC_HEXIP Relay HELO'd using suspicious hostname (Hex IP)
+lang pt_BR describe __RDNS_DYNAMIC_SPLIT_IP Relay HELO'd using suspicious hostname (Split IP)
+lang pt_BR describe __RDNS_DYNAMIC_YAHOOBB Relay HELO'd using suspicious hostname (YahooBB)
+lang pt_BR describe __RDNS_DYNAMIC_OOL Relay HELO'd using suspicious hostname (OptOnline)
+lang pt_BR describe __RDNS_DYNAMIC_RR2 Relay HELO'd using suspicious hostname (RR 2)
+lang pt_BR describe __RDNS_DYNAMIC_COMCAST Relay HELO'd using suspicious hostname (Comcast)
+lang pt_BR describe __RDNS_DYNAMIC_TELIA Relay HELO'd using suspicious hostname (Telia)
+lang pt_BR describe __RDNS_DYNAMIC_VTR Relay HELO'd using suspicious hostname (VTR)
+lang pt_BR describe __RDNS_DYNAMIC_CHELLO_NO Relay HELO'd using suspicious hostname (Chello.no)
+lang pt_BR describe __RDNS_DYNAMIC_CHELLO_NL Relay HELO'd using suspicious hostname (Chello.nl)
+lang pt_BR describe __RDNS_DYNAMIC_VELOX Relay HELO'd using suspicious hostname (Veloxzone)
+lang pt_BR describe __RDNS_DYNAMIC_NTL Relay HELO'd using suspicious hostname (NTL)
+lang pt_BR describe __RDNS_DYNAMIC_HOME_NL Relay HELO'd using suspicious hostname (Home.nl)
+lang pt_BR describe RDNS_DYNAMIC Delivered to internal network by host with dynamic-looking rDNS
+lang pt_BR describe RDNS_NONE Delivered to internal network by a host with no rDNS
+
+# 20_fake_helo_tests.cf
+lang pt_BR describe HELO_STATIC_HOST Relay HELO'd using static hostname
+lang pt_BR describe FAKE_HELO_MAIL_COM_DOM Relay HELO'd with suspicious hostname (mail.com)
+lang pt_BR describe HELO_DYNAMIC_IPADDR Relay HELO'd using suspicious hostname (IP addr 1)
+lang pt_BR describe HELO_DYNAMIC_DHCP Relay HELO'd using suspicious hostname (DHCP)
+lang pt_BR describe HELO_DYNAMIC_HCC Relay HELO'd using suspicious hostname (HCC)
+lang pt_BR describe HELO_DYNAMIC_ROGERS Relay HELO'd using suspicious hostname (Rogers)
+lang pt_BR describe HELO_DYNAMIC_DIALIN Relay HELO'd using suspicious hostname (T-Dialin)
+lang pt_BR describe HELO_DYNAMIC_HEXIP Relay HELO'd using suspicious hostname (Hex IP)
+lang pt_BR describe HELO_DYNAMIC_SPLIT_IP Relay HELO'd using suspicious hostname (Split IP)
+lang pt_BR describe HELO_DYNAMIC_IPADDR2 Relay HELO'd using suspicious hostname (IP addr 2)
+lang pt_BR describe HELO_DYNAMIC_CHELLO_NL Relay HELO'd using suspicious hostname (Chello.nl)
+lang pt_BR describe HELO_DYNAMIC_HOME_NL Relay HELO'd using suspicious hostname (Home.nl)
+
+# 20_freemail.cf
+lang pt_BR describe FREEMAIL_REPLYTO Reply-To/From or Reply-To/body contain different freemails
+lang pt_BR describe FREEMAIL_REPLY From and body contain different freemails
+lang pt_BR describe FREEMAIL_FROM Sender email is freemail
+lang pt_BR describe FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends in digit
+lang pt_BR describe FREEMAIL_REPLYTO_END_DIGIT Reply-To freemail username ends in digit
+lang pt_BR describe FREEMAIL_FORGED_REPLYTO Freemail in Reply-To, but not From
+
+# 20_head_tests.cf
+lang pt_BR describe FRAGMENTED_MESSAGE Partial message
+lang pt_BR describe FROM_BLANK_NAME From: contains empty name
+lang pt_BR describe FROM_STARTS_WITH_NUMS From: starts with many numbers
+lang pt_BR describe FROM_OFFERS From address is "at something-offers"
+lang pt_BR describe FROM_NO_USER From: has no local-part before @ sign
+lang pt_BR describe PLING_QUERY Subject has exclamation mark and question mark
+lang pt_BR describe MSGID_SPAM_CAPS Spam tool Message-Id: (caps variant)
+lang pt_BR describe MSGID_SPAM_LETTERS Spam tool Message-Id: (letters variant)
+lang pt_BR describe MSGID_RANDY Message-Id has pattern used in spam
+lang pt_BR describe MSGID_YAHOO_CAPS Message-ID has ALLCAPS@yahoo.com
+lang pt_BR describe FORGED_MSGID_AOL Message-ID is forged, (aol.com)
+lang pt_BR describe FORGED_MSGID_EXCITE Message-ID is forged, (excite.com)
+lang pt_BR describe FORGED_MSGID_HOTMAIL Message-ID is forged, (hotmail.com)
+lang pt_BR describe FORGED_MSGID_MSN Message-ID is forged, (msn.com)
+lang pt_BR describe FORGED_MSGID_YAHOO Message-ID is forged, (yahoo.com)
+lang pt_BR describe MSGID_FROM_MTA_HEADER Message-Id was added by a relay
+lang pt_BR describe MSGID_SHORT Message-ID is unusually short
+lang pt_BR describe MSGID_MULTIPLE_AT Message-ID contains multiple '@' characters
+lang pt_BR describe DATE_SPAMWARE_Y2K Date header uses unusual Y2K formatting
+lang pt_BR describe INVALID_DATE Invalid Date: header (not RFC 2822)
+lang pt_BR describe INVALID_DATE_TZ_ABSURD Invalid Date: header (timezone does not exist)
+lang pt_BR describe INVALID_TZ_CST Invalid date in header (wrong CST timezone)
+lang pt_BR describe INVALID_TZ_EST Invalid date in header (wrong EST timezone)
+lang pt_BR describe FROM_EXCESS_BASE64 From: base64 encoded unnecessarily
+lang pt_BR describe ENGLISH_UCE_SUBJECT Subject contains an English UCE tag
+lang pt_BR describe JAPANESE_UCE_SUBJECT Subject contains a Japanese UCE tag
+lang pt_BR describe JAPANESE_UCE_BODY Body contains Japanese UCE tag
+lang pt_BR describe KOREAN_UCE_SUBJECT Subject: contains Korean unsolicited email tag
+lang pt_BR describe RCVD_DOUBLE_IP_SPAM Bulk email fingerprint (double IP) found
+lang pt_BR describe RCVD_DOUBLE_IP_LOOSE Received: by and from look like IP addresses
+lang pt_BR describe FORGED_TELESP_RCVD Contains forged hostname for a DSL IP in Brazil
+lang pt_BR describe CONFIRMED_FORGED Received headers are forged
+lang pt_BR describe MULTI_FORGED Received headers indicate multiple forgeries
+lang pt_BR describe NONEXISTENT_CHARSET Character set doesn't exist
+lang pt_BR describe MISSING_MID Missing Message-Id: header
+lang pt_BR describe MISSING_DATE Missing Date: header
+lang pt_BR describe MISSING_SUBJECT Missing Subject: header
+lang pt_BR describe GAPPY_SUBJECT Subject: contains G.a.p.p.y-T.e.x.t
+lang pt_BR describe PREVENT_NONDELIVERY Message has Prevent-NonDelivery-Report header
+lang pt_BR describe X_IP Message has X-IP header
+lang pt_BR describe MISSING_MIMEOLE Message has X-MSMail-Priority, but no X-MimeOLE
+lang pt_BR describe SUBJ_AS_SEEN Subject contains "As Seen"
+lang pt_BR describe SUBJ_DOLLARS Subject starts with dollar amount
+lang pt_BR describe SUBJ_YOUR_DEBT Subject contains "Your Bills" or similar
+lang pt_BR describe SUBJ_YOUR_FAMILY Subject contains "Your Family"
+lang pt_BR describe RCVD_FAKE_HELO_DOTCOM Received contains a faked HELO hostname
+lang pt_BR describe SUBJECT_DIET Subject talks about losing pounds
+lang pt_BR describe EXTRA_MPART_TYPE Header has extraneous Content-type:...type= entry
+lang pt_BR describe MIME_BOUND_DD_DIGITS Spam tool pattern in MIME boundary
+lang pt_BR describe MIME_BOUND_DIGITS_15 Spam tool pattern in MIME boundary
+lang pt_BR describe MIME_BOUND_MANY_HEX Spam tool pattern in MIME boundary
+lang pt_BR describe FAKE_OUTBLAZE_RCVD Received header contains faked 'mr.outblaze.com'
+lang pt_BR describe TO_MALFORMED To: has a malformed address
+lang pt_BR describe MIME_HEADER_CTYPE_ONLY 'Content-Type' found without required MIME headers
+lang pt_BR describe WITH_LC_SMTP Received line contains spam-sign (lowercase smtp)
+lang pt_BR describe SUBJ_BUY Subject line starts with Buy or Buying
+lang pt_BR describe RCVD_AM_PM Received headers forged (AM/PM)
+lang pt_BR describe UNCLOSED_BRACKET Headers contain an unclosed bracket
+lang pt_BR describe FROM_DOMAIN_NOVOWEL From: domain has series of non-vowel letters
+lang pt_BR describe FROM_LOCAL_NOVOWEL From: localpart has series of non-vowel letters
+lang pt_BR describe FROM_LOCAL_HEX From: localpart has long hexadecimal sequence
+lang pt_BR describe FROM_LOCAL_DIGITS From: localpart has long digit sequence
+lang pt_BR describe X_PRIORITY_CC Cc: after X-Priority: (bulk email fingerprint)
+lang pt_BR describe BAD_ENC_HEADER Message has bad MIME encoding in the header
+lang pt_BR describe __VIA_ML Mail from a mailing list
+lang pt_BR describe RCVD_ILLEGAL_IP Received: contains illegal IP address
+lang pt_BR describe CHARSET_FARAWAY_HEADER A foreign language charset used in headers
+lang pt_BR describe SUBJ_ILLEGAL_CHARS Subject: has too many raw illegal characters
+lang pt_BR describe FROM_ILLEGAL_CHARS From: has too many raw illegal characters
+lang pt_BR describe HEAD_ILLEGAL_CHARS Headers have too many raw illegal characters
+lang pt_BR describe FORGED_HOTMAIL_RCVD2 hotmail.com 'From' address, but no 'Received:'
+lang pt_BR describe FORGED_YAHOO_RCVD 'From' yahoo.com does not match 'Received' headers
+lang pt_BR describe SORTED_RECIPS Recipient list is sorted by address
+lang pt_BR describe SUSPICIOUS_RECIPS Similar addresses in recipient list
+lang pt_BR describe MISSING_HEADERS Missing To: header
+lang pt_BR describe DATE_IN_PAST_03_06 Date: is 3 to 6 hours before Received: date
+lang pt_BR describe DATE_IN_PAST_06_12 Date: is 6 to 12 hours before Received: date
+lang pt_BR describe DATE_IN_PAST_12_24 Date: is 12 to 24 hours before Received: date
+lang pt_BR describe DATE_IN_PAST_24_48 Date: is 24 to 48 hours before Received: date
+lang pt_BR describe DATE_IN_PAST_96_XX Date: is 96 hours or more before Received: date
+lang pt_BR describe DATE_IN_FUTURE_03_06 Date: is 3 to 6 hours after Received: date
+lang pt_BR describe DATE_IN_FUTURE_06_12 Date: is 6 to 12 hours after Received: date
+lang pt_BR describe DATE_IN_FUTURE_12_24 Date: is 12 to 24 hours after Received: date
+lang pt_BR describe DATE_IN_FUTURE_24_48 Date: is 24 to 48 hours after Received: date
+lang pt_BR describe DATE_IN_FUTURE_48_96 Date: is 48 to 96 hours after Received: date
+lang pt_BR describe DATE_IN_FUTURE_96_XX Date: is 96 hours or more after Received: date
+lang pt_BR describe UNRESOLVED_TEMPLATE Headers contain an unresolved template
+lang pt_BR describe SUBJ_ALL_CAPS Subject is all capitals
+lang pt_BR describe LOCALPART_IN_SUBJECT Local part of To: address appears in Subject
+lang pt_BR describe MSGID_OUTLOOK_INVALID Message-Id is fake (in Outlook Express format)
+lang pt_BR describe HEADER_COUNT_CTYPE Multiple Content-Type headers found
+lang pt_BR describe HEAD_LONG Message headers are very long
+lang pt_BR describe MISSING_HB_SEP Missing blank line between message header and body
+lang pt_BR describe UNPARSEABLE_RELAY Informational: message has unparseable relay lines
+lang pt_BR describe RCVD_HELO_IP_MISMATCH Received: HELO and IP do not match, but should
+lang pt_BR describe RCVD_NUMERIC_HELO Received: contains an IP address used for HELO
+lang pt_BR describe NO_RDNS_DOTCOM_HELO Host HELO'd as a big ISP, but had no rDNS
+
+# 20_html_tests.cf
+lang pt_BR describe HTML_SHORT_LINK_IMG_1 HTML is very short with a linked image
+lang pt_BR describe HTML_SHORT_LINK_IMG_2 HTML is very short with a linked image
+lang pt_BR describe HTML_SHORT_LINK_IMG_3 HTML is very short with a linked image
+lang pt_BR describe HTML_SHORT_CENTER HTML is very short with CENTER tag
+lang pt_BR describe HTML_CHARSET_FARAWAY A foreign language charset used in HTML markup
+lang pt_BR describe HTML_MIME_NO_HTML_TAG HTML-only message, but there is no HTML tag
+lang pt_BR describe HTML_MISSING_CTYPE Message is HTML without HTML Content-Type
+lang pt_BR describe HIDE_WIN_STATUS Javascript_BR to hide URLs in browser
+lang pt_BR describe OBFUSCATING_COMMENT HTML comments which obfuscate text
+lang pt_BR describe JS_FROMCHARCODE Document is built from a Javascript_BR charcode array
+lang pt_BR describe HTML_MESSAGE HTML included in message
+lang pt_BR describe HTML_COMMENT_SHORT HTML comment is very short
+lang pt_BR describe HTML_COMMENT_SAVED_URL HTML message is a saved web page
+lang pt_BR describe HTML_EMBEDS HTML with embedded plugin object
+lang pt_BR describe HTML_EXTRA_CLOSE HTML contains far too many close tags
+lang pt_BR describe HTML_FONT_SIZE_LARGE HTML font size is large
+lang pt_BR describe HTML_FONT_SIZE_HUGE HTML font size is huge
+lang pt_BR describe HTML_FONT_LOW_CONTRAST HTML font color similar to background
+lang pt_BR describe HTML_FONT_FACE_BAD HTML font face is not a word
+lang pt_BR describe HTML_FORMACTION_MAILTO HTML includes a form which sends mail
+lang pt_BR describe HTML_IMAGE_ONLY_04 HTML: images with 0-400 bytes of words
+lang pt_BR describe HTML_IMAGE_ONLY_08 HTML: images with 400-800 bytes of words
+lang pt_BR describe HTML_IMAGE_ONLY_12 HTML: images with 800-1200 bytes of words
+lang pt_BR describe HTML_IMAGE_ONLY_16 HTML: images with 1200-1600 bytes of words
+lang pt_BR describe HTML_IMAGE_ONLY_20 HTML: images with 1600-2000 bytes of words
+lang pt_BR describe HTML_IMAGE_ONLY_24 HTML: images with 2000-2400 bytes of words
+lang pt_BR describe HTML_IMAGE_ONLY_28 HTML: images with 2400-2800 bytes of words
+lang pt_BR describe HTML_IMAGE_ONLY_32 HTML: images with 2800-3200 bytes of words
+lang pt_BR describe HTML_IMAGE_RATIO_02 HTML has a low ratio of text to image area
+lang pt_BR describe HTML_IMAGE_RATIO_04 HTML has a low ratio of text to image area
+lang pt_BR describe HTML_IMAGE_RATIO_06 HTML has a low ratio of text to image area
+lang pt_BR describe HTML_IMAGE_RATIO_08 HTML has a low ratio of text to image area
+lang pt_BR describe HTML_OBFUSCATE_05_10 Message is 5% to 10% HTML obfuscation
+lang pt_BR describe HTML_OBFUSCATE_10_20 Message is 10% to 20% HTML obfuscation
+lang pt_BR describe HTML_OBFUSCATE_20_30 Message is 20% to 30% HTML obfuscation
+lang pt_BR describe HTML_OBFUSCATE_30_40 Message is 30% to 40% HTML obfuscation
+lang pt_BR describe HTML_OBFUSCATE_50_60 Message is 50% to 60% HTML obfuscation
+lang pt_BR describe HTML_OBFUSCATE_70_80 Message is 70% to 80% HTML obfuscation
+lang pt_BR describe HTML_OBFUSCATE_90_100 Message is 90% to 100% HTML obfuscation
+lang pt_BR describe HTML_TAG_BALANCE_BODY HTML has unbalanced "body" tags
+lang pt_BR describe HTML_TAG_BALANCE_HEAD HTML has unbalanced "head" tags
+lang pt_BR describe HTML_TAG_EXIST_BGSOUND HTML has "bgsound" tag
+lang pt_BR describe HTML_BADTAG_40_50 HTML message is 40% to 50% bad tags
+lang pt_BR describe HTML_BADTAG_50_60 HTML message is 50% to 60% bad tags
+lang pt_BR describe HTML_BADTAG_60_70 HTML message is 60% to 70% bad tags
+lang pt_BR describe HTML_BADTAG_90_100 HTML message is 90% to 100% bad tags
+lang pt_BR describe HTML_NONELEMENT_30_40 30% to 40% of HTML elements are non-standard
+lang pt_BR describe HTML_NONELEMENT_40_50 40% to 50% of HTML elements are non-standard
+lang pt_BR describe HTML_NONELEMENT_60_70 60% to 70% of HTML elements are non-standard
+lang pt_BR describe HTML_NONELEMENT_80_90 80% to 90% of HTML elements are non-standard
+lang pt_BR describe HTML_IFRAME_SRC Message has HTML IFRAME tag with SRC URI
+
+# 20_imageinfo.cf
+lang pt_BR describe __DC_IMG_HTML_RATIO Low rawbody to pixel area ratio
+lang pt_BR describe __DC_IMG_TEXT_RATIO Low body to pixel area ratio
+lang pt_BR describe DC_GIF_UNO_LARGO Message contains a single large inline gif
+lang pt_BR describe __DC_GIF_MULTI_LARGO Message has 2+ inline gif covering lots of area
+lang pt_BR describe DC_PNG_UNO_LARGO Message contains a single large inline gif
+lang pt_BR describe __DC_PNG_MULTI_LARGO Message has 2+ inline png covering lots of area
+lang pt_BR describe DC_IMAGE_SPAM_TEXT Possible Image-only spam with little text
+lang pt_BR describe DC_IMAGE_SPAM_HTML Possible Image-only spam
+
+# 20_meta_tests.cf
+lang pt_BR describe UPPERCASE_50_75 message body is 50-75% uppercase
+lang pt_BR describe UPPERCASE_75_100 message body is 75-100% uppercase
+lang pt_BR describe INVALID_MSGID Message-Id is not valid, according to RFC 2822
+lang pt_BR describe FORGED_MUA_MOZILLA Forged mail pretending to be from Mozilla
+lang pt_BR describe PERCENT_RANDOM Message has a random macro in it
+lang pt_BR describe EMPTY_MESSAGE Message appears to have no textual parts and no Subject: text
+lang pt_BR describe NO_HEADERS_MESSAGE Message appears to be missing most RFC-822 headers
+
+# 20_net_tests.cf
+lang pt_BR describe DIGEST_MULTIPLE Message hits more than one network digest check
+lang pt_BR describe NO_DNS_FOR_FROM Envelope sender has no MX or A DNS records
+
+# 20_phrases.cf
+lang pt_BR describe REMOVE_BEFORE_LINK Removal phrase right before a link
+lang pt_BR describe GUARANTEED_100_PERCENT One hundred percent guaranteed
+lang pt_BR describe DEAR_FRIEND Dear Friend? That's not very dear!
+lang pt_BR describe DEAR_SOMETHING Contains 'Dear (something)'
+lang pt_BR describe BILLION_DOLLARS Talks about lots of money
+lang pt_BR describe EXCUSE_4 Claims you can be removed from the list
+lang pt_BR describe EXCUSE_24 Claims you wanted this ad
+lang pt_BR describe EXCUSE_REMOVE Talks about how to be removed from mailings
+lang pt_BR describe STRONG_BUY Tells you about a strong buy
+lang pt_BR describe STOCK_ALERT Offers a alert about a stock
+lang pt_BR describe NOT_ADVISOR Not registered investment advisor
+lang pt_BR describe PREST_NON_ACCREDITED 'Prestigious Non-Accredited Universities'
+lang pt_BR describe BODY_ENHANCEMENT Information on growing body parts
+lang pt_BR describe BODY_ENHANCEMENT2 Information on getting larger body parts
+lang pt_BR describe IMPOTENCE Impotence cure
+lang pt_BR describe NA_DOLLARS Talks about a million North American dollars
+lang pt_BR describe US_DOLLARS_3 Mentions millions of $ ($NN,NNN,NNN.NN)
+lang pt_BR describe MILLION_USD Talks about millions of dollars
+lang pt_BR describe URG_BIZ Contains urgent matter
+lang pt_BR describe MONEY_BACK Money back guarantee
+lang pt_BR describe FREE_QUOTE_INSTANT Free express or no-obligation quote
+lang pt_BR describe BAD_CREDIT Eliminate Bad Credit
+lang pt_BR describe REFINANCE_YOUR_HOME Home refinancing
+lang pt_BR describe REFINANCE_NOW Home refinancing
+lang pt_BR describe NO_MEDICAL No Medical Exams
+lang pt_BR describe DIET_1 Lose Weight Spam
+lang pt_BR describe FIN_FREE Freedom of a financial nature
+lang pt_BR describe FORWARD_LOOKING Stock Disclaimer Statement
+lang pt_BR describe ONE_TIME One Time Rip Off
+lang pt_BR describe JOIN_MILLIONS Join Millions of Americans
+lang pt_BR describe MARKETING_PARTNERS Claims you registered with a partner
+lang pt_BR describe LOW_PRICE Lowest Price
+lang pt_BR describe UNCLAIMED_MONEY People just leave money laying around
+lang pt_BR describe OBSCURED_EMAIL Message seems to contain rot13ed address
+lang pt_BR describe BANG_OPRAH Talks about Oprah with an exclamation!
+lang pt_BR describe ACT_NOW_CAPS Talks about 'acting now' with capitals
+lang pt_BR describe MORE_SEX Talks about a bigger drive for sex
+lang pt_BR describe BANG_GUAR Something is emphatically guaranteed
+lang pt_BR describe RUDE_HTML Spammer message says you need an HTML mailer
+lang pt_BR describe INVESTMENT_ADVICE Message mentions investment advice
+lang pt_BR describe MALE_ENHANCE Message talks about enhancing men
+lang pt_BR describe PRICES_ARE_AFFORDABLE Message says that prices aren't too expensive
+lang pt_BR describe REPLICA_WATCH Message talks about a replica watch
+lang pt_BR describe EM_ROLEX Message puts emphasis on the watch manufacturer
+
+# 20_porn.cf
+lang pt_BR describe FREE_PORN Possible porn - Free Porn
+lang pt_BR describe CUM_SHOT Possible porn - Cum Shot
+lang pt_BR describe LIVE_PORN Possible porn - Live Porn
+lang pt_BR describe SUBJECT_SEXUAL Subject indicates sexually-explicit content
+
+# 20_ratware.cf
+lang pt_BR describe RATWARE_EGROUPS Bulk email fingerprint (eGroups) found
+lang pt_BR describe RATWARE_OE_MALFORMED X-Mailer has malformed Outlook Express version
+lang pt_BR describe RATWARE_MOZ_MALFORMED Bulk email fingerprint (Mozilla malformed) found
+lang pt_BR describe RATWARE_MPOP_WEBMAIL Bulk email fingerprint (mPOP Web-Mail)
+lang pt_BR describe FORGED_MUA_IMS Forged mail pretending to be from IMS
+lang pt_BR describe FORGED_MUA_OUTLOOK Forged mail pretending to be from MS Outlook
+lang pt_BR describe FORGED_MUA_OIMO Forged mail pretending to be from MS Outlook IMO
+lang pt_BR describe FORGED_MUA_EUDORA Forged mail pretending to be from Eudora
+lang pt_BR describe FORGED_MUA_THEBAT_CS Mail pretending to be from The Bat! (charset)
+lang pt_BR describe FORGED_MUA_THEBAT_BOUN Mail pretending to be from The Bat! (boundary)
+lang pt_BR describe FORGED_OUTLOOK_HTML Outlook can't send HTML message only
+lang pt_BR describe FORGED_IMS_HTML IMS can't send HTML message only
+lang pt_BR describe FORGED_THEBAT_HTML The Bat! can't send HTML message only
+lang pt_BR describe REPTO_QUOTE_AOL AOL doesn't do quoting like this
+lang pt_BR describe REPTO_QUOTE_IMS IMS doesn't do quoting like this
+lang pt_BR describe REPTO_QUOTE_MSN MSN doesn't do quoting like this
+lang pt_BR describe REPTO_QUOTE_QUALCOMM Qualcomm/Eudora doesn't do quoting like this
+lang pt_BR describe REPTO_QUOTE_YAHOO Yahoo! doesn't do quoting like this
+lang pt_BR describe FORGED_QUALCOMM_TAGS QUALCOMM mailers can't send HTML in this format
+lang pt_BR describe FORGED_IMS_TAGS IMS mailers can't send HTML in this format
+lang pt_BR describe FORGED_OUTLOOK_TAGS Outlook can't send HTML in this format
+lang pt_BR describe RATWARE_HASH_DASH Contains a hashbuster in Send-Safe format
+lang pt_BR describe RATWARE_GECKO_BUILD Bulk email fingerprint (Gecko faked) found
+lang pt_BR describe RATWARE_ZERO_TZ Bulk email fingerprint (+0000) found
+lang pt_BR describe X_MESSAGE_INFO Bulk email fingerprint (X-Message-Info) found
+lang pt_BR describe HEADER_SPAM Bulk email fingerprint (header-based) found
+lang pt_BR describe RATWARE_RCVD_PF Bulk email fingerprint (Received PF) found
+lang pt_BR describe RATWARE_RCVD_AT Bulk email fingerprint (Received @) found
+lang pt_BR describe RATWARE_OUTLOOK_NONAME Bulk email fingerprint (Outlook no name) found
+lang pt_BR describe RATWARE_MS_HASH Bulk email fingerprint (msgid ms hash) found
+lang pt_BR describe RATWARE_NAME_ID Bulk email fingerprint (msgid from) found
+lang pt_BR describe RATWARE_EFROM Bulk email fingerprint (envfrom) found
+
+# 20_uri_tests.cf
+lang pt_BR describe NUMERIC_HTTP_ADDR Uses a numeric IP address in URL
+lang pt_BR describe HTTP_ESCAPED_HOST Uses %-escapes inside a URL's hostname
+lang pt_BR describe HTTP_EXCESSIVE_ESCAPES Completely unnecessary %-escapes inside a URL
+lang pt_BR describe IP_LINK_PLUS Dotted-decimal IP address followed by CGI
+lang pt_BR describe WEIRD_PORT Uses non-standard port number for HTTP
+lang pt_BR describe YAHOO_RD_REDIR Has Yahoo Redirect URI
+lang pt_BR describe YAHOO_DRS_REDIR Has Yahoo Redirect URI
+lang pt_BR describe HTTP_77 Contains an URL-encoded hostname (HTTP77)
+lang pt_BR describe SPOOF_COM2OTH URI contains ".com" in middle
+lang pt_BR describe SPOOF_COM2COM URI contains ".com" in middle and end
+lang pt_BR describe SPOOF_NET2COM URI contains ".net" or ".org", then ".com"
+lang pt_BR describe URI_HEX URI hostname has long hexadecimal sequence
+lang pt_BR describe URI_NOVOWEL URI hostname has long non-vowel sequence
+lang pt_BR describe URI_UNSUBSCRIBE URI contains suspicious unsubscribe link
+lang pt_BR describe URI_NO_WWW_INFO_CGI CGI in .info TLD other than third-level "www"
+lang pt_BR describe URI_NO_WWW_BIZ_CGI CGI in .biz TLD other than third-level "www"
+lang pt_BR describe NORMAL_HTTP_TO_IP Uses a dotted-decimal IP address in URL
+
+# 20_vbounce.cf
+lang pt_BR describe BOUNCE_MESSAGE MTA bounce message
+lang pt_BR describe CHALLENGE_RESPONSE Challenge-Response message for mail you sent
+lang pt_BR describe CRBOUNCE_MESSAGE Challenge-Response bounce message
+lang pt_BR describe VBOUNCE_MESSAGE Virus-scanner bounce message
+lang pt_BR describe ANY_BOUNCE_MESSAGE Message is some kind of bounce message
+
+# 23_bayes.cf
+lang pt_BR describe BAYES_00 Bayes spam probability is 0 to 1%
+lang pt_BR describe BAYES_05 Bayes spam probability is 1 to 5%
+lang pt_BR describe BAYES_20 Bayes spam probability is 5 to 20%
+lang pt_BR describe BAYES_40 Bayes spam probability is 20 to 40%
+lang pt_BR describe BAYES_50 Bayes spam probability is 40 to 60%
+lang pt_BR describe BAYES_60 Bayes spam probability is 60 to 80%
+lang pt_BR describe BAYES_80 Bayes spam probability is 80 to 95%
+lang pt_BR describe BAYES_95 Bayes spam probability is 95 to 99%
+lang pt_BR describe BAYES_99 Bayes spam probability is 99 to 100%
+
+# 25_accessdb.cf
+lang pt_BR describe ACCESSDB Message would have been caught by accessdb
+
+# 25_antivirus.cf
+lang pt_BR describe MICROSOFT_EXECUTABLE Message includes Microsoft executable program
+lang pt_BR describe MIME_SUSPECT_NAME MIME filename does not match content
+
+# 25_dcc.cf
+lang pt_BR describe DCC_CHECK Listed in DCC (http://rhyolite.com/anti-spam/dcc/)
+lang pt_BR describe DCC_REPUT_00_12 DCC reputation between 0 and 12 %  (mostly ham)
+lang pt_BR describe DCC_REPUT_70_89 DCC reputation between 70 and 89 %
+lang pt_BR describe DCC_REPUT_90_94 DCC reputation between 90 and 94 %
+lang pt_BR describe DCC_REPUT_95_98 DCC reputation between 95 and 98 %  (mostly spam)
+lang pt_BR describe DCC_REPUT_99_100 DCC reputation between 99 % or higher (spam)
+
+# 25_dkim.cf
+lang pt_BR describe DKIM_SIGNED Message has a DKIM or DK signature, not necessarily valid
+lang pt_BR describe DKIM_VALID Message has at least one valid DKIM or DK signature
+lang pt_BR describe DKIM_VALID_AU Message has a valid DKIM or DK signature from author's domain
+lang pt_BR describe __DKIM_DEPENDABLE A validation failure not attributable to truncation
+lang pt_BR describe DKIM_ADSP_NXDOMAIN No valid author signature and domain not in DNS
+lang pt_BR describe DKIM_ADSP_DISCARD No valid author signature, domain signs all mail and suggests discarding the rest
+lang pt_BR describe DKIM_ADSP_ALL No valid author signature, domain signs all mail
+lang pt_BR describe DKIM_ADSP_CUSTOM_LOW No valid author signature, adsp_override is CUSTOM_LOW
+lang pt_BR describe DKIM_ADSP_CUSTOM_MED No valid author signature, adsp_override is CUSTOM_MED
+lang pt_BR describe DKIM_ADSP_CUSTOM_HIGH No valid author signature, adsp_override is CUSTOM_HIGH
+lang pt_BR describe __VIA_RESIGNER Mail through a popular signing remailer
+lang pt_BR describe NML_ADSP_CUSTOM_LOW ADSP custom_low hit, and not from a mailing list
+lang pt_BR describe NML_ADSP_CUSTOM_MED ADSP custom_med hit, and not from a mailing list
+lang pt_BR describe NML_ADSP_CUSTOM_HIGH ADSP custom_high hit, and not from a mailing list
+
+# 25_hashcash.cf
+lang pt_BR describe HASHCASH_20 Contains valid Hashcash token (20 bits)
+lang pt_BR describe HASHCASH_21 Contains valid Hashcash token (21 bits)
+lang pt_BR describe HASHCASH_22 Contains valid Hashcash token (22 bits)
+lang pt_BR describe HASHCASH_23 Contains valid Hashcash token (23 bits)
+lang pt_BR describe HASHCASH_24 Contains valid Hashcash token (24 bits)
+lang pt_BR describe HASHCASH_25 Contains valid Hashcash token (25 bits)
+lang pt_BR describe HASHCASH_HIGH Contains valid Hashcash token (>25 bits)
+lang pt_BR describe HASHCASH_2SPEND Hashcash token already spent in another mail
+
+# 25_pyzor.cf
+lang pt_BR describe PYZOR_CHECK Listed in Pyzor (http://pyzor.sf.net/)
+
+# 25_razor2.cf
+lang pt_BR describe RAZOR2_CHECK Listed in Razor2 (http://razor.sf.net/)
+lang pt_BR describe RAZOR2_CF_RANGE_51_100 Razor2 gives confidence level above 50%
+lang pt_BR describe RAZOR2_CF_RANGE_E4_51_100 Razor2 gives engine 4 confidence level above 50%
+lang pt_BR describe RAZOR2_CF_RANGE_E8_51_100 Razor2 gives engine 8 confidence level above 50%
+
+# 25_replace.cf
+lang pt_BR describe SUBJECT_FUZZY_MEDS Attempt to obfuscate words in Subject:
+lang pt_BR describe SUBJECT_FUZZY_VPILL Attempt to obfuscate words in Subject:
+lang pt_BR describe SUBJECT_FUZZY_CHEAP Attempt to obfuscate words in Subject:
+lang pt_BR describe SUBJECT_FUZZY_PENIS Attempt to obfuscate words in Subject:
+lang pt_BR describe SUBJECT_FUZZY_TION Attempt to obfuscate words in Subject:
+lang pt_BR describe FUZZY_AFFORDABLE Attempt to obfuscate words in spam
+lang pt_BR describe FUZZY_AMBIEN Attempt to obfuscate words in spam
+lang pt_BR describe FUZZY_BILLION Attempt to obfuscate words in spam
+lang pt_BR describe FUZZY_CPILL Attempt to obfuscate words in spam
+lang pt_BR describe FUZZY_CREDIT Attempt to obfuscate words in spam
+lang pt_BR describe FUZZY_ERECT Attempt to obfuscate words in spam
+lang pt_BR describe FUZZY_GUARANTEE Attempt to obfuscate words in spam
+lang pt_BR describe FUZZY_MEDICATION Attempt to obfuscate words in spam
+lang pt_BR describe FUZZY_MILLION Attempt to obfuscate words in spam
+lang pt_BR describe FUZZY_MONEY Attempt to obfuscate words in spam
+lang pt_BR describe FUZZY_MORTGAGE Attempt to obfuscate words in spam
+lang pt_BR describe FUZZY_OBLIGATION Attempt to obfuscate words in spam
+lang pt_BR describe FUZZY_OFFERS Attempt to obfuscate words in spam
+lang pt_BR describe FUZZY_PHARMACY Attempt to obfuscate words in spam
+lang pt_BR describe FUZZY_PHENT Attempt to obfuscate words in spam
+lang pt_BR describe FUZZY_PRESCRIpt_BR Attempt to obfuscate words in spam
+lang pt_BR describe FUZZY_PRICES Attempt to obfuscate words in spam
+lang pt_BR describe FUZZY_REFINANCE Attempt to obfuscate words in spam
+lang pt_BR describe FUZZY_REMOVE Attempt to obfuscate words in spam
+lang pt_BR describe FUZZY_ROLEX Attempt to obfuscate words in spam
+lang pt_BR describe FUZZY_SOFTWARE Attempt to obfuscate words in spam
+lang pt_BR describe FUZZY_THOUSANDS Attempt to obfuscate words in spam
+lang pt_BR describe FUZZY_VLIUM Attempt to obfuscate words in spam
+lang pt_BR describe FUZZY_VIOXX Attempt to obfuscate words in spam
+lang pt_BR describe FUZZY_VPILL Attempt to obfuscate words in spam
+lang pt_BR describe FUZZY_XPILL Attempt to obfuscate words in spam
+
+# 25_spf.cf
+lang pt_BR describe SPF_PASS SPF: sender matches SPF record
+lang pt_BR describe SPF_NEUTRAL SPF: sender does not match SPF record (neutral)
+lang pt_BR describe SPF_FAIL SPF: sender does not match SPF record (fail)
+lang pt_BR describe SPF_SOFTFAIL SPF: sender does not match SPF record (softfail)
+lang pt_BR describe SPF_HELO_PASS SPF: HELO matches SPF record
+lang pt_BR describe SPF_HELO_NEUTRAL SPF: HELO does not match SPF record (neutral)
+lang pt_BR describe SPF_HELO_FAIL SPF: HELO does not match SPF record (fail)
+lang pt_BR describe SPF_HELO_SOFTFAIL SPF: HELO does not match SPF record (softfail)
+
+# 25_textcat.cf
+lang pt_BR describe UNWANTED_LANGUAGE_BODY Message written in an undesired language
+lang pt_BR describe BODY_8BITS Body includes 8 consecutive 8-bit characters
+
+# 25_uribl.cf
+lang pt_BR describe URIBL_SBL Contains an URL listed in the SBL blocklist
+lang pt_BR describe URIBL_DBL_SPAM Contains an URL listed in the DBL blocklist
+lang pt_BR describe URIBL_DBL_ERROR Error: queried the DBL blocklist for an IP
+lang pt_BR describe URIBL_SC_SURBL Contains an URL listed in the SC SURBL blocklist
+lang pt_BR describe URIBL_WS_SURBL Contains an URL listed in the WS SURBL blocklist
+lang pt_BR describe URIBL_PH_SURBL Contains an URL listed in the PH SURBL blocklist
+lang pt_BR describe URIBL_OB_SURBL Contains an URL listed in the OB SURBL blocklist
+lang pt_BR describe URIBL_AB_SURBL Contains an URL listed in the AB SURBL blocklist
+lang pt_BR describe URIBL_JP_SURBL Contains an URL listed in the JP SURBL blocklist
+lang pt_BR describe URIBL_BLACK Contains an URL listed in the URIBL blacklist
+lang pt_BR describe URIBL_GREY Contains an URL listed in the URIBL greylist
+lang pt_BR describe URIBL_RED Contains an URL listed in the URIBL redlist
+
+# 60_shortcircuit.cf
+lang pt_BR describe SHORTCIRCUIT Not all rules were run, due to a shortcircuited rule
+
+# 60_whitelist_dkim.cf
+lang pt_BR describe USER_IN_DKIM_WHITELIST From: address is in the user's DKIM whitelist
+lang pt_BR describe USER_IN_DEF_DKIM_WL From: address is in the default DKIM white-list
+
+# 60_whitelist_spf.cf
+lang pt_BR describe USER_IN_SPF_WHITELIST From: address is in the user's SPF whitelist
+lang pt_BR describe USER_IN_DEF_SPF_WL From: address is in the default SPF white-list
+lang pt_BR describe ENV_AND_HDR_SPF_MATCH Env and Hdr From used in default SPF WL Match
+
+# 60_whitelist_subject.cf
+lang pt_BR describe SUBJECT_IN_WHITELIST Subject: contains string in the user's white-list
+lang pt_BR describe SUBJECT_IN_BLACKLIST Subject: contains string in the user's black-list
+
+# 72_active.cf
+lang pt_BR describe APOSTROPHE_FROM From address contains an apostrophe
+lang pt_BR describe AXB_HELO_HOME_UN HELO from home  - untrusted
+lang pt_BR describe AXB_XMID_1212 Barbera Fingerprint
+lang pt_BR describe AXB_XMID_1510 Brunello Fingerprint
+lang pt_BR describe AXB_XMID_OEGOESNULL Amarone Fingerprint
+lang pt_BR describe AXB_XM_SENDMAIL_NOT Nebbiolo fingerprint
+lang pt_BR describe BANKING_LAWS Talks about banking laws
+lang pt_BR describe CORRUPT_FROM_LINE_IN_HDRS Informational: message is corrupt, with a From line in its headers
+lang pt_BR describe CTYPE_8SPACE_GIF Stock spam image part 'Content-Type' found (8 spc)
+lang pt_BR describe DEAR_BENEFICIARY Dear Beneficiary:
+lang pt_BR describe DEAR_EMAIL Message contains Dear email address
+lang pt_BR describe DOS_ANAL_SPAM_MAILER X-mailer pattern common to anal porn site spam
+lang pt_BR describe DOS_FIX_MY_URI Looks like a "fix my obfu'd URI please" spam
+lang pt_BR describe DOS_HIGHBIT_HDRS_BODY Headers need encoding and body is highbit
+lang pt_BR describe DOS_HIGH_BAT_TO_MX The Bat! Direct to MX with High Bits
+lang pt_BR describe DOS_LET_GO_JOB Let go from their job and now makes lots of dough!
+lang pt_BR describe DOS_OE_TO_MX Delivered direct to MX with OE headers
+lang pt_BR describe DOS_OE_TO_MX_IMAGE Direct to MX with OE headers and an image
+lang pt_BR describe DOS_OUTLOOK_TO_MX Delivered direct to MX with Outlook headers
+lang pt_BR describe DOS_RCVD_IP_TWICE_C Received from the same IP twice in a row (only one external relay; empty or IP helo)
+lang pt_BR describe DOS_STOCK_BAT Probable pump and dump stock spam
+lang pt_BR describe DOS_URI_ASTERISK Found an asterisk in a URI
+lang pt_BR describe DOS_YOUR_PLACE Russian dating spam
+lang pt_BR describe DRUGS_STOCK_MIMEOLE Stock-spam forged headers found (5510)
+lang pt_BR describe DYN_RDNS_AND_INLINE_IMAGE Contains image, and was sent by dynamic rDNS
+lang pt_BR describe DYN_RDNS_SHORT_HELO_HTML Sent by dynamic rDNS, short HELO, and HTML
+lang pt_BR describe DYN_RDNS_SHORT_HELO_IMAGE Short HELO string, dynamic rDNS, inline image
+lang pt_BR describe FB_ADD_INCHES Add / Gain inches
+lang pt_BR describe FB_ALMOST_SEX It's almost sex, but not!
+lang pt_BR describe FB_ANA_TRIM Broken AnaTrim phrase.
+lang pt_BR describe FB_ANUI Phrase: A_U_N_I
+lang pt_BR describe FB_BILLI0N Phrase: [BM]Illi0n
+lang pt_BR describe FB_C0MPANY Phrase: C0mpany
+lang pt_BR describe FB_CAN_LONGER Phrase: can last longer
+lang pt_BR describe FB_CIALIS_LEO3 Uses a mis-spelled version of cialis.
+lang pt_BR describe FB_DOUBLE_0WORDS Looks like double 0 words
+lang pt_BR describe FB_EMAIL_HIER Phrase: email hier
+lang pt_BR describe FB_EXTRA_INCHES Phrase: extra inches
+lang pt_BR describe FB_FAKE_NUMBERS Looks like numbers with O's insted of 0's
+lang pt_BR describe FB_FAKE_NUMS4 Looks like fake numbers (4)
+lang pt_BR describe FB_FHARMACY Phrase: Farmacy
+lang pt_BR describe FB_FORWARD_LOOK Phrase: forward look with 0's
+lang pt_BR describe FB_GAPPY_ADDRESS Too much spacing in Address
+lang pt_BR describe FB_GET_MEDS Looks like trying to sell meds
+lang pt_BR describe FB_GVR Looks like generic viagra
+lang pt_BR describe FB_HEY_BRO_COMMA Phrase hey bro,
+lang pt_BR describe FB_HG_H_CAP Phrase: HGH
+lang pt_BR describe FB_HOMELOAN Phrase $x home loan
+lang pt_BR describe FB_IMPRESS_GIRL Phrase: impress ... girl
+lang pt_BR describe FB_INCREASE_YOUR Phrase: Increase your energy
+lang pt_BR describe FB_INDEPEND_RWD Phrase: independent reward
+lang pt_BR describe FB_L0AN Phrase: L0an
+lang pt_BR describe FB_LETTERS_21B Special people leave special signs!
+lang pt_BR describe FB_LOSE_WEIGHT_CAP Phrase: LOSE WEIGHT
+lang pt_BR describe FB_LOWER_PAYM Phrase: lower your monthly payments
+lang pt_BR describe FB_MORE_SIZE Phrase: more size
+lang pt_BR describe FB_NOT_PHONE_NUM1 Looks like a fake phone number (1)
+lang pt_BR describe FB_NOT_PHONE_NUM3 Looks like a fake phone number (3)
+lang pt_BR describe FB_NOT_SCHOOL Looks like school but it's not!
+lang pt_BR describe FB_NO_SCRIP_NEEDED Phrase: no prescription needed.
+lang pt_BR describe FB_NUMYO Speaks of teenager.
+lang pt_BR describe FB_NUMYO2 Speaks of 20+ year old.
+lang pt_BR describe FB_ODD_SPACED_MONEY Looks like money but has odd spacing.
+lang pt_BR describe FB_ONIINE Mis-spelled online
+lang pt_BR describe FB_P1LL Phrase: p1ll
+lang pt_BR describe FB_PENIS_GROWTH Phrase: penis growth
+lang pt_BR describe FB_PIPEDOLLAR Phrase: Dollar, with pipes or 0's.
+lang pt_BR describe FB_PIPE_ILLION Looks like illion, but it's not
+lang pt_BR describe FB_PROLONGED_HARD Talks about prolonged hardness
+lang pt_BR describe FB_QUALITY_REPLICA Phrase: quality replica
+lang pt_BR describe FB_REF_CODE_SPACE Refcode with spacing
+lang pt_BR describe FB_REPLICA_ROLEX Phrase: Replica Rolex
+lang pt_BR describe FB_REPLIC_CAP Phrase: REPLICA
+lang pt_BR describe FB_RE_FI Looks like refi.
+lang pt_BR describe FB_ROLLER_IS_T Phrase: Roller is th
+lang pt_BR describe FB_ROLX Phrase: rolx
+lang pt_BR describe FB_SAVE_PERSC Phrase: save ... prescription.
+lang pt_BR describe FB_SOFTTABS Phrase: Softabs
+lang pt_BR describe FB_SPACED_FREE Phrase: F R E E
+lang pt_BR describe FB_SPACED_PHN_3B Phone number with -- spacing. (B)
+lang pt_BR describe FB_SPACEY_ZIP Looks like a  s p a c e d zipcode.
+lang pt_BR describe FB_SPUR_M Phrase: SPUR-M
+lang pt_BR describe FB_SSEX Phrase: ssex
+lang pt_BR describe FB_STOCK_EXPLODE Looks like stocks exploding.
+lang pt_BR describe FB_SYMBLO Mis-spelled symbol.
+lang pt_BR describe FB_THIS_ADVERT Phrase: this advertiser
+lang pt_BR describe FB_THOUS_PERSONAL Phrase: thousand personal
+lang pt_BR describe FB_TO_STOP_DISTRO Phrase: to stop further distribution
+lang pt_BR describe FB_ULTRA_ALLURE Phrase: Ultra Allure
+lang pt_BR describe FB_UNLOCK_YOUR_G Phrase: lock to your girlfriend
+lang pt_BR describe FB_UNRESOLV_PROV Pattern Replacement PROV_D
+lang pt_BR describe FB_YOURSELF_MASTER Phrase: yourself master
+lang pt_BR describe FB_YOUR_REFI Phrase: Your refi
+lang pt_BR describe FH_BAD_OEV1441 Bad X-Mailer version
+lang pt_BR describe FH_DATE_IS_19XX The date is not 19xx.
+lang pt_BR describe FH_FAKE_RCVD_LINE RCVD line looks faked (A)
+lang pt_BR describe FH_FAKE_RCVD_LINE_B RCVD line looks faked (B)
+lang pt_BR describe FH_FROMEML_NOTLD E-mail address doesn't have TLD (.com, etc.)
+lang pt_BR describe FH_FROM_CASH From name has "cash"
+lang pt_BR describe FH_FROM_GET_NAME From name says Get
+lang pt_BR describe FH_FROM_GIVEAWAY From name is giveaway.
+lang pt_BR describe FH_FROM_HOODIA From has Hoodia!!?
+lang pt_BR describe FH_HAS_XAIMC Has X-AIMC-AUTH header
+lang pt_BR describe FH_HAS_XID Has X-ID
+lang pt_BR describe FH_HELO_ALMOST_IP Helo is almost an IP addr.
+lang pt_BR describe FH_HELO_ENDS_DOT Helo ends with a dot.
+lang pt_BR describe FH_HELO_EQ_610HEX Helo is 6-10 hex chr's.
+lang pt_BR describe FH_HELO_EQ_CHARTER Helo is d-d-d-d charter.com
+lang pt_BR describe FH_HELO_EQ_D_D_D_D Helo is d-d-d-d
+lang pt_BR describe FH_HELO_GMAILSMTP Faked helo of gmail-smtp-in
+lang pt_BR describe FH_HOST_EQ_DYNAMICIP Host is dynamicip
+lang pt_BR describe FH_HOST_EQ_PACBELL_D Host is pacbell.net dsl
+lang pt_BR describe FH_HOST_EQ_VERIZON_P Host is pool-.+verizon.net
+lang pt_BR describe FH_HOST_IN_ADDRARPA HOST dns says "in-addr.arpa"
+lang pt_BR describe FH_MSGID_000000 Special MSGID
+lang pt_BR describe FH_MSGID_01C67 Special MSGID
+lang pt_BR describe FH_MSGID_01C70XXX MESSAGE ID seen often!!!
+lang pt_BR describe FH_MSGID_REPLACE Broken Replace Template
+lang pt_BR describe FH_MSGID_XXBLAH Common sign in msg-id's 12/21/2006
+lang pt_BR describe FH_MSGID_XXX Message-Id = @xxx
+lang pt_BR describe FH_RE_NEW_DDD Subject is Re: new \d\d\d
+lang pt_BR describe FH_XMAIL_REPLACE Broken Replace Template
+lang pt_BR describe FM_DOESNT_SAY_STOCK It's a stock spam but doesn't say stock
+lang pt_BR describe FM_FAKE_53COM_SPOOF Spoof mail from 53.com?
+lang pt_BR describe FM_FAKE_HELO_HOTMAIL Looks like a fake hotmail.com helo.
+lang pt_BR describe FM_FAKE_HELO_VERIZON Looks like a fake verizon.net helo.
+lang pt_BR describe FM_FRM_RN_L_BRACK From name has > but not <
+lang pt_BR describe FM_IS_IT_OUR_ACCOUNT Is it our account?
+lang pt_BR describe FM_LIKE_STOCKS It looks like a duck, it's a duck!
+lang pt_BR describe FM_LOTTO_YOU_WON Talks about lotto and you won!
+lang pt_BR describe FM_LUX_GIFTS_REDUCED Luxury Gifts with dd%
+lang pt_BR describe FM_MANY_DRUG_WORDS Lot's of almost drug words
+lang pt_BR describe FM_MORTGAGE5PLUS Looks like a mortgage spam (5+)
+lang pt_BR describe FM_MORTGAGE6PLUS Looks like a mortgage spam (6+)
+lang pt_BR describe FM_MULTI_LUX_GIFTS Talks about variety of luxury gifts
+lang pt_BR describe FM_PHN_NODNS Phone spacing + no dns
+lang pt_BR describe FM_RATSIGN_1106 Fingerprint seen in lots of spam. 11/2006
+lang pt_BR describe FM_RE_HELLO_SPAM Re: Hello / hi
+lang pt_BR describe FM_ROLEX_ADS Looks like Rolex spams.
+lang pt_BR describe FM_SCHOOLING Meta Combo Phrase for Schooling (2)
+lang pt_BR describe FM_SCHOOL_DIPLOMA Meta for Schooling + Diploma.
+lang pt_BR describe FM_SCHOOL_TYPES Meta Combo Phrase for Schooling
+lang pt_BR describe FM_SEX_HELODDDD Sex words + helo = dddd
+lang pt_BR describe FM_SUBJ_APPROVE Subject has Approve and !
+lang pt_BR describe FM_TRUE_LOV_ALL_N True Love all Night!
+lang pt_BR describe FM_VEGAS_CASINO Looks like vega casino spam
+lang pt_BR describe FM_XMAIL_F_OUT Looks like Fake Outlook?
+lang pt_BR describe FORGED_TBIRD_IMG_ARROW Likely forged Thunderbird image spam
+lang pt_BR describe FORGED_TBIRD_IMG_TO_MX Likely forged Thunderbird image spam
+lang pt_BR describe FROM_MISSP_DYNIP From misspaced + dynamic rDNS
+lang pt_BR describe FROM_MISSP_MSFT From misspaced + supposed Microsoft tool
+lang pt_BR describe FRT_ADOBE2 ReplaceTags: Adobe
+lang pt_BR describe FRT_APPROV ReplaceTags: Approve
+lang pt_BR describe FRT_BIGGERMEM1 ReplaceTags: Bigger / Larger, Penis / Member
+lang pt_BR describe FRT_DIPLOMA ReplaceTags: Diploma
+lang pt_BR describe FRT_DISCOUNT ReplaceTags: Discount
+lang pt_BR describe FRT_DOLLAR ReplaceTags: Dollar
+lang pt_BR describe FRT_ESTABLISH2 ReplaceTags: Establish (2)
+lang pt_BR describe FRT_FUCK2 ReplaceTags: Fuck (2)
+lang pt_BR describe FRT_GUARANTEE1 ReplaceTags: Guarantee (1)
+lang pt_BR describe FRT_INVESTOR ReplaceTags: Investor
+lang pt_BR describe FRT_LEVITRA ReplaceTags: Levitra
+lang pt_BR describe FRT_MEETING ReplaceTags: Meeting
+lang pt_BR describe FRT_OFFER2 ReplaceTags: Offer (2)
+lang pt_BR describe FRT_OPPORTUN2 ReplaceTags: Oppertun (2)
+lang pt_BR describe FRT_PENIS1 ReplaceTags: Penis
+lang pt_BR describe FRT_PHARMAC ReplaceTags: Pharmac
+lang pt_BR describe FRT_PRICE ReplaceTags: Price
+lang pt_BR describe FRT_REFINANCE1 ReplaceTags: Refinance (1)
+lang pt_BR describe FRT_ROLEX ReplaceTags: Rolex
+lang pt_BR describe FRT_SEXUAL ReplaceTags: Sexual
+lang pt_BR describe FRT_SOMA ReplaceTags: Soma
+lang pt_BR describe FRT_SOMA2 ReplaceTags: Soma (2)
+lang pt_BR describe FRT_STRONG1 ReplaceTags: Strong (1)
+lang pt_BR describe FRT_STRONG2 ReplaceTags: Strong (2)
+lang pt_BR describe FRT_SYMBOL ReplaceTags: Symbol
+lang pt_BR describe FRT_TODAY2 ReplaceTags: Today (2)
+lang pt_BR describe FRT_VALIUM1 ReplaceTags: Valium
+lang pt_BR describe FRT_VALIUM2 ReplaceTags: Valium (2)
+lang pt_BR describe FRT_WEIGHT2 ReplaceTags: Weight (2)
+lang pt_BR describe FRT_XANAX1 ReplaceTags: Xanax (1)
+lang pt_BR describe FRT_XANAX2 ReplaceTags: Xanax (2)
+lang pt_BR describe FR_3TAG_3TAG Looks like 3 <e> small tags.
+lang pt_BR describe FR_ALMOST_VIAG2 Almost looks like viagra.
+lang pt_BR describe FR_CANTSEETEXT Phrase class=cantseetext
+lang pt_BR describe FR_MIDER Sign often seen in spams
+lang pt_BR describe FR_TITLE_NUMS HTML Title is only numbers
+lang pt_BR describe FS_ABIGGER Subject has "a bigger"
+lang pt_BR describe FS_APPROVE_YOU Subject says approve you
+lang pt_BR describe FS_AT_NO_COST Subject says "At No Cost"
+lang pt_BR describe FS_CHEAP_CAP Phrase: Cheap in Caps in Subject.
+lang pt_BR describe FS_DOLLAR_BONUS Subject talks about money bonus!
+lang pt_BR describe FS_EJACULA Phrase: ejaculation in subject.
+lang pt_BR describe FS_ERECTION Phrase: erection in subject.
+lang pt_BR describe FS_HUGECOCK Phrase: Huge Cock
+lang pt_BR describe FS_LARGE_PERCENT2 Larger than 100% in subj.
+lang pt_BR describe FS_LOW_RATES Subject says low rates
+lang pt_BR describe FS_NEW_SOFT_UPLOAD Subj starts with New software uploaded
+lang pt_BR describe FS_NEW_XXX Subject looks like Fharmacy spams.
+lang pt_BR describe FS_NO_SCRIP Subject almost says No prescription
+lang pt_BR describe FS_NUDE Subject says Nude
+lang pt_BR describe FS_OBFU_PRMCY what could this word be?
+lang pt_BR describe FS_PERSCRIPTION Subject mis-spelled prescription
+lang pt_BR describe FS_PHARMASUB2 Looks like Phramacy subject.
+lang pt_BR describe FS_RAMROD Subject says Ramrod
+lang pt_BR describe FS_REPLICA Subject says "replica"
+lang pt_BR describe FS_REPLICAWATCH Subject says Replica watch
+lang pt_BR describe FS_RE_APPROV Phrase: re approved
+lang pt_BR describe FS_START_DOYOU2 Subject starts with Do you dream,have,want,love, etc.
+lang pt_BR describe FS_START_LOSE Subject starts with Lose
+lang pt_BR describe FS_TEEN_BAD Subject says something bad about teens
+lang pt_BR describe FS_TIP_DDD Phrase: subject = tip ddd
+lang pt_BR describe FS_WEIGHT_LOSS Subject says Weight Loss
+lang pt_BR describe FS_WILL_HELP Subject says will help
+lang pt_BR describe FS_WITH_SMALL Subject says With ... small
+lang pt_BR describe FU_COMMON_SUBS2 Sub-dir seen often in spam (2).
+lang pt_BR describe FU_ENDS_NUMS_DOTS_CLK Ends with clk/d+.d+.d+
+lang pt_BR describe FU_END_ET ET Phone Home?
+lang pt_BR describe FU_HOODIA URL has hoodia in it.
+lang pt_BR describe FU_LONG_QUERY3 URL has a long file name with .aspx extension.
+lang pt_BR describe FU_MIDER URL has /gal/
+lang pt_BR describe FU_UKGEOCITIES URL with [a-z]{2}.geocities.com
+lang pt_BR describe FU_URI_TRACKER_T URI style tracker (T)
+lang pt_BR describe HDRS_MISSP Misspaced headers
+lang pt_BR describe HDR_ORDER_FTSDMCXX_001C Header order similar to spam (FTSDMCXX/MID variant)
+lang pt_BR describe HDR_ORDER_FTSDMCXX_BAT Header order similar to spam (FTSDMCXX/boundary variant)
+lang pt_BR describe HEADER_COUNT_SUBJECT Multiple Subject headers found
+lang pt_BR describe HELO_NO_DOMAIN Relay reports its domain incorrectly
+lang pt_BR describe HK_FAKENAME_EBAY From name mentions eBay, but not relayed from there
+lang pt_BR describe HK_NAME_DRUGS From name contains drugs
+lang pt_BR describe HK_NAME_FREE From name mentions free stuff
+lang pt_BR describe HK_RANDOM_ENVFROM Envelope sender username looks random
+lang pt_BR describe HS_BOBAX_MID_2 Bobax? Message-Id: <0IX000EJXVWDA000@example.com>
+lang pt_BR describe HS_BODY_UPLOADED_SOFTWARE Somebody has uploaded some new software for you
+lang pt_BR describe HS_DRUG_DOLLAR_1 Contains a drug and price-like pattern.
+lang pt_BR describe HS_DRUG_DOLLAR_2 Contains a drug and price-like pattern.
+lang pt_BR describe HS_DRUG_DOLLAR_3 Contains a drug and price-like pattern.
+lang pt_BR describe HS_DRUG_DOLLAR_MANY Contains several drug and dollar-like patterns.
+lang pt_BR describe HS_FORGED_OE_FW Outlook does not prefix forwards with "FW:"
+lang pt_BR describe HS_GETMEOFF Links to common unsubscribe script: 'getmeoff.php'
+lang pt_BR describe HS_INDEX_PARAM Link contains a common tracker pattern.
+lang pt_BR describe HS_MEETUP_FOR_SEX Talks about meeting up for sex.
+lang pt_BR describe HS_SUBJ_NEW_SOFTWARE Subject starts with 'New software uploaded by'
+lang pt_BR describe HS_SUBJ_ONLINE_PHARMACEUTICAL Subject contains the phrase 'Online pharmaceutical'
+lang pt_BR describe HS_VPXL Contains VPXL, yet the recommended dose is only 2 tablets.
+lang pt_BR describe JM_SOUGHT_FRAUD_1 Body contains frequently-spammed text patterns
+lang pt_BR describe JM_SOUGHT_FRAUD_2 Body contains frequently-spammed text patterns
+lang pt_BR describe JM_SOUGHT_FRAUD_3 Body contains frequently-spammed text patterns
+lang pt_BR describe KAM_LOTTO1 Likely to be a e-Lotto Scam Email
+lang pt_BR describe KAM_LOTTO2 Highly Likely to be a e-Lotto Scam Email
+lang pt_BR describe LOOPHOLE_1 A loop hole in the banking laws?
+lang pt_BR describe LOTTO_AGENT Claims Agent
+lang pt_BR describe MANY_GOOG_PROXY Many Google feedproxy URIs
+lang pt_BR describe MANY_SPAN_IN_TEXT Many <SPAN> tags embedded within text
+lang pt_BR describe MANY_TINY_FLOAT Many small-font floating HTML elements - text obfuscation?
+lang pt_BR describe MONEY_FROM_MISSP Lots of money and misspaced From
+lang pt_BR describe NULL_IN_BODY Message has NUL (ASCII 0) byte in message
+lang pt_BR describe PART_CID_STOCK Has a spammy image attachment (by Content-ID)
+lang pt_BR describe PART_CID_STOCK_LESS Has a spammy image attachment (by Content-ID, more specific)
+lang pt_BR describe RCVD_FORGED_WROTE Forged 'Received' header found ('wrote:' spam)
+lang pt_BR describe RCVD_IN_CSS Received via a relay in Spamhaus CSS
+lang pt_BR describe RCVD_IN_DNSWL_HI Sender listed at http://www.dnswl.org/, high trust
+lang pt_BR describe RCVD_IN_DNSWL_LOW Sender listed at http://www.dnswl.org/, low trust
+lang pt_BR describe RCVD_IN_DNSWL_MED Sender listed at http://www.dnswl.org/, medium trust
+lang pt_BR describe RCVD_IN_DNSWL_NONE Sender listed at http://www.dnswl.org/, low trust
+lang pt_BR describe RCVD_IN_IADB_DK IADB: Sender publishes Domain Keys record
+lang pt_BR describe RCVD_IN_IADB_DOPTIN IADB: All mailing list mail is confirmed opt-in
+lang pt_BR describe RCVD_IN_IADB_DOPTIN_GT50 IADB: Confirmed opt-in used more than 50% of the time
+lang pt_BR describe RCVD_IN_IADB_DOPTIN_LT50 IADB: Confirmed opt-in used less than 50% of the time
+lang pt_BR describe RCVD_IN_IADB_EDDB IADB: Participates in Email Deliverability Database
+lang pt_BR describe RCVD_IN_IADB_EPIA IADB: Member of Email Processing Industry Alliance
+lang pt_BR describe RCVD_IN_IADB_GOODMAIL IADB: Sender has been certified by GoodMail
+lang pt_BR describe RCVD_IN_IADB_LISTED Participates in the IADB system
+lang pt_BR describe RCVD_IN_IADB_LOOSE IADB: Adds relationship addrs w/out opt-in
+lang pt_BR describe RCVD_IN_IADB_MI_CPEAR IADB: Complies with Michigan's CPEAR law
+lang pt_BR describe RCVD_IN_IADB_MI_CPR_30 IADB: Checked lists against Michigan's CPR within 30 days
+lang pt_BR describe RCVD_IN_IADB_MI_CPR_MAT IADB: Sends no material under Michigan's CPR
+lang pt_BR describe RCVD_IN_IADB_ML_DOPTIN IADB: Mailing list email only, confirmed opt-in
+lang pt_BR describe RCVD_IN_IADB_NOCONTROL IADB: Has absolutely no mailing controls in place
+lang pt_BR describe RCVD_IN_IADB_OOO IADB: One-to-one/transactional email only
+lang pt_BR describe RCVD_IN_IADB_OPTIN IADB: All mailing list mail is opt-in
+lang pt_BR describe RCVD_IN_IADB_OPTIN_GT50 IADB: Opt-in used more than 50% of the time
+lang pt_BR describe RCVD_IN_IADB_OPTIN_LT50 IADB: Opt-in used less than 50% of the time
+lang pt_BR describe RCVD_IN_IADB_OPTOUTONLY IADB: Scrapes addresses, pure opt-out only
+lang pt_BR describe RCVD_IN_IADB_RDNS IADB: Sender has reverse DNS record
+lang pt_BR describe RCVD_IN_IADB_SENDERID IADB: Sender publishes Sender ID record
+lang pt_BR describe RCVD_IN_IADB_SPF IADB: Sender publishes SPF record
+lang pt_BR describe RCVD_IN_IADB_UNVERIFIED_1 IADB: Accepts unverified sign-ups
+lang pt_BR describe RCVD_IN_IADB_UNVERIFIED_2 IADB: Accepts unverified sign-ups, gives chance to opt_BR out
+lang pt_BR describe RCVD_IN_IADB_UT_CPEAR IADB: Complies with Utah's CPEAR law
+lang pt_BR describe RCVD_IN_IADB_UT_CPR_30 IADB: Checked lists against Utah's CPR within 30 days
+lang pt_BR describe RCVD_IN_IADB_UT_CPR_MAT IADB: Sends no material under Utah's CPR
+lang pt_BR describe RCVD_IN_PSBL Received via a relay in PSBL
+lang pt_BR describe RCVD_IN_RP_CERTIFIED Sender is in Return Path Certified (trusted relay)
+lang pt_BR describe RCVD_IN_RP_RNBL Relay in RNBL, https://senderscore.org/blacklistlookup/
+lang pt_BR describe RCVD_IN_RP_SAFE Sender is in Return Path Safe (trusted relay)
+lang pt_BR describe RCVD_MAIL_COM Forged Received header (contains post.com or mail.com)
+lang pt_BR describe RDNS_LOCALHOST Sender's public rDNS is "localhost"
+lang pt_BR describe S25R_4 S25R: Bottom of rDNS ends w/ num, next lvl has num-num
+lang pt_BR describe S25R_6 S25R: rDNS looks dynamic or customer-facing
+lang pt_BR describe SANE_04e8bf28eb445199a7f11b943c44d209 Email.Spam.Gen3177.Sanesecurity.08051611
+lang pt_BR describe SANE_1c4f3286fa4aed6424ced88bfaf8b09c Email.Spam.Gen3234.Sanesecurity.08052309
+lang pt_BR describe SANE_2b173a7fb7518c75ac8a2d294d773fd8 Email.Spam.Sanesecurity.Url_2496
+lang pt_BR describe SANE_3b92eda751c992f230f215fb7eb36844 Email.Spam.Gen158.Sanesecurity.07012700
+lang pt_BR describe SANE_4ef8302546bf270a19baf98508afacc4 Email.Spam.Gen1941.Sanesecurity.07112519
+lang pt_BR describe SANE_7429530a7398f43f1f1b795f9420714e Email.Spam.Gen2507.Sanesecurity.08021303
+lang pt_BR describe SANE_91eb43f705d25c804374a746d7519660 Email.Malware.Sanesecurity.07011300
+lang pt_BR describe SANE_d0d2b0f6373bf91253d66dd74c594b87 Email.Spam.Sanesecurity.Url_2499
+lang pt_BR describe SHORT_HELO_AND_INLINE_IMAGE Short HELO string, with inline image
+lang pt_BR describe SPAMMY_XMAILER X-Mailer string is common in spam and not in ham
+lang pt_BR describe STOCK_IMG_CTYPE Stock spam image part, with distinctive Content-Type header
+lang pt_BR describe STOCK_IMG_HDR_FROM Stock spam image part, with distinctive From line
+lang pt_BR describe STOCK_IMG_HTML Stock spam image part, with distinctive HTML
+lang pt_BR describe STOCK_IMG_OUTLOOK Stock spam image part, with Outlook-like features
+lang pt_BR describe TAB_IN_FROM From starts with a tab
+lang pt_BR describe TBIRD_SUSP_MIME_BDRY Unlikely Thunderbird MIME boundary
+lang pt_BR describe TT_MSGID_TRUNC Scora: Message-Id ends after left-bracket + digits
+lang pt_BR describe TT_OBSCURED_VALIUM Scora: obscured "VALIUM" in subject
+lang pt_BR describe TT_OBSCURED_VIAGRA Scora: obscured "VIAGRA" in subject
+lang pt_BR describe TVD_PH_REC Message has a phrase standard for phishing mails
+lang pt_BR describe TVD_PH_SEC Message has a phrase standard for phishing mails
+lang pt_BR describe TVD_SUBJ_ACC_NUM Subject has spammy looking monetary reference
+lang pt_BR describe TWO_IPS_RCVD Received: Relay identifies itself as wrong IP
+lang pt_BR describe T_DOS_OUTLOOK_TO_MX_IMAGE Direct to MX with Outlook headers and an image
+lang pt_BR describe T_FROM_MISSPACED From: missing whitespace
+lang pt_BR describe URIBL_RHS_DOB Contains an URI of a new domain (Day Old Bread)
+lang pt_BR describe URI_OBFU_WWW Obfuscated URI
+lang pt_BR describe VANITY Vanity or fake awards
+lang pt_BR describe __FORGED_TBIRD_IMG Possibly forged Thunderbird image spam
