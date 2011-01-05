@@ -24,21 +24,21 @@
 
 # pt_BR translation by W3P Projetos Web (http://www.w3p.com.br/)
 
-lang pt_BR report_charset iso-8859-1
+lang pt_BR report_charset utf-8
 
 lang pt_BR clear_report_template
 lang pt_BR report O filtro de spam do servidor "_HOSTNAME_" identificou este
-lang pt_BR report e-mail como um spam.  A mensagem original est· anexa a este
-lang pt_BR report este e-mail para que possa ser visualizada (caso n„o seja
+lang pt_BR report e-mail como um spam.  A mensagem original est√° anexa a este
+lang pt_BR report este e-mail para que possa ser visualizada (caso n√£o seja
 lang pt_BR report um spam) ou para que emails futuros similares a este sejam
-lang pt_BR report marcados como spam tambÈm. Caso tenha alguma d˙vida, entre
+lang pt_BR report marcados como spam tamb√©m. Caso tenha alguma d√∫vida, entre
 lang pt_br report em contato no email _CONTACTADDRESS_ para mais detalhes.
 lang pt_BR report
-lang pt_BR report VisualizaÁ„o de um trecho:  _PREVIEW_
+lang pt_BR report Visualiza√ß√£o de um trecho:  _PREVIEW_
 lang pt_BR report
-lang pt_BR report Detalhes da an·lise:   (_SCORE_ pontos, mÌnimo de _REQD_)
+lang pt_BR report Detalhes da an√°lise:   (_SCORE_ pontos, m√≠nimo de _REQD_)
 lang pt_BR report
-lang pt_BR report " pts regra                  descriÁ„o"
+lang pt_BR report " pts regra                  descri√ß√£o"
 lang pt_BR report  ---- ---------------------- --------------------------------------------------
 lang pt_BR report _SUMMARY_
 
