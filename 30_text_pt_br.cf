@@ -53,9 +53,9 @@ lang pt_BR describe AWL From: address is in the auto white-list
 
 
 # 20_advance_fee.cf
-lang pt_BR describe ADVANCE_FEE_2 Appears to be advance fee fraud (Nigerian 419)
-lang pt_BR describe ADVANCE_FEE_3 Appears to be advance fee fraud (Nigerian 419)
-lang pt_BR describe ADVANCE_FEE_4 Appears to be advance fee fraud (Nigerian 419)
+lang pt_BR describe ADVANCE_FEE_2 Aparenta ser fraude (Nigerian 419)
+lang pt_BR describe ADVANCE_FEE_3 Aparenta ser fraude (Nigerian 419)
+lang pt_BR describe ADVANCE_FEE_4 Aparenta ser fraude (Nigerian 419)
 
 # 20_body_tests.cf
 lang pt_BR describe GTUBE Generic Test for Unsolicited Bulk Email
