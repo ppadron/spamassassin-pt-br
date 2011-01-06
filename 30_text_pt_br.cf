@@ -82,9 +82,9 @@ lang pt_BR describe HTTPS_IP_MISMATCH IP to HTTPS link found in HTML
 lang pt_BR describe URI_TRUNCATED Message contained a URI which was truncated
 
 # 20_compensate.cf
-lang pt_BR describe NO_RECEIVED Informational: message has no Received headers
-lang pt_BR describe ALL_TRUSTED Passed through trusted hosts only via SMTP
-lang pt_BR describe NO_RELAYS Informational: message was not relayed via SMTP
+lang pt_BR describe NO_RECEIVED Informação: mensagem não possui cabeçalho Received:
+lang pt_BR describe ALL_TRUSTED Mensagem passou via SMTP apenas por hosts confiáveis
+lang pt_BR describe NO_RELAYS Informação: mensagem não foi recebida via SMTP
 
 # 20_dnsbl_tests.cf
 lang pt_BR describe __RCVD_IN_NJABL Received via a relay in combined.njabl.org
@@ -182,12 +182,12 @@ lang pt_BR describe HELO_DYNAMIC_CHELLO_NL Relay HELO'd using suspicious hostnam
 lang pt_BR describe HELO_DYNAMIC_HOME_NL Relay HELO'd using suspicious hostname (Home.nl)
 
 # 20_freemail.cf
-lang pt_BR describe FREEMAIL_REPLYTO Reply-To/From or Reply-To/body contain different freemails
-lang pt_BR describe FREEMAIL_REPLY From and body contain different freemails
-lang pt_BR describe FREEMAIL_FROM Sender email is freemail
-lang pt_BR describe FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends in digit
-lang pt_BR describe FREEMAIL_REPLYTO_END_DIGIT Reply-To freemail username ends in digit
-lang pt_BR describe FREEMAIL_FORGED_REPLYTO Freemail in Reply-To, but not From
+lang pt_BR describe FREEMAIL_REPLYTO Reply-To/From ou Reply-To/body usam diferentes emails gratuitos
+lang pt_BR describe FREEMAIL_REPLY From e body contém diferentes emails gratuitos
+lang pt_BR describe FREEMAIL_FROM Remetente utiliza um email gratuito
+lang pt_BR describe FREEMAIL_ENVFROM_END_DIGIT Nome de usuário de email gratuito no Envelope-From termina em dígito
+lang pt_BR describe FREEMAIL_REPLYTO_END_DIGIT Nome de usuário de email gratuito no Reply-To termina em dígito
+lang pt_BR describe FREEMAIL_FORGED_REPLYTO Email gratuito usado no Reply-To, mas não no From:
 
 # 20_head_tests.cf
 lang pt_BR describe FRAGMENTED_MESSAGE Partial message
@@ -411,10 +411,10 @@ lang pt_BR describe REPLICA_WATCH Message talks about a replica watch
 lang pt_BR describe EM_ROLEX Message puts emphasis on the watch manufacturer
 
 # 20_porn.cf
-lang pt_BR describe FREE_PORN Possible porn - Free Porn
-lang pt_BR describe CUM_SHOT Possible porn - Cum Shot
-lang pt_BR describe LIVE_PORN Possible porn - Live Porn
-lang pt_BR describe SUBJECT_SEXUAL Subject indicates sexually-explicit content
+lang pt_BR describe FREE_PORN Pornografia - mensagem contém "Free Porn"
+lang pt_BR describe CUM_SHOT Pornografia - mensagem contém "Cum Shot"
+lang pt_BR describe LIVE_PORN Pornografia - mensagem contém "Live Porn"
+lang pt_BR describe SUBJECT_SEXUAL Assunto indica conteúdo sexualmente-explícito
 
 # 20_ratware.cf
 lang pt_BR describe RATWARE_EGROUPS Bulk email fingerprint (eGroups) found
@@ -503,20 +503,20 @@ lang pt_BR describe DCC_REPUT_95_98 DCC reputation between 95 and 98 %  (mostly 
 lang pt_BR describe DCC_REPUT_99_100 DCC reputation between 99 % or higher (spam)
 
 # 25_dkim.cf
-lang pt_BR describe DKIM_SIGNED Message has a DKIM or DK signature, not necessarily valid
-lang pt_BR describe DKIM_VALID Message has at least one valid DKIM or DK signature
-lang pt_BR describe DKIM_VALID_AU Message has a valid DKIM or DK signature from author's domain
-lang pt_BR describe __DKIM_DEPENDABLE A validation failure not attributable to truncation
-lang pt_BR describe DKIM_ADSP_NXDOMAIN No valid author signature and domain not in DNS
-lang pt_BR describe DKIM_ADSP_DISCARD No valid author signature, domain signs all mail and suggests discarding the rest
-lang pt_BR describe DKIM_ADSP_ALL No valid author signature, domain signs all mail
-lang pt_BR describe DKIM_ADSP_CUSTOM_LOW No valid author signature, adsp_override is CUSTOM_LOW
-lang pt_BR describe DKIM_ADSP_CUSTOM_MED No valid author signature, adsp_override is CUSTOM_MED
-lang pt_BR describe DKIM_ADSP_CUSTOM_HIGH No valid author signature, adsp_override is CUSTOM_HIGH
-lang pt_BR describe __VIA_RESIGNER Mail through a popular signing remailer
-lang pt_BR describe NML_ADSP_CUSTOM_LOW ADSP custom_low hit, and not from a mailing list
-lang pt_BR describe NML_ADSP_CUSTOM_MED ADSP custom_med hit, and not from a mailing list
-lang pt_BR describe NML_ADSP_CUSTOM_HIGH ADSP custom_high hit, and not from a mailing list
+lang pt_BR describe DKIM_SIGNED Mensagem possui uma assinatura DKIM ou DK não necessariamente válida
+lang pt_BR describe DKIM_VALID Mensagem possui ao menos uma assinatura DKIM ou DK válida
+lang pt_BR describe DKIM_VALID_AU Mensagem possui uma assinatura DKIM ou DK válida do domínio do autor da mensagem
+lang pt_BR describe __DKIM_DEPENDABLE Falha na validação DKIM
+lang pt_BR describe DKIM_ADSP_NXDOMAIN Nenhuma assinatura válida e o domínio não consta no DNS
+lang pt_BR describe DKIM_ADSP_DISCARD Nenhuma assinatura válida do autor da mensagem e o domínio assina todos os emails e sugere descartar o resto
+lang pt_BR describe DKIM_ADSP_ALL Nenhuma assinatura válida do autor da mensagem e o domínio assina todos os emails
+lang pt_BR describe DKIM_ADSP_CUSTOM_LOW Nenhuma assinatura válida do autor da mensagem. adsp_override = CUSTOM_LOW
+lang pt_BR describe DKIM_ADSP_CUSTOM_MED Nenhuma assinatura válida do autor da mensagem. adsp_override = CUSTOM_MED
+lang pt_BR describe DKIM_ADSP_CUSTOM_HIGH Nenhuma assinatura válida do autor da mensagem. adsp_override = CUSTOM_HIGH
+lang pt_BR describe __VIA_RESIGNER Email passou por um Mail through a popular signing remailer
+lang pt_BR describe NML_ADSP_CUSTOM_LOW ADSP custom_low foi atingida, e não foi de uma mailing list
+lang pt_BR describe NML_ADSP_CUSTOM_MED ADSP custom_med foi atingida, e não foi de uma mailing list
+lang pt_BR describe NML_ADSP_CUSTOM_HIGH ADSP custom_high foi atingida, e não foi de uma mailing list
 
 # 25_hashcash.cf
 lang pt_BR describe HASHCASH_20 Contains valid Hashcash token (20 bits)
