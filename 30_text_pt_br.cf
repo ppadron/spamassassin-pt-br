@@ -538,65 +538,65 @@ lang pt_BR describe RAZOR2_CF_RANGE_E4_51_100 Razor2 gives engine 4 confidence l
 lang pt_BR describe RAZOR2_CF_RANGE_E8_51_100 Razor2 gives engine 8 confidence level above 50%
 
 # 25_replace.cf
-lang pt_BR describe SUBJECT_FUZZY_MEDS Attempt to obfuscate words in Subject:
-lang pt_BR describe SUBJECT_FUZZY_VPILL Attempt to obfuscate words in Subject:
-lang pt_BR describe SUBJECT_FUZZY_CHEAP Attempt to obfuscate words in Subject:
-lang pt_BR describe SUBJECT_FUZZY_PENIS Attempt to obfuscate words in Subject:
-lang pt_BR describe SUBJECT_FUZZY_TION Attempt to obfuscate words in Subject:
-lang pt_BR describe FUZZY_AFFORDABLE Attempt to obfuscate words in spam
-lang pt_BR describe FUZZY_AMBIEN Attempt to obfuscate words in spam
-lang pt_BR describe FUZZY_BILLION Attempt to obfuscate words in spam
-lang pt_BR describe FUZZY_CPILL Attempt to obfuscate words in spam
-lang pt_BR describe FUZZY_CREDIT Attempt to obfuscate words in spam
-lang pt_BR describe FUZZY_ERECT Attempt to obfuscate words in spam
-lang pt_BR describe FUZZY_GUARANTEE Attempt to obfuscate words in spam
-lang pt_BR describe FUZZY_MEDICATION Attempt to obfuscate words in spam
-lang pt_BR describe FUZZY_MILLION Attempt to obfuscate words in spam
-lang pt_BR describe FUZZY_MONEY Attempt to obfuscate words in spam
-lang pt_BR describe FUZZY_MORTGAGE Attempt to obfuscate words in spam
-lang pt_BR describe FUZZY_OBLIGATION Attempt to obfuscate words in spam
-lang pt_BR describe FUZZY_OFFERS Attempt to obfuscate words in spam
-lang pt_BR describe FUZZY_PHARMACY Attempt to obfuscate words in spam
-lang pt_BR describe FUZZY_PHENT Attempt to obfuscate words in spam
-lang pt_BR describe FUZZY_PRESCRIpt_BR Attempt to obfuscate words in spam
-lang pt_BR describe FUZZY_PRICES Attempt to obfuscate words in spam
-lang pt_BR describe FUZZY_REFINANCE Attempt to obfuscate words in spam
-lang pt_BR describe FUZZY_REMOVE Attempt to obfuscate words in spam
-lang pt_BR describe FUZZY_ROLEX Attempt to obfuscate words in spam
-lang pt_BR describe FUZZY_SOFTWARE Attempt to obfuscate words in spam
-lang pt_BR describe FUZZY_THOUSANDS Attempt to obfuscate words in spam
-lang pt_BR describe FUZZY_VLIUM Attempt to obfuscate words in spam
-lang pt_BR describe FUZZY_VIOXX Attempt to obfuscate words in spam
-lang pt_BR describe FUZZY_VPILL Attempt to obfuscate words in spam
-lang pt_BR describe FUZZY_XPILL Attempt to obfuscate words in spam
+lang pt_BR describe SUBJECT_FUZZY_MEDS Tentativa de esconder palavras no Subject:
+lang pt_BR describe SUBJECT_FUZZY_VPILL Tentativa de esconder palavras no Subject:
+lang pt_BR describe SUBJECT_FUZZY_CHEAP Tentativa de esconder palavras no Subject:
+lang pt_BR describe SUBJECT_FUZZY_PENIS Tentativa de esconder palavras no Subject:
+lang pt_BR describe SUBJECT_FUZZY_TION Tentativa de esconder palavras no Subject:
+lang pt_BR describe FUZZY_AFFORDABLE Tentativa de esconder palavras na mensagem
+lang pt_BR describe FUZZY_AMBIEN Tentativa de esconder palavras na mensagem 
+lang pt_BR describe FUZZY_BILLION Tentativa de esconder palavras na mensagem
+lang pt_BR describe FUZZY_CPILL Tentativa de esconder palavras na mensagem
+lang pt_BR describe FUZZY_CREDIT Tentativa de esconder palavras na mensagem
+lang pt_BR describe FUZZY_ERECT Tentativa de esconder palavras na mensagem
+lang pt_BR describe FUZZY_GUARANTEE Tentativa de esconder palavras na mensagem
+lang pt_BR describe FUZZY_MEDICATION Tentativa de esconder palavras na mensagem
+lang pt_BR describe FUZZY_MILLION Tentativa de esconder palavras na mensagem
+lang pt_BR describe FUZZY_MONEY Tentativa de esconder palavras na mensagem
+lang pt_BR describe FUZZY_MORTGAGE Tentativa de esconder palavras na mensagem
+lang pt_BR describe FUZZY_OBLIGATION Tentativa de esconder palavras na mensagem
+lang pt_BR describe FUZZY_OFFERS Tentativa de esconder palavras na mensagem
+lang pt_BR describe FUZZY_PHARMACY Tentativa de esconder palavras na mensagem
+lang pt_BR describe FUZZY_PHENT Tentativa de esconder palavras na mensagem
+lang pt_BR describe FUZZY_PRESCRIpt_BR Tentativa de esconder palavras na mensagem
+lang pt_BR describe FUZZY_PRICES Tentativa de esconder palavras na mensagem
+lang pt_BR describe FUZZY_REFINANCE Tentativa de esconder palavras na mensagem
+lang pt_BR describe FUZZY_REMOVE Tentativa de esconder palavras na mensagem
+lang pt_BR describe FUZZY_ROLEX Tentativa de esconder palavras na mensagem
+lang pt_BR describe FUZZY_SOFTWARE Tentativa de esconder palavras na mensagem
+lang pt_BR describe FUZZY_THOUSANDS Tentativa de esconder palavras na mensagem
+lang pt_BR describe FUZZY_VLIUM Tentativa de esconder palavras na mensagem
+lang pt_BR describe FUZZY_VIOXX Tentativa de esconder palavras na mensagem
+lang pt_BR describe FUZZY_VPILL Tentativa de esconder palavras na mensagem
+lang pt_BR describe FUZZY_XPILL Tentativa de esconder palavras na mensagem
 
 # 25_spf.cf
-lang pt_BR describe SPF_PASS SPF: sender matches SPF record
-lang pt_BR describe SPF_NEUTRAL SPF: sender does not match SPF record (neutral)
-lang pt_BR describe SPF_FAIL SPF: sender does not match SPF record (fail)
-lang pt_BR describe SPF_SOFTFAIL SPF: sender does not match SPF record (softfail)
-lang pt_BR describe SPF_HELO_PASS SPF: HELO matches SPF record
-lang pt_BR describe SPF_HELO_NEUTRAL SPF: HELO does not match SPF record (neutral)
-lang pt_BR describe SPF_HELO_FAIL SPF: HELO does not match SPF record (fail)
-lang pt_BR describe SPF_HELO_SOFTFAIL SPF: HELO does not match SPF record (softfail)
+lang pt_BR describe SPF_PASS SPF: Remetente é válido de acordo com registro SPF
+lang pt_BR describe SPF_NEUTRAL SPF: Remetente não confere com registro SPF (neutral)
+lang pt_BR describe SPF_FAIL SPF: Remetente não confere com registro SPF (fail)
+lang pt_BR describe SPF_SOFTFAIL SPF: Remetente não confere com registro SPF (softfail)
+lang pt_BR describe SPF_HELO_PASS SPF: HELO confere com registro SPF
+lang pt_BR describe SPF_HELO_NEUTRAL SPF: HELO não confere com registro SPF (neutral)
+lang pt_BR describe SPF_HELO_FAIL SPF: HELO não confere com registro SPF (fail)
+lang pt_BR describe SPF_HELO_SOFTFAIL SPF: HELO não confere com registro SPF (softfail)
 
 # 25_textcat.cf
-lang pt_BR describe UNWANTED_LANGUAGE_BODY Message written in an undesired language
-lang pt_BR describe BODY_8BITS Body includes 8 consecutive 8-bit characters
+lang pt_BR describe UNWANTED_LANGUAGE_BODY Mensagem está escrita em um idioma indesejado
+lang pt_BR describe BODY_8BITS Body contém 8 caracteres de 8-bit consecutivos
 
 # 25_uribl.cf
-lang pt_BR describe URIBL_SBL Contains an URL listed in the SBL blocklist
-lang pt_BR describe URIBL_DBL_SPAM Contains an URL listed in the DBL blocklist
-lang pt_BR describe URIBL_DBL_ERROR Error: queried the DBL blocklist for an IP
-lang pt_BR describe URIBL_SC_SURBL Contains an URL listed in the SC SURBL blocklist
-lang pt_BR describe URIBL_WS_SURBL Contains an URL listed in the WS SURBL blocklist
-lang pt_BR describe URIBL_PH_SURBL Contains an URL listed in the PH SURBL blocklist
-lang pt_BR describe URIBL_OB_SURBL Contains an URL listed in the OB SURBL blocklist
-lang pt_BR describe URIBL_AB_SURBL Contains an URL listed in the AB SURBL blocklist
-lang pt_BR describe URIBL_JP_SURBL Contains an URL listed in the JP SURBL blocklist
-lang pt_BR describe URIBL_BLACK Contains an URL listed in the URIBL blacklist
-lang pt_BR describe URIBL_GREY Contains an URL listed in the URIBL greylist
-lang pt_BR describe URIBL_RED Contains an URL listed in the URIBL redlist
+lang pt_BR describe URIBL_SBL Contém uma URL listada na blacklist SBL
+lang pt_BR describe URIBL_DBL_SPAM Contém uma URL listada na blacklist DBL blocklist
+lang pt_BR describe URIBL_DBL_ERROR Erro: Consultou a DBL por um IP
+lang pt_BR describe URIBL_SC_SURBL Contém uma URL listada na blacklist SC SURBL
+lang pt_BR describe URIBL_WS_SURBL Contém uma URL listada na blacklist WS SURBL
+lang pt_BR describe URIBL_PH_SURBL Contém uma URL listada na blacklist PH SURBL
+lang pt_BR describe URIBL_OB_SURBL Contém uma URL listada na blacklist OB SURBL
+lang pt_BR describe URIBL_AB_SURBL Contém uma URL listada na blacklist AB SURBL
+lang pt_BR describe URIBL_JP_SURBL Contém uma URL listada na blacklist JP SURBL
+lang pt_BR describe URIBL_BLACK Contém uma URL listada na blacklist URIBL
+lang pt_BR describe URIBL_GREY Contém uma URL listada na greylist URIBL
+lang pt_BR describe URIBL_RED Contém uma URL listada na redlist URIBL
 
 # 60_shortcircuit.cf
 lang pt_BR describe SHORTCIRCUIT Not all rules were run, due to a shortcircuited rule
