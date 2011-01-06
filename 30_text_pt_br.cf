@@ -86,35 +86,35 @@ lang pt_BR describe ALL_TRUSTED Mensagem passou via SMTP apenas por hosts confi�
 lang pt_BR describe NO_RELAYS Informação: mensagem não foi recebida via SMTP
 
 # 20_dnsbl_tests.cf
-lang pt_BR describe __RCVD_IN_NJABL Received via a relay in combined.njabl.org
-lang pt_BR describe __RCVD_IN_SORBS SORBS: sender is listed in SORBS
-lang pt_BR describe RCVD_IN_NJABL_RELAY NJABL: sender is confirmed open relay
-lang pt_BR describe RCVD_IN_NJABL_SPAM NJABL: sender is confirmed spam source
-lang pt_BR describe RCVD_IN_NJABL_MULTI NJABL: sent through multi-stage open relay
-lang pt_BR describe RCVD_IN_NJABL_CGI NJABL: sender is an open formmail
-lang pt_BR describe RCVD_IN_NJABL_PROXY NJABL: sender is an open proxy
-lang pt_BR describe RCVD_IN_SORBS_HTTP SORBS: sender is open HTTP proxy server
-lang pt_BR describe RCVD_IN_SORBS_SOCKS SORBS: sender is open SOCKS proxy server
-lang pt_BR describe RCVD_IN_SORBS_MISC SORBS: sender is open proxy server
-lang pt_BR describe RCVD_IN_SORBS_SMTP SORBS: sender is open SMTP relay
-lang pt_BR describe RCVD_IN_SORBS_WEB SORBS: sender is an abusable web server
-lang pt_BR describe RCVD_IN_SORBS_BLOCK SORBS: sender demands to never be tested
-lang pt_BR describe RCVD_IN_SORBS_ZOMBIE SORBS: sender is on a hijacked network
-lang pt_BR describe RCVD_IN_SORBS_DUL SORBS: sent directly from dynamic IP address
-lang pt_BR describe __RCVD_IN_ZEN Received via a relay in Spamhaus Zen
-lang pt_BR describe RCVD_IN_SBL Received via a relay in Spamhaus SBL
-lang pt_BR describe RCVD_IN_XBL Received via a relay in Spamhaus XBL
-lang pt_BR describe RCVD_IN_PBL Received via a relay in Spamhaus PBL
-lang pt_BR describe DNS_FROM_RFC_DSN Envelope sender in dsn.rfc-ignorant.org
-lang pt_BR describe DNS_FROM_RFC_BOGUSMX Envelope sender in bogusmx.rfc-ignorant.org
-lang pt_BR describe DNS_FROM_AHBL_RHSBL Envelope sender listed in dnsbl.ahbl.org
-lang pt_BR describe RCVD_IN_BL_SPAMCOP_NET Received via a relay in bl.spamcop.net
-lang pt_BR describe RCVD_IN_MAPS_RBL Relay in RBL, http://www.mail-abuse.com/enduserinfo_rbl.html
-lang pt_BR describe RCVD_IN_MAPS_DUL Relay in DUL, http://www.mail-abuse.com/enduserinfo_dul.html
-lang pt_BR describe RCVD_IN_MAPS_RSS Relay in RSS, http://www.mail-abuse.com/enduserinfo_rss.html
-lang pt_BR describe RCVD_IN_MAPS_OPS Relay in OPS, http://www.mail-abuse.com/enduserinfo_ops.html
-lang pt_BR describe RCVD_IN_MAPS_NML Relay in NML, http://www.mail-abuse.com/enduserinfo_nml.html
-lang pt_BR describe RCVD_IN_IADB_VOUCHED ISIPP IADB lists as vouched-for sender
+lang pt_BR describe __RCVD_IN_NJABL Recebida por um relay listado em combined.njabl.org
+lang pt_BR describe __RCVD_IN_SORBS Recebida por um relay listado em SORBS
+lang pt_BR describe RCVD_IN_NJABL_RELAY NJABL: remetente é um relay aberto
+lang pt_BR describe RCVD_IN_NJABL_SPAM NJABL: remetente é uma fonte confirmada de spam
+lang pt_BR describe RCVD_IN_NJABL_MULTI NJABL: enviado por um relay aberto de vários estágios
+lang pt_BR describe RCVD_IN_NJABL_CGI NJABL: remetente é um formmail aberto
+lang pt_BR describe RCVD_IN_NJABL_PROXY NJABL: remetente é um proxy aberto
+lang pt_BR describe RCVD_IN_SORBS_HTTP SORBS: remetente é um proxy HTTP aberto
+lang pt_BR describe RCVD_IN_SORBS_SOCKS SORBS: remetente é um proxy SOCKS aberto
+lang pt_BR describe RCVD_IN_SORBS_MISC SORBS: remetente é um proxy aberto
+lang pt_BR describe RCVD_IN_SORBS_SMTP SORBS: remetente é um relay SMTP aberto
+lang pt_BR describe RCVD_IN_SORBS_WEB SORBS: remetente é um servidor web explorável
+lang pt_BR describe RCVD_IN_SORBS_BLOCK SORBS: remetente requer que não seja testado
+lang pt_BR describe RCVD_IN_SORBS_ZOMBIE SORBS: remetente está em uma rede comprometida
+lang pt_BR describe RCVD_IN_SORBS_DUL SORBS: mensagem enviada a partir de um IP dinâmico
+lang pt_BR describe __RCVD_IN_ZEN Recebida por um relay listado em Spamhaus Zen
+lang pt_BR describe RCVD_IN_SBL Recebida por um relay listado em Spamhaus SBL
+lang pt_BR describe RCVD_IN_XBL Recebida por um relay listado em Spamhaus XBL
+lang pt_BR describe RCVD_IN_PBL Recebida por um relay listado em Spamhaus PBL
+lang pt_BR describe DNS_FROM_RFC_DSN Envelope sender consta em dsn.rfc-ignorant.org
+lang pt_BR describe DNS_FROM_RFC_BOGUSMX Envelope sender consta em bogusmx.rfc-ignorant.org
+lang pt_BR describe DNS_FROM_AHBL_RHSBL Envelope sender consta em dnsbl.ahbl.org
+lang pt_BR describe RCVD_IN_BL_SPAMCOP_NET Recebida por um relay listado em bl.spamcop.net
+lang pt_BR describe RCVD_IN_MAPS_RBL Relay consta em RBL, http://www.mail-abuse.com/enduserinfo_rbl.html
+lang pt_BR describe RCVD_IN_MAPS_DUL Relay consta em DUL, http://www.mail-abuse.com/enduserinfo_dul.html
+lang pt_BR describe RCVD_IN_MAPS_RSS Relay consta em RSS, http://www.mail-abuse.com/enduserinfo_rss.html
+lang pt_BR describe RCVD_IN_MAPS_OPS Relay consta em OPS, http://www.mail-abuse.com/enduserinfo_ops.html
+lang pt_BR describe RCVD_IN_MAPS_NML Relay consta em NML, http://www.mail-abuse.com/enduserinfo_nml.html
+lang pt_BR describe RCVD_IN_IADB_VOUCHED ISIPP IADB indica que o remetente é confiável (vouched-for sender)
 
 # 20_drugs.cf
 lang pt_BR describe SUBJECT_DRUG_GAP_C Subject contains a gappy version of 'cialis'
