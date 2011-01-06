@@ -59,27 +59,27 @@ lang pt_BR describe ADVANCE_FEE_4 Aparenta ser fraude (Nigerian 419)
 
 # 20_body_tests.cf
 lang pt_BR describe GTUBE Generic Test for Unsolicited Bulk Email
-lang pt_BR describe TRACKER_ID Incorporates a tracking ID number
-lang pt_BR describe WEIRD_QUOTING Weird repeated double-quotation marks
-lang pt_BR describe MIME_HTML_ONLY_MULTI Multipart message only has text/html MIME parts
-lang pt_BR describe MIME_CHARSET_FARAWAY MIME character set indicates foreign language
-lang pt_BR describe EMAIL_ROT13 Body contains a ROT13-encoded email address
-lang pt_BR describe LONGWORDS Long string of long words
-lang pt_BR describe MPART_ALT_DIFF HTML and text parts are different
-lang pt_BR describe MPART_ALT_DIFF_COUNT HTML and text parts are different
-lang pt_BR describe BLANK_LINES_80_90 Message body has 80-90% blank lines
-lang pt_BR describe CHARSET_FARAWAY Character set indicates a foreign language
-lang pt_BR describe __MIME_BASE64 Includes a base64 attachment
-lang pt_BR describe __MIME_QP Includes a quoted-printable attachment
-lang pt_BR describe MIME_BASE64_BLANKS Extra blank lines in base64 encoding
-lang pt_BR describe MIME_BASE64_TEXT Message text disguised using base64 encoding
-lang pt_BR describe MISSING_MIME_HB_SEP Missing blank line between MIME header and body
-lang pt_BR describe MIME_HTML_MOSTLY Multipart message mostly text/html MIME
-lang pt_BR describe MIME_HTML_ONLY Message only has text/html MIME parts
-lang pt_BR describe MIME_QP_LONG_LINE Quoted-printable line longer than 76 chars
-lang pt_BR describe MIME_BAD_ISO_CHARSET MIME character set is an unknown ISO charset
-lang pt_BR describe HTTPS_IP_MISMATCH IP to HTTPS link found in HTML
-lang pt_BR describe URI_TRUNCATED Message contained a URI which was truncated
+lang pt_BR describe TRACKER_ID Mensagem contém um código rastramento
+lang pt_BR describe WEIRD_QUOTING Possui caracteres "" estranhos
+lang pt_BR describe MIME_HTML_ONLY_MULTI Mensagem diz ser multipart mas só possui formato text/html
+lang pt_BR describe MIME_CHARSET_FARAWAY MIME character set indica idioma estrangeiro
+lang pt_BR describe EMAIL_ROT13 Mensagem contém um endereço de email codificado com ROT13
+lang pt_BR describe LONGWORDS Contém trechos longos de palavras extensas
+lang pt_BR describe MPART_ALT_DIFF Versão HTML e versão Texto da mensagem são diferentes
+lang pt_BR describe MPART_ALT_DIFF_COUNT Versão HTML e versão Texto da mensagem são diferentes
+lang pt_BR describe BLANK_LINES_80_90 Corpo da mensagem é composto por 80-90% de linhas em branco
+lang pt_BR describe CHARSET_FARAWAY Character set indica um idioma estrangeiro
+lang pt_BR describe __MIME_BASE64 Possui anexo no formato base64
+lang pt_BR describe __MIME_QP Possui anexo no formato quoted-printable
+lang pt_BR describe MIME_BASE64_BLANKS Possui linhas vazias extras em codificação base64
+lang pt_BR describe MIME_BASE64_TEXT Texto da mensagem está disfarçado usando codificação base64
+lang pt_BR describe MISSING_MIME_HB_SEP Falta linha em branco entre MIME header e Body
+lang pt_BR describe MIME_HTML_MOSTLY Mensagem multipart é composta em sua maioria por text/html
+lang pt_BR describe MIME_HTML_ONLY Mensagem somente possui formato text/html
+lang pt_BR describe MIME_QP_LONG_LINE Linha do tipo Quoted-printable maior que 76 caracteres
+lang pt_BR describe MIME_BAD_ISO_CHARSET MIME character set é um charset ISO desconhecido
+lang pt_BR describe HTTPS_IP_MISMATCH Link indica HTTPS, mas na verdade aponta para um IP
+lang pt_BR describe URI_TRUNCATED Mensagem possui uma URI que foi truncada
 
 # 20_compensate.cf
 lang pt_BR describe NO_RECEIVED Informação: mensagem não possui cabeçalho Received:
