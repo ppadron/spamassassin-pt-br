@@ -28,28 +28,28 @@ lang pt_BR report_charset utf-8
 
 lang pt_BR clear_report_template
 lang pt_BR report O filtro de spam do servidor "_HOSTNAME_" identificou este
-lang pt_BR report e-mail como um spam.  A mensagem original est√° anexa a este
-lang pt_BR report este e-mail para que possa ser visualizada (caso n√£o seja
+lang pt_BR report e-mail como um spam.  A mensagem original est· anexa a este
+lang pt_BR report este e-mail para que possa ser visualizada (caso n„o seja
 lang pt_BR report um spam) ou para que emails futuros similares a este sejam
-lang pt_BR report marcados como spam tamb√©m. Caso tenha alguma d√∫vida, entre
+lang pt_BR report marcados como spam tambÈm. Caso tenha alguma d˙vida, entre
 lang pt_br report em contato no email _CONTACTADDRESS_ para mais detalhes.
 lang pt_BR report
-lang pt_BR report Visualiza√ß√£o de um trecho:  _PREVIEW_
+lang pt_BR report VisualizaÁ„o de um trecho:  _PREVIEW_
 lang pt_BR report
-lang pt_BR report Detalhes da an√°lise:   (_SCORE_ pontos, m√≠nimo de _REQD_)
+lang pt_BR report Detalhes da an·lise:   (_SCORE_ pontos, mÌnimo de _REQD_)
 lang pt_BR report
-lang pt_BR report " pts regra                  descri√ß√£o"
+lang pt_BR report " pts regra                  descriÁ„o"
 lang pt_BR report  ---- ---------------------- --------------------------------------------------
 lang pt_BR report _SUMMARY_
 
-lang pt_BR describe USER_IN_BLACKLIST Endere√ßo do From: est√° na blacklist do usu√°rio
-lang pt_BR describe USER_IN_WHITELIST Endere√ßo do From: est√° na whitelist do usu√°rio
-lang pt_BR describe USER_IN_DEF_WHITELIST ndere√ßo do From: est√° na whitelist padr√£o
-lang pt_BR describe USER_IN_BLACKLIST_TO Usu√°rio est√° listado na 'blacklist_to'
-lang pt_BR describe USER_IN_WHITELIST_TO Usu√°rio est√° listado na 'whitelist_to'
-lang pt_BR describe USER_IN_MORE_SPAM_TO Usu√°rio est√° listado na 'more_spam_to'
-lang pt_BR describe USER_IN_ALL_SPAM_TO Usu√°rio est√° listado na 'all_spam_to'
-lang pt_BR describe AWL Endere√ßo do From: est√° na auto whitelist
+lang pt_BR describe USER_IN_BLACKLIST EndereÁo do From: est· na blacklist do usu·rio
+lang pt_BR describe USER_IN_WHITELIST EndereÁo do From: est· na whitelist do usu·rio
+lang pt_BR describe USER_IN_DEF_WHITELIST ndereÁo do From: est· na whitelist padr„o
+lang pt_BR describe USER_IN_BLACKLIST_TO Usu·rio est· listado na 'blacklist_to'
+lang pt_BR describe USER_IN_WHITELIST_TO Usu·rio est· listado na 'whitelist_to'
+lang pt_BR describe USER_IN_MORE_SPAM_TO Usu·rio est· listado na 'more_spam_to'
+lang pt_BR describe USER_IN_ALL_SPAM_TO Usu·rio est· listado na 'all_spam_to'
+lang pt_BR describe AWL EndereÁo do From: est· na auto whitelist
 
 # 20_advance_fee.cf
 lang pt_BR describe ADVANCE_FEE_2 Aparenta ser fraude (Nigerian 419)
@@ -58,49 +58,49 @@ lang pt_BR describe ADVANCE_FEE_4 Aparenta ser fraude (Nigerian 419)
 
 # 20_body_tests.cf
 lang pt_BR describe GTUBE Generic Test for Unsolicited Bulk Email
-lang pt_BR describe TRACKER_ID Mensagem cont√©m um c√≥digo rastramento
+lang pt_BR describe TRACKER_ID Mensagem contÈm um cÛdigo rastramento
 lang pt_BR describe WEIRD_QUOTING Possui caracteres "" estranhos
-lang pt_BR describe MIME_HTML_ONLY_MULTI Mensagem diz ser multipart mas s√≥ possui formato text/html
+lang pt_BR describe MIME_HTML_ONLY_MULTI Mensagem diz ser multipart mas sÛ possui formato text/html
 lang pt_BR describe MIME_CHARSET_FARAWAY MIME character set indica idioma estrangeiro
-lang pt_BR describe EMAIL_ROT13 Mensagem cont√©m um endere√ßo de email codificado com ROT13
-lang pt_BR describe LONGWORDS Cont√©m trechos longos de palavras extensas
-lang pt_BR describe MPART_ALT_DIFF Vers√£o HTML e vers√£o Texto da mensagem s√£o diferentes
-lang pt_BR describe MPART_ALT_DIFF_COUNT Vers√£o HTML e vers√£o Texto da mensagem s√£o diferentes
-lang pt_BR describe BLANK_LINES_80_90 Corpo da mensagem √© composto por 80-90% de linhas em branco
+lang pt_BR describe EMAIL_ROT13 Mensagem contÈm um endereÁo de email codificado com ROT13
+lang pt_BR describe LONGWORDS ContÈm trechos longos de palavras extensas
+lang pt_BR describe MPART_ALT_DIFF Vers„o HTML e vers„o Texto da mensagem s„o diferentes
+lang pt_BR describe MPART_ALT_DIFF_COUNT Vers„o HTML e vers„o Texto da mensagem s„o diferentes
+lang pt_BR describe BLANK_LINES_80_90 Corpo da mensagem È composto por 80-90% de linhas em branco
 lang pt_BR describe CHARSET_FARAWAY Character set indica um idioma estrangeiro
 lang pt_BR describe __MIME_BASE64 Possui anexo no formato base64
 lang pt_BR describe __MIME_QP Possui anexo no formato quoted-printable
-lang pt_BR describe MIME_BASE64_BLANKS Possui linhas vazias extras em codifica√ß√£o base64
-lang pt_BR describe MIME_BASE64_TEXT Texto da mensagem est√° disfar√ßado usando codifica√ß√£o base64
+lang pt_BR describe MIME_BASE64_BLANKS Possui linhas vazias extras em codificaÁ„o base64
+lang pt_BR describe MIME_BASE64_TEXT Texto da mensagem est· disfarÁado usando codificaÁ„o base64
 lang pt_BR describe MISSING_MIME_HB_SEP Falta linha em branco entre MIME header e Body
-lang pt_BR describe MIME_HTML_MOSTLY Mensagem multipart √© composta em sua maioria por text/html
+lang pt_BR describe MIME_HTML_MOSTLY Mensagem multipart È composta em sua maioria por text/html
 lang pt_BR describe MIME_HTML_ONLY Mensagem somente possui formato text/html
 lang pt_BR describe MIME_QP_LONG_LINE Linha do tipo Quoted-printable maior que 76 caracteres
-lang pt_BR describe MIME_BAD_ISO_CHARSET MIME character set √© um charset ISO desconhecido
+lang pt_BR describe MIME_BAD_ISO_CHARSET MIME character set È um charset ISO desconhecido
 lang pt_BR describe HTTPS_IP_MISMATCH Link indica HTTPS, mas na verdade aponta para um IP
 lang pt_BR describe URI_TRUNCATED Mensagem possui uma URI que foi truncada
 
 # 20_compensate.cf
-lang pt_BR describe NO_RECEIVED Informa√ß√£o: mensagem n√£o possui cabe√ßalho Received:
-lang pt_BR describe ALL_TRUSTED Mensagem passou via SMTP apenas por hosts confi√°veis
-lang pt_BR describe NO_RELAYS Informa√ß√£o: mensagem n√£o foi recebida via SMTP
+lang pt_BR describe NO_RECEIVED InformaÁ„o: mensagem n„o possui cabeÁalho Received:
+lang pt_BR describe ALL_TRUSTED Mensagem passou via SMTP apenas por hosts confi·veis
+lang pt_BR describe NO_RELAYS InformaÁ„o: mensagem n„o foi recebida via SMTP
 
 # 20_dnsbl_tests.cf
 lang pt_BR describe __RCVD_IN_NJABL Recebida por um relay listado em combined.njabl.org
 lang pt_BR describe __RCVD_IN_SORBS Recebida por um relay listado em SORBS
-lang pt_BR describe RCVD_IN_NJABL_RELAY NJABL: remetente √© um relay aberto
-lang pt_BR describe RCVD_IN_NJABL_SPAM NJABL: remetente √© uma fonte confirmada de spam
-lang pt_BR describe RCVD_IN_NJABL_MULTI NJABL: enviado por um relay aberto de v√°rios est√°gios
-lang pt_BR describe RCVD_IN_NJABL_CGI NJABL: remetente √© um formmail aberto
-lang pt_BR describe RCVD_IN_NJABL_PROXY NJABL: remetente √© um proxy aberto
-lang pt_BR describe RCVD_IN_SORBS_HTTP SORBS: remetente √© um proxy HTTP aberto
-lang pt_BR describe RCVD_IN_SORBS_SOCKS SORBS: remetente √© um proxy SOCKS aberto
-lang pt_BR describe RCVD_IN_SORBS_MISC SORBS: remetente √© um proxy aberto
-lang pt_BR describe RCVD_IN_SORBS_SMTP SORBS: remetente √© um relay SMTP aberto
-lang pt_BR describe RCVD_IN_SORBS_WEB SORBS: remetente √© um servidor web explor√°vel
-lang pt_BR describe RCVD_IN_SORBS_BLOCK SORBS: remetente requer que n√£o seja testado
-lang pt_BR describe RCVD_IN_SORBS_ZOMBIE SORBS: remetente est√° em uma rede comprometida
-lang pt_BR describe RCVD_IN_SORBS_DUL SORBS: mensagem enviada a partir de um IP din√¢mico
+lang pt_BR describe RCVD_IN_NJABL_RELAY NJABL: remetente È um relay aberto
+lang pt_BR describe RCVD_IN_NJABL_SPAM NJABL: remetente È uma fonte confirmada de spam
+lang pt_BR describe RCVD_IN_NJABL_MULTI NJABL: enviado por um relay aberto de v·rios est·gios
+lang pt_BR describe RCVD_IN_NJABL_CGI NJABL: remetente È um formmail aberto
+lang pt_BR describe RCVD_IN_NJABL_PROXY NJABL: remetente È um proxy aberto
+lang pt_BR describe RCVD_IN_SORBS_HTTP SORBS: remetente È um proxy HTTP aberto
+lang pt_BR describe RCVD_IN_SORBS_SOCKS SORBS: remetente È um proxy SOCKS aberto
+lang pt_BR describe RCVD_IN_SORBS_MISC SORBS: remetente È um proxy aberto
+lang pt_BR describe RCVD_IN_SORBS_SMTP SORBS: remetente È um relay SMTP aberto
+lang pt_BR describe RCVD_IN_SORBS_WEB SORBS: remetente È um servidor web explor·vel
+lang pt_BR describe RCVD_IN_SORBS_BLOCK SORBS: remetente requer que n„o seja testado
+lang pt_BR describe RCVD_IN_SORBS_ZOMBIE SORBS: remetente est· em uma rede comprometida
+lang pt_BR describe RCVD_IN_SORBS_DUL SORBS: mensagem enviada a partir de um IP din‚mico
 lang pt_BR describe __RCVD_IN_ZEN Recebida por um relay listado em Spamhaus Zen
 lang pt_BR describe RCVD_IN_SBL Recebida por um relay listado em Spamhaus SBL
 lang pt_BR describe RCVD_IN_XBL Recebida por um relay listado em Spamhaus XBL
@@ -114,33 +114,33 @@ lang pt_BR describe RCVD_IN_MAPS_DUL Relay consta em DUL, http://www.mail-abuse.
 lang pt_BR describe RCVD_IN_MAPS_RSS Relay consta em RSS, http://www.mail-abuse.com/enduserinfo_rss.html
 lang pt_BR describe RCVD_IN_MAPS_OPS Relay consta em OPS, http://www.mail-abuse.com/enduserinfo_ops.html
 lang pt_BR describe RCVD_IN_MAPS_NML Relay consta em NML, http://www.mail-abuse.com/enduserinfo_nml.html
-lang pt_BR describe RCVD_IN_IADB_VOUCHED ISIPP IADB indica que o remetente √© confi√°vel (vouched-for sender)
+lang pt_BR describe RCVD_IN_IADB_VOUCHED ISIPP IADB indica que o remetente È confi·vel (vouched-for sender)
 
 # 20_drugs.cf
-lang pt_BR describe SUBJECT_DRUG_GAP_C Subject contains a gappy version of 'cialis'
-lang pt_BR describe SUBJECT_DRUG_GAP_L Subject contains a gappy version of 'levitra'
-lang pt_BR describe SUBJECT_DRUG_GAP_S Subject contains a gappy version of 'soma'
-lang pt_BR describe SUBJECT_DRUG_GAP_VA Subject contains a gappy version of 'valium'
-lang pt_BR describe SUBJECT_DRUG_GAP_X Subject contains a gappy version of 'xanax'
-lang pt_BR describe DRUG_DOSAGE Talks about price per dose
-lang pt_BR describe DRUG_ED_CAPS Mentions an E.D. drug
-lang pt_BR describe DRUG_ED_SILD Talks about an E.D. drug using its chemical name
-lang pt_BR describe DRUG_ED_GENERIC Mentions Generic Viagra
-lang pt_BR describe DRUG_ED_ONLINE Fast Viagra Delivery
-lang pt_BR describe ONLINE_PHARMACY Online Pharmacy
-lang pt_BR describe NO_PRESCRIPTION No prescription needed
-lang pt_BR describe VIA_GAP_GRA Attempts to disguise the word 'viagra'
-lang pt_BR describe DRUGS_ERECTILE Refers to an erectile drug
-lang pt_BR describe DRUGS_ERECTILE_OBFU Obfuscated reference to an erectile drug
-lang pt_BR describe DRUGS_DIET Refers to a diet drug
-lang pt_BR describe DRUGS_DIET_OBFU Obfuscated reference to a diet drug
-lang pt_BR describe DRUGS_MUSCLE Refers to a muscle relaxant
-lang pt_BR describe DRUGS_ANXIETY Refers to an anxiety control drug
-lang pt_BR describe DRUGS_ANXIETY_OBFU Obfuscated reference to an anxiety control drug
-lang pt_BR describe DRUGS_SMEAR1 Two or more drugs crammed together into one word
-lang pt_BR describe DRUGS_ANXIETY_EREC Refers to both an erectile and an anxiety drug
-lang pt_BR describe DRUGS_SLEEP_EREC Refers to both an erectile and a sleep aid drug
-lang pt_BR describe DRUGS_MANYKINDS Refers to at least four kinds of drugs
+lang pt_BR describe SUBJECT_DRUG_GAP_C Assunto contÈm uma modificaÁ„o da palavra 'cialis'
+lang pt_BR describe SUBJECT_DRUG_GAP_L Assunto contÈm uma modificaÁ„o da palavra 'levitra'
+lang pt_BR describe SUBJECT_DRUG_GAP_S Assunto contÈm uma modificaÁ„o da palavra 'soma'
+lang pt_BR describe SUBJECT_DRUG_GAP_VA Assunto contÈm uma modificaÁ„o da palavra 'valium'
+lang pt_BR describe SUBJECT_DRUG_GAP_X Assunto contÈm uma modificaÁ„o da palavra 'xanax'
+lang pt_BR describe DRUG_DOSAGE Mensagem È sobre preÁo por dose (price per dose)
+lang pt_BR describe DRUG_ED_CAPS Menciona uma droga para disfunÁ„o erÈtil
+lang pt_BR describe DRUG_ED_SILD Menciona o princÌpio ativo de uma droga para disfunÁ„o erÈtil
+lang pt_BR describe DRUG_ED_GENERIC Menciona "Generic Viagra"
+lang pt_BR describe DRUG_ED_ONLINE ContÈm "Fast Viagra Delivery"
+lang pt_BR describe ONLINE_PHARMACY ContÈm "Online Pharmacy"
+lang pt_BR describe NO_PRESCRIPTION ContÈm a frase "No prescription needed"
+lang pt_BR describe VIA_GAP_GRA Tentativa de disfarÁar a palavra 'viagra'
+lang pt_BR describe DRUGS_ERECTILE Refere-se a uma droga para disfunÁ„o erÈtil
+lang pt_BR describe DRUGS_ERECTILE_OBFU ReferÍncia ofuscada a uma droga para disfunÁ„o erÈtil
+lang pt_BR describe DRUGS_DIET Refere-se a uma droga para dieta
+lang pt_BR describe DRUGS_DIET_OBFU ReferÍncia ofuscada a uma droga para dieta
+lang pt_BR describe DRUGS_MUSCLE ReferÍncia a um relaxante muscular
+lang pt_BR describe DRUGS_ANXIETY ReferÍncia a uma droga para controle de ansiedade
+lang pt_BR describe DRUGS_ANXIETY_OBFU ReferÍncia ofuscada a uma droga para controle de ansiedade
+lang pt_BR describe DRUGS_SMEAR1 Duas ou mais drogas em uma palavra sÛ
+lang pt_BR describe DRUGS_ANXIETY_EREC Refere-se a uma droga para disfunÁ„o erÈtil e outra para controle de ansiedade
+lang pt_BR describe DRUGS_SLEEP_EREC Refere-se a uma droga para disfunÁ„o erÈtil e um calmante
+lang pt_BR describe DRUGS_MANYKINDS Refere-se ao menos a quatro tipos de drogas diferentes
 
 # 20_dynrdns.cf
 lang pt_BR describe __RDNS_DYNAMIC_IPADDR Relay HELO'd using suspicious hostname (IP addr 1)
@@ -182,11 +182,11 @@ lang pt_BR describe HELO_DYNAMIC_HOME_NL Relay HELO'd using suspicious hostname 
 
 # 20_freemail.cf
 lang pt_BR describe FREEMAIL_REPLYTO Reply-To/From ou Reply-To/body usam diferentes emails gratuitos
-lang pt_BR describe FREEMAIL_REPLY From e body cont√©m diferentes emails gratuitos
+lang pt_BR describe FREEMAIL_REPLY From e body contÈm diferentes emails gratuitos
 lang pt_BR describe FREEMAIL_FROM Remetente utiliza um email gratuito
-lang pt_BR describe FREEMAIL_ENVFROM_END_DIGIT Nome de usu√°rio de email gratuito no Envelope-From termina em d√≠gito
-lang pt_BR describe FREEMAIL_REPLYTO_END_DIGIT Nome de usu√°rio de email gratuito no Reply-To termina em d√≠gito
-lang pt_BR describe FREEMAIL_FORGED_REPLYTO Email gratuito usado no Reply-To, mas n√£o no From:
+lang pt_BR describe FREEMAIL_ENVFROM_END_DIGIT Nome de usu·rio de email gratuito no Envelope-From termina em dÌgito
+lang pt_BR describe FREEMAIL_REPLYTO_END_DIGIT Nome de usu·rio de email gratuito no Reply-To termina em dÌgito
+lang pt_BR describe FREEMAIL_FORGED_REPLYTO Email gratuito usado no Reply-To, mas n„o no From:
 
 # 20_head_tests.cf
 lang pt_BR describe FRAGMENTED_MESSAGE Partial message
@@ -410,10 +410,10 @@ lang pt_BR describe REPLICA_WATCH Message talks about a replica watch
 lang pt_BR describe EM_ROLEX Message puts emphasis on the watch manufacturer
 
 # 20_porn.cf
-lang pt_BR describe FREE_PORN Pornografia - mensagem cont√©m "Free Porn"
-lang pt_BR describe CUM_SHOT Pornografia - mensagem cont√©m "Cum Shot"
-lang pt_BR describe LIVE_PORN Pornografia - mensagem cont√©m "Live Porn"
-lang pt_BR describe SUBJECT_SEXUAL Assunto indica conte√∫do sexualmente-expl√≠cito
+lang pt_BR describe FREE_PORN Pornografia - mensagem contÈm "Free Porn"
+lang pt_BR describe CUM_SHOT Pornografia - mensagem contÈm "Cum Shot"
+lang pt_BR describe LIVE_PORN Pornografia - mensagem contÈm "Live Porn"
+lang pt_BR describe SUBJECT_SEXUAL Assunto indica conte˙do sexualmente-explÌcito
 
 # 20_ratware.cf
 lang pt_BR describe RATWARE_EGROUPS Bulk email fingerprint (eGroups) found
@@ -502,20 +502,20 @@ lang pt_BR describe DCC_REPUT_95_98 DCC reputation between 95 and 98 %  (mostly 
 lang pt_BR describe DCC_REPUT_99_100 DCC reputation between 99 % or higher (spam)
 
 # 25_dkim.cf
-lang pt_BR describe DKIM_SIGNED Mensagem possui uma assinatura DKIM ou DK n√£o necessariamente v√°lida
-lang pt_BR describe DKIM_VALID Mensagem possui ao menos uma assinatura DKIM ou DK v√°lida
-lang pt_BR describe DKIM_VALID_AU Mensagem possui uma assinatura DKIM ou DK v√°lida do dom√≠nio do autor da mensagem
-lang pt_BR describe __DKIM_DEPENDABLE Falha na valida√ß√£o DKIM
-lang pt_BR describe DKIM_ADSP_NXDOMAIN Nenhuma assinatura v√°lida e o dom√≠nio n√£o consta no DNS
-lang pt_BR describe DKIM_ADSP_DISCARD Nenhuma assinatura v√°lida do autor da mensagem e o dom√≠nio assina todos os emails e sugere descartar o resto
-lang pt_BR describe DKIM_ADSP_ALL Nenhuma assinatura v√°lida do autor da mensagem e o dom√≠nio assina todos os emails
-lang pt_BR describe DKIM_ADSP_CUSTOM_LOW Nenhuma assinatura v√°lida do autor da mensagem. adsp_override = CUSTOM_LOW
-lang pt_BR describe DKIM_ADSP_CUSTOM_MED Nenhuma assinatura v√°lida do autor da mensagem. adsp_override = CUSTOM_MED
-lang pt_BR describe DKIM_ADSP_CUSTOM_HIGH Nenhuma assinatura v√°lida do autor da mensagem. adsp_override = CUSTOM_HIGH
+lang pt_BR describe DKIM_SIGNED Mensagem possui uma assinatura DKIM ou DK n„o necessariamente v·lida
+lang pt_BR describe DKIM_VALID Mensagem possui ao menos uma assinatura DKIM ou DK v·lida
+lang pt_BR describe DKIM_VALID_AU Mensagem possui uma assinatura DKIM ou DK v·lida do domÌnio do autor da mensagem
+lang pt_BR describe __DKIM_DEPENDABLE Falha na validaÁ„o DKIM
+lang pt_BR describe DKIM_ADSP_NXDOMAIN Nenhuma assinatura v·lida e o domÌnio n„o consta no DNS
+lang pt_BR describe DKIM_ADSP_DISCARD Nenhuma assinatura v·lida do autor da mensagem e o domÌnio assina todos os emails e sugere descartar o resto
+lang pt_BR describe DKIM_ADSP_ALL Nenhuma assinatura v·lida do autor da mensagem e o domÌnio assina todos os emails
+lang pt_BR describe DKIM_ADSP_CUSTOM_LOW Nenhuma assinatura v·lida do autor da mensagem. adsp_override = CUSTOM_LOW
+lang pt_BR describe DKIM_ADSP_CUSTOM_MED Nenhuma assinatura v·lida do autor da mensagem. adsp_override = CUSTOM_MED
+lang pt_BR describe DKIM_ADSP_CUSTOM_HIGH Nenhuma assinatura v·lida do autor da mensagem. adsp_override = CUSTOM_HIGH
 lang pt_BR describe __VIA_RESIGNER Email passou por um Mail through a popular signing remailer
-lang pt_BR describe NML_ADSP_CUSTOM_LOW ADSP custom_low foi atingida, e n√£o foi de uma mailing list
-lang pt_BR describe NML_ADSP_CUSTOM_MED ADSP custom_med foi atingida, e n√£o foi de uma mailing list
-lang pt_BR describe NML_ADSP_CUSTOM_HIGH ADSP custom_high foi atingida, e n√£o foi de uma mailing list
+lang pt_BR describe NML_ADSP_CUSTOM_LOW ADSP custom_low foi atingida, e n„o foi de uma mailing list
+lang pt_BR describe NML_ADSP_CUSTOM_MED ADSP custom_med foi atingida, e n„o foi de uma mailing list
+lang pt_BR describe NML_ADSP_CUSTOM_HIGH ADSP custom_high foi atingida, e n„o foi de uma mailing list
 
 # 25_hashcash.cf
 lang pt_BR describe HASHCASH_20 Contains valid Hashcash token (20 bits)
@@ -570,32 +570,32 @@ lang pt_BR describe FUZZY_VPILL Tentativa de esconder palavras na mensagem
 lang pt_BR describe FUZZY_XPILL Tentativa de esconder palavras na mensagem
 
 # 25_spf.cf
-lang pt_BR describe SPF_PASS SPF: Remetente √© v√°lido de acordo com registro SPF
-lang pt_BR describe SPF_NEUTRAL SPF: Remetente n√£o confere com registro SPF (neutral)
-lang pt_BR describe SPF_FAIL SPF: Remetente n√£o confere com registro SPF (fail)
-lang pt_BR describe SPF_SOFTFAIL SPF: Remetente n√£o confere com registro SPF (softfail)
+lang pt_BR describe SPF_PASS SPF: Remetente È v·lido de acordo com registro SPF
+lang pt_BR describe SPF_NEUTRAL SPF: Remetente n„o confere com registro SPF (neutral)
+lang pt_BR describe SPF_FAIL SPF: Remetente n„o confere com registro SPF (fail)
+lang pt_BR describe SPF_SOFTFAIL SPF: Remetente n„o confere com registro SPF (softfail)
 lang pt_BR describe SPF_HELO_PASS SPF: HELO confere com registro SPF
-lang pt_BR describe SPF_HELO_NEUTRAL SPF: HELO n√£o confere com registro SPF (neutral)
-lang pt_BR describe SPF_HELO_FAIL SPF: HELO n√£o confere com registro SPF (fail)
-lang pt_BR describe SPF_HELO_SOFTFAIL SPF: HELO n√£o confere com registro SPF (softfail)
+lang pt_BR describe SPF_HELO_NEUTRAL SPF: HELO n„o confere com registro SPF (neutral)
+lang pt_BR describe SPF_HELO_FAIL SPF: HELO n„o confere com registro SPF (fail)
+lang pt_BR describe SPF_HELO_SOFTFAIL SPF: HELO n„o confere com registro SPF (softfail)
 
 # 25_textcat.cf
-lang pt_BR describe UNWANTED_LANGUAGE_BODY Mensagem est√° escrita em um idioma indesejado
-lang pt_BR describe BODY_8BITS Body cont√©m 8 caracteres de 8-bit consecutivos
+lang pt_BR describe UNWANTED_LANGUAGE_BODY Mensagem est· escrita em um idioma indesejado
+lang pt_BR describe BODY_8BITS Body contÈm 8 caracteres de 8-bit consecutivos
 
 # 25_uribl.cf
-lang pt_BR describe URIBL_SBL Cont√©m uma URL listada na blacklist SBL
-lang pt_BR describe URIBL_DBL_SPAM Cont√©m uma URL listada na blacklist DBL blocklist
+lang pt_BR describe URIBL_SBL ContÈm uma URL listada na blacklist SBL
+lang pt_BR describe URIBL_DBL_SPAM ContÈm uma URL listada na blacklist DBL blocklist
 lang pt_BR describe URIBL_DBL_ERROR Erro: Consultou a DBL por um IP
-lang pt_BR describe URIBL_SC_SURBL Cont√©m uma URL listada na blacklist SC SURBL
-lang pt_BR describe URIBL_WS_SURBL Cont√©m uma URL listada na blacklist WS SURBL
-lang pt_BR describe URIBL_PH_SURBL Cont√©m uma URL listada na blacklist PH SURBL
-lang pt_BR describe URIBL_OB_SURBL Cont√©m uma URL listada na blacklist OB SURBL
-lang pt_BR describe URIBL_AB_SURBL Cont√©m uma URL listada na blacklist AB SURBL
-lang pt_BR describe URIBL_JP_SURBL Cont√©m uma URL listada na blacklist JP SURBL
-lang pt_BR describe URIBL_BLACK Cont√©m uma URL listada na blacklist URIBL
-lang pt_BR describe URIBL_GREY Cont√©m uma URL listada na greylist URIBL
-lang pt_BR describe URIBL_RED Cont√©m uma URL listada na redlist URIBL
+lang pt_BR describe URIBL_SC_SURBL ContÈm uma URL listada na blacklist SC SURBL
+lang pt_BR describe URIBL_WS_SURBL ContÈm uma URL listada na blacklist WS SURBL
+lang pt_BR describe URIBL_PH_SURBL ContÈm uma URL listada na blacklist PH SURBL
+lang pt_BR describe URIBL_OB_SURBL ContÈm uma URL listada na blacklist OB SURBL
+lang pt_BR describe URIBL_AB_SURBL ContÈm uma URL listada na blacklist AB SURBL
+lang pt_BR describe URIBL_JP_SURBL ContÈm uma URL listada na blacklist JP SURBL
+lang pt_BR describe URIBL_BLACK ContÈm uma URL listada na blacklist URIBL
+lang pt_BR describe URIBL_GREY ContÈm uma URL listada na greylist URIBL
+lang pt_BR describe URIBL_RED ContÈm uma URL listada na redlist URIBL
 
 # 60_shortcircuit.cf
 lang pt_BR describe SHORTCIRCUIT Not all rules were run, due to a shortcircuited rule
