@@ -416,38 +416,38 @@ lang pt_BR describe LIVE_PORN Pornografia - mensagem contém "Live Porn"
 lang pt_BR describe SUBJECT_SEXUAL Assunto indica conteúdo sexualmente-explícito
 
 # 20_ratware.cf
-lang pt_BR describe RATWARE_EGROUPS Bulk email fingerprint (eGroups) found
-lang pt_BR describe RATWARE_OE_MALFORMED X-Mailer has malformed Outlook Express version
-lang pt_BR describe RATWARE_MOZ_MALFORMED Bulk email fingerprint (Mozilla malformed) found
-lang pt_BR describe RATWARE_MPOP_WEBMAIL Bulk email fingerprint (mPOP Web-Mail)
-lang pt_BR describe FORGED_MUA_IMS Forged mail pretending to be from IMS
-lang pt_BR describe FORGED_MUA_OUTLOOK Forged mail pretending to be from MS Outlook
-lang pt_BR describe FORGED_MUA_OIMO Forged mail pretending to be from MS Outlook IMO
-lang pt_BR describe FORGED_MUA_EUDORA Forged mail pretending to be from Eudora
-lang pt_BR describe FORGED_MUA_THEBAT_CS Mail pretending to be from The Bat! (charset)
-lang pt_BR describe FORGED_MUA_THEBAT_BOUN Mail pretending to be from The Bat! (boundary)
-lang pt_BR describe FORGED_OUTLOOK_HTML Outlook can't send HTML message only
-lang pt_BR describe FORGED_IMS_HTML IMS can't send HTML message only
-lang pt_BR describe FORGED_THEBAT_HTML The Bat! can't send HTML message only
-lang pt_BR describe REPTO_QUOTE_AOL AOL doesn't do quoting like this
-lang pt_BR describe REPTO_QUOTE_IMS IMS doesn't do quoting like this
-lang pt_BR describe REPTO_QUOTE_MSN MSN doesn't do quoting like this
-lang pt_BR describe REPTO_QUOTE_QUALCOMM Qualcomm/Eudora doesn't do quoting like this
-lang pt_BR describe REPTO_QUOTE_YAHOO Yahoo! doesn't do quoting like this
-lang pt_BR describe FORGED_QUALCOMM_TAGS QUALCOMM mailers can't send HTML in this format
-lang pt_BR describe FORGED_IMS_TAGS IMS mailers can't send HTML in this format
-lang pt_BR describe FORGED_OUTLOOK_TAGS Outlook can't send HTML in this format
-lang pt_BR describe RATWARE_HASH_DASH Contains a hashbuster in Send-Safe format
-lang pt_BR describe RATWARE_GECKO_BUILD Bulk email fingerprint (Gecko faked) found
-lang pt_BR describe RATWARE_ZERO_TZ Bulk email fingerprint (+0000) found
-lang pt_BR describe X_MESSAGE_INFO Bulk email fingerprint (X-Message-Info) found
-lang pt_BR describe HEADER_SPAM Bulk email fingerprint (header-based) found
-lang pt_BR describe RATWARE_RCVD_PF Bulk email fingerprint (Received PF) found
-lang pt_BR describe RATWARE_RCVD_AT Bulk email fingerprint (Received @) found
-lang pt_BR describe RATWARE_OUTLOOK_NONAME Bulk email fingerprint (Outlook no name) found
-lang pt_BR describe RATWARE_MS_HASH Bulk email fingerprint (msgid ms hash) found
-lang pt_BR describe RATWARE_NAME_ID Bulk email fingerprint (msgid from) found
-lang pt_BR describe RATWARE_EFROM Bulk email fingerprint (envfrom) found
+lang pt_BR describe RATWARE_EGROUPS Detectado como email em massa já conhecido (eGroups)
+lang pt_BR describe RATWARE_OE_MALFORMED X-Mailer mal-formado tentando indicar uma versão do Outlook Express
+lang pt_BR describe RATWARE_MOZ_MALFORMED Detectado como email em massa já conhecido (Mozilla malformed)
+lang pt_BR describe RATWARE_MPOP_WEBMAIL Detectado como email em massa já conhecido (mPOP Web-Mail)
+lang pt_BR describe FORGED_MUA_IMS Email Email fingindo ser enviado pelo IMS
+lang pt_BR describe FORGED_MUA_OUTLOOK Email fingindo ser enviado pelo MS Outlook
+lang pt_BR describe FORGED_MUA_OIMO Email fingindo ser enviado pelo MS Outlook IMO
+lang pt_BR describe FORGED_MUA_EUDORA Email fingindo ser enviado pelo Eudora
+lang pt_BR describe FORGED_MUA_THEBAT_CS Email fingindo ser enviado pelo The Bat! (charset)
+lang pt_BR describe FORGED_MUA_THEBAT_BOUN Email fingindo ser enviado pelo The Bat! (boundary)
+lang pt_BR describe FORGED_OUTLOOK_HTML Outlook não consegue enviar mensagens apenas HTML
+lang pt_BR describe FORGED_IMS_HTML IMS não consegue enviar mensagens apenas HTML
+lang pt_BR describe FORGED_THEBAT_HTML The Bat! não consegue enviar mensagens apenas HTML
+lang pt_BR describe REPTO_QUOTE_AOL AOL não usa o formato de citação usado no email
+lang pt_BR describe REPTO_QUOTE_IMS IMS não usa o formato de citação usado no email
+lang pt_BR describe REPTO_QUOTE_MSN MSN não usa o formato de citação usado no email
+lang pt_BR describe REPTO_QUOTE_QUALCOMM Qualcomm/Eudora não usa o formato de citação usado no email
+lang pt_BR describe REPTO_QUOTE_YAHOO Yahoo! não usa o formato de citação usado no email
+lang pt_BR describe FORGED_QUALCOMM_TAGS QUALCOMM não consegue enviar emails HTML neste formato
+lang pt_BR describe FORGED_IMS_TAGS IMS não consegue enviar emails HTML neste formato
+lang pt_BR describe FORGED_OUTLOOK_TAGS Outlook não consegue enviar emails HTML neste formato
+lang pt_BR describe RATWARE_HASH_DASH Contém hashbuster no formato Sender-Safe
+lang pt_BR describe RATWARE_GECKO_BUILD Detectado como email em massa já conhecido (Gecko faked)
+lang pt_BR describe RATWARE_ZERO_TZ Detectado como email em massa já conhecido (+0000)
+lang pt_BR describe X_MESSAGE_INFO Detectado como email em massa já conhecido (X-Message-Info)
+lang pt_BR describe HEADER_SPAM Detectado como email em massa já conhecido (header-based)
+lang pt_BR describe RATWARE_RCVD_PF Detectado como email em massa já conhecido (Received PF)
+lang pt_BR describe RATWARE_RCVD_AT Detectado como email em massa já conhecido (Received @)
+lang pt_BR describe RATWARE_OUTLOOK_NONAME Detectado como email em massa já conhecido (Outlook no name)
+lang pt_BR describe RATWARE_MS_HASH Detectado como email em massa já conhecido (msgid ms hash)
+lang pt_BR describe RATWARE_NAME_ID Detectado como email em massa já conhecido (msgid from)
+lang pt_BR describe RATWARE_EFROM Detectado como email em massa já conhecido (envfrom)
 
 # 20_uri_tests.cf
 lang pt_BR describe NUMERIC_HTTP_ADDR Uses a numeric IP address in URL
