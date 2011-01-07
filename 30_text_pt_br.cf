@@ -469,37 +469,37 @@ lang pt_BR describe URI_NO_WWW_BIZ_CGI CGI in .biz TLD other than third-level "w
 lang pt_BR describe NORMAL_HTTP_TO_IP Uses a dotted-decimal IP address in URL
 
 # 20_vbounce.cf
-lang pt_BR describe BOUNCE_MESSAGE MTA bounce message
-lang pt_BR describe CHALLENGE_RESPONSE Challenge-Response message for mail you sent
-lang pt_BR describe CRBOUNCE_MESSAGE Challenge-Response bounce message
-lang pt_BR describe VBOUNCE_MESSAGE Virus-scanner bounce message
-lang pt_BR describe ANY_BOUNCE_MESSAGE Message is some kind of bounce message
+lang pt_BR describe BOUNCE_MESSAGE Mensagem de bounce do MTA
+lang pt_BR describe CHALLENGE_RESPONSE Mensagem Tira-Teima de um email que você enviou
+lang pt_BR describe CRBOUNCE_MESSAGE Bounce de mensagem Tira-Teima
+lang pt_BR describe VBOUNCE_MESSAGE Bounce de mensagem de antivirus
+lang pt_BR describe ANY_BOUNCE_MESSAGE Mensagem é um bounce de algum email
 
 # 23_bayes.cf
-lang pt_BR describe BAYES_00 Bayes spam probability is 0 to 1%
-lang pt_BR describe BAYES_05 Bayes spam probability is 1 to 5%
-lang pt_BR describe BAYES_20 Bayes spam probability is 5 to 20%
-lang pt_BR describe BAYES_40 Bayes spam probability is 20 to 40%
-lang pt_BR describe BAYES_50 Bayes spam probability is 40 to 60%
-lang pt_BR describe BAYES_60 Bayes spam probability is 60 to 80%
-lang pt_BR describe BAYES_80 Bayes spam probability is 80 to 95%
-lang pt_BR describe BAYES_95 Bayes spam probability is 95 to 99%
-lang pt_BR describe BAYES_99 Bayes spam probability is 99 to 100%
+lang pt_BR describe BAYES_00 Probabilidade de ser spam entre 0 to 1%
+lang pt_BR describe BAYES_05 Probabilidade de ser spam entre 1 to 5%
+lang pt_BR describe BAYES_20 Probabilidade de ser spam entre 5 to 20%
+lang pt_BR describe BAYES_40 Probabilidade de ser spam entre 20 to 40%
+lang pt_BR describe BAYES_50 Probabilidade de ser spam entre 40 to 60%
+lang pt_BR describe BAYES_60 Probabilidade de ser spam entre 60 to 80%
+lang pt_BR describe BAYES_80 Probabilidade de ser spam entre 80 to 95%
+lang pt_BR describe BAYES_95 Probabilidade de ser spam entre 95 to 99%
+lang pt_BR describe BAYES_99 Probabilidade de ser spam entre 99 to 100%
 
 # 25_accessdb.cf
-lang pt_BR describe ACCESSDB Message would have been caught by accessdb
+lang pt_BR describe ACCESSDB Mensagem teria sido pega pela accessdb
 
 # 25_antivirus.cf
-lang pt_BR describe MICROSOFT_EXECUTABLE Message includes Microsoft executable program
-lang pt_BR describe MIME_SUSPECT_NAME MIME filename does not match content
+lang pt_BR describe MICROSOFT_EXECUTABLE Mensagem contém um programa executável Microsoft
+lang pt_BR describe MIME_SUSPECT_NAME Extensão do arquivo não corresponde ao seu conteúdo
 
 # 25_dcc.cf
-lang pt_BR describe DCC_CHECK Listed in DCC (http://rhyolite.com/anti-spam/dcc/)
-lang pt_BR describe DCC_REPUT_00_12 DCC reputation between 0 and 12 %  (mostly ham)
-lang pt_BR describe DCC_REPUT_70_89 DCC reputation between 70 and 89 %
-lang pt_BR describe DCC_REPUT_90_94 DCC reputation between 90 and 94 %
-lang pt_BR describe DCC_REPUT_95_98 DCC reputation between 95 and 98 %  (mostly spam)
-lang pt_BR describe DCC_REPUT_99_100 DCC reputation between 99 % or higher (spam)
+lang pt_BR describe DCC_CHECK Listado no DCC (http://rhyolite.com/anti-spam/dcc/)
+lang pt_BR describe DCC_REPUT_00_12 Reputação no DCC entre 0 e 12 %  (maioria não-spam)
+lang pt_BR describe DCC_REPUT_70_89 Reputação no DCC entre 70 and 89 %
+lang pt_BR describe DCC_REPUT_90_94 Reputação no DCC entre 90 and 94 %
+lang pt_BR describe DCC_REPUT_95_98 Reputação no DCC entre 95 and 98 %  (maioria de spam)
+lang pt_BR describe DCC_REPUT_99_100 Reputação no DCC entre 99 % ou mais (definitamente spam)
 
 # 25_dkim.cf
 lang pt_BR describe DKIM_SIGNED Mensagem possui uma assinatura DKIM ou DK não necessariamente válida
@@ -518,23 +518,23 @@ lang pt_BR describe NML_ADSP_CUSTOM_MED ADSP custom_med foi atingida, e não foi 
 lang pt_BR describe NML_ADSP_CUSTOM_HIGH ADSP custom_high foi atingida, e não foi de uma mailing list
 
 # 25_hashcash.cf
-lang pt_BR describe HASHCASH_20 Contains valid Hashcash token (20 bits)
-lang pt_BR describe HASHCASH_21 Contains valid Hashcash token (21 bits)
-lang pt_BR describe HASHCASH_22 Contains valid Hashcash token (22 bits)
-lang pt_BR describe HASHCASH_23 Contains valid Hashcash token (23 bits)
-lang pt_BR describe HASHCASH_24 Contains valid Hashcash token (24 bits)
-lang pt_BR describe HASHCASH_25 Contains valid Hashcash token (25 bits)
-lang pt_BR describe HASHCASH_HIGH Contains valid Hashcash token (>25 bits)
-lang pt_BR describe HASHCASH_2SPEND Hashcash token already spent in another mail
+lang pt_BR describe HASHCASH_20 Contém um token Hashcash válido (20 bits)
+lang pt_BR describe HASHCASH_21 Contém um token Hashcash válido (21 bits)
+lang pt_BR describe HASHCASH_22 Contém um token Hashcash válido (22 bits)
+lang pt_BR describe HASHCASH_23 Contém um token Hashcash válido (23 bits)
+lang pt_BR describe HASHCASH_24 Contém um token Hashcash válido (24 bits)
+lang pt_BR describe HASHCASH_25 Contém um token Hashcash válido (25 bits)
+lang pt_BR describe HASHCASH_HIGH Contém um token Hashcash válido (>25 bits)
+lang pt_BR describe HASHCASH_2SPEND Token Hascash já foi usado em outro email
 
 # 25_pyzor.cf
-lang pt_BR describe PYZOR_CHECK Listed in Pyzor (http://pyzor.sf.net/)
+lang pt_BR describe PYZOR_CHECK Listado na Pyzor (http://pyzor.sf.net/)
 
 # 25_razor2.cf
-lang pt_BR describe RAZOR2_CHECK Listed in Razor2 (http://razor.sf.net/)
-lang pt_BR describe RAZOR2_CF_RANGE_51_100 Razor2 gives confidence level above 50%
-lang pt_BR describe RAZOR2_CF_RANGE_E4_51_100 Razor2 gives engine 4 confidence level above 50%
-lang pt_BR describe RAZOR2_CF_RANGE_E8_51_100 Razor2 gives engine 8 confidence level above 50%
+lang pt_BR describe RAZOR2_CHECK Listado na Razor2 (http://razor.sf.net/)
+lang pt_BR describe RAZOR2_CF_RANGE_51_100 Nível de confiança na Razor2 acima de 50%
+lang pt_BR describe RAZOR2_CF_RANGE_E4_51_100 Nível de confiança na Razor2 em engine 4 acima de 50%
+lang pt_BR describe RAZOR2_CF_RANGE_E8_51_100 Nível de confiança na Razor2 em engine 4 acima de 50%
 
 # 25_replace.cf
 lang pt_BR describe SUBJECT_FUZZY_MEDS Tentativa de esconder palavras no Subject:
@@ -598,20 +598,20 @@ lang pt_BR describe URIBL_GREY Contém uma URL listada na greylist URIBL
 lang pt_BR describe URIBL_RED Contém uma URL listada na redlist URIBL
 
 # 60_shortcircuit.cf
-lang pt_BR describe SHORTCIRCUIT Not all rules were run, due to a shortcircuited rule
+lang pt_BR describe SHORTCIRCUIT Nem todas as regras foram executadas por causa de um problema em uma delas
 
 # 60_whitelist_dkim.cf
-lang pt_BR describe USER_IN_DKIM_WHITELIST From: address is in the user's DKIM whitelist
-lang pt_BR describe USER_IN_DEF_DKIM_WL From: address is in the default DKIM white-list
+lang pt_BR describe USER_IN_DKIM_WHITELIST Endereço do From: está na whitelist de DKIM do usuário
+lang pt_BR describe USER_IN_DEF_DKIM_WL Endereço do From: está na whitelist de DKIM padrão
 
 # 60_whitelist_spf.cf
-lang pt_BR describe USER_IN_SPF_WHITELIST From: address is in the user's SPF whitelist
-lang pt_BR describe USER_IN_DEF_SPF_WL From: address is in the default SPF white-list
-lang pt_BR describe ENV_AND_HDR_SPF_MATCH Env and Hdr From used in default SPF WL Match
+lang pt_BR describe USER_IN_SPF_WHITELIST Endereço do From: está na whitelist de SPF do usuário
+lang pt_BR describe USER_IN_DEF_SPF_WL Endereço do From: está na whitelist de SPF padrão
+lang pt_BR describe ENV_AND_HDR_SPF_MATCH Endereço do From: confere com Envelope From e está na whitelist de SPF
 
 # 60_whitelist_subject.cf
-lang pt_BR describe SUBJECT_IN_WHITELIST Subject: contains string in the user's white-list
-lang pt_BR describe SUBJECT_IN_BLACKLIST Subject: contains string in the user's black-list
+lang pt_BR describe SUBJECT_IN_WHITELIST Assunto contém palavra que está na whitelist do usuário
+lang pt_BR describe SUBJECT_IN_BLACKLIST Assunto contém palavra que está na blacklist do usuário
 
 # 72_active.cf
 lang pt_BR describe APOSTROPHE_FROM From address contains an apostrophe
