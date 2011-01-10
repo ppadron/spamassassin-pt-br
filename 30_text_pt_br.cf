@@ -288,57 +288,56 @@ lang pt_BR describe RCVD_NUMERIC_HELO Received: contains an IP address used for 
 lang pt_BR describe NO_RDNS_DOTCOM_HELO Host HELO'd as a big ISP, but had no rDNS
 
 # 20_html_tests.cf
-lang pt_BR describe HTML_SHORT_LINK_IMG_1 HTML is very short with a linked image
-lang pt_BR describe HTML_SHORT_LINK_IMG_2 HTML is very short with a linked image
-lang pt_BR describe HTML_SHORT_LINK_IMG_3 HTML is very short with a linked image
-lang pt_BR describe HTML_SHORT_CENTER HTML is very short with CENTER tag
-lang pt_BR describe HTML_CHARSET_FARAWAY A foreign language charset used in HTML markup
-lang pt_BR describe HTML_MIME_NO_HTML_TAG HTML-only message, but there is no HTML tag
-lang pt_BR describe HTML_MISSING_CTYPE Message is HTML without HTML Content-Type
-lang pt_BR describe HIDE_WIN_STATUS Javascript_BR to hide URLs in browser
-lang pt_BR describe OBFUSCATING_COMMENT HTML comments which obfuscate text
-lang pt_BR describe JS_FROMCHARCODE Document is built from a Javascript_BR charcode array
-lang pt_BR describe HTML_MESSAGE HTML included in message
-lang pt_BR describe HTML_COMMENT_SHORT HTML comment is very short
-lang pt_BR describe HTML_COMMENT_SAVED_URL HTML message is a saved web page
-lang pt_BR describe HTML_EMBEDS HTML with embedded plugin object
-lang pt_BR describe HTML_EXTRA_CLOSE HTML contains far too many close tags
-lang pt_BR describe HTML_FONT_SIZE_LARGE HTML font size is large
-lang pt_BR describe HTML_FONT_SIZE_HUGE HTML font size is huge
-lang pt_BR describe HTML_FONT_LOW_CONTRAST HTML font color similar to background
-lang pt_BR describe HTML_FONT_FACE_BAD HTML font face is not a word
-lang pt_BR describe HTML_FORMACTION_MAILTO HTML includes a form which sends mail
-lang pt_BR describe HTML_IMAGE_ONLY_04 HTML: images with 0-400 bytes of words
-lang pt_BR describe HTML_IMAGE_ONLY_08 HTML: images with 400-800 bytes of words
-lang pt_BR describe HTML_IMAGE_ONLY_12 HTML: images with 800-1200 bytes of words
-lang pt_BR describe HTML_IMAGE_ONLY_16 HTML: images with 1200-1600 bytes of words
-lang pt_BR describe HTML_IMAGE_ONLY_20 HTML: images with 1600-2000 bytes of words
-lang pt_BR describe HTML_IMAGE_ONLY_24 HTML: images with 2000-2400 bytes of words
-lang pt_BR describe HTML_IMAGE_ONLY_28 HTML: images with 2400-2800 bytes of words
-lang pt_BR describe HTML_IMAGE_ONLY_32 HTML: images with 2800-3200 bytes of words
-lang pt_BR describe HTML_IMAGE_RATIO_02 HTML has a low ratio of text to image area
-lang pt_BR describe HTML_IMAGE_RATIO_04 HTML has a low ratio of text to image area
-lang pt_BR describe HTML_IMAGE_RATIO_06 HTML has a low ratio of text to image area
-lang pt_BR describe HTML_IMAGE_RATIO_08 HTML has a low ratio of text to image area
-lang pt_BR describe HTML_OBFUSCATE_05_10 Message is 5% to 10% HTML obfuscation
-lang pt_BR describe HTML_OBFUSCATE_10_20 Message is 10% to 20% HTML obfuscation
-lang pt_BR describe HTML_OBFUSCATE_20_30 Message is 20% to 30% HTML obfuscation
-lang pt_BR describe HTML_OBFUSCATE_30_40 Message is 30% to 40% HTML obfuscation
-lang pt_BR describe HTML_OBFUSCATE_50_60 Message is 50% to 60% HTML obfuscation
-lang pt_BR describe HTML_OBFUSCATE_70_80 Message is 70% to 80% HTML obfuscation
-lang pt_BR describe HTML_OBFUSCATE_90_100 Message is 90% to 100% HTML obfuscation
-lang pt_BR describe HTML_TAG_BALANCE_BODY HTML has unbalanced "body" tags
-lang pt_BR describe HTML_TAG_BALANCE_HEAD HTML has unbalanced "head" tags
-lang pt_BR describe HTML_TAG_EXIST_BGSOUND HTML has "bgsound" tag
-lang pt_BR describe HTML_BADTAG_40_50 HTML message is 40% to 50% bad tags
-lang pt_BR describe HTML_BADTAG_50_60 HTML message is 50% to 60% bad tags
-lang pt_BR describe HTML_BADTAG_60_70 HTML message is 60% to 70% bad tags
-lang pt_BR describe HTML_BADTAG_90_100 HTML message is 90% to 100% bad tags
-lang pt_BR describe HTML_NONELEMENT_30_40 30% to 40% of HTML elements are non-standard
-lang pt_BR describe HTML_NONELEMENT_40_50 40% to 50% of HTML elements are non-standard
-lang pt_BR describe HTML_NONELEMENT_60_70 60% to 70% of HTML elements are non-standard
-lang pt_BR describe HTML_NONELEMENT_80_90 80% to 90% of HTML elements are non-standard
-lang pt_BR describe HTML_IFRAME_SRC Message has HTML IFRAME tag with SRC URI
+lang pt_BR describe HTML_SHORT_LINK_IMG_1 O código HTML é muito pequeno, com uma imagem com link
+lang pt_BR describe HTML_SHORT_LINK_IMG_2 O código HTML é muito pequeno, com uma imagem com link
+lang pt_BR describe HTML_SHORT_LINK_IMG_3 O código HTML é muito pequeno, com uma imagem com link 
+lang pt_BR describe HTML_SHORT_CENTER O código HTML é muito curto e usa uma tag center.
+lang pt_BR describe HTML_CHARSET_FARAWAY Um idioma estrangeiro foi declarado no charset do HTML
+lang pt_BR describe HTML_MIME_NO_HTML_TAG A mensagem é em HTML, mas não há uma tag HTML
+lang pt_BR describe HTML_MISSING_CTYPE A mensagem é em HTML mas não tem a declaração HTML Content-Type
+lang pt_BR describe HIDE_WIN_STATUS Uso de Javascript_BR para ocultar as URLS no navegador
+lang pt_BR describe OBFUSCATING_COMMENT HTML possui comentários com texto suspeito
+lang pt_BR describe JS_FROMCHARCODE Documento construído a partir de um array em Javascript
+lang pt_BR describe HTML_MESSAGE HTML incluso na mensagem
+lang pt_BR describe HTML_COMMENT_SHORT O comentário no HTML é muito curto
+lang pt_BR describe HTML_COMMENT_SAVED_URL O HTML da mensagem foi salvo de uma página da web
+lang pt_BR describe HTML_EMBEDS O HTML possui um objeto plugin incorporado
+lang pt_BR describe HTML_EXTRA_CLOSE HTML contém muitas tags fechadas (que não foram abertas)
+lang pt_BR describe HTML_FONT_SIZE_LARGE O HTML contém fonte de tamanho grande
+lang pt_BR describe HTML_FONT_SIZE_HUGE O HTML contém fonte de tamanho muito grande
+lang pt_BR describe HTML_FONT_LOW_CONTRAST Há textos com cores similares à cor de fundo
+lang pt_BR describe HTML_FONT_FACE_BAD font face não é uma expressão
+lang pt_BR describe HTML_FORMACTION_MAILTO O HTML contém um formulário que envia email
+lang pt_BR describe HTML_IMAGE_ONLY_04 HTML: Código HTML possui entre 0-400 caracteres
+lang pt_BR describe HTML_IMAGE_ONLY_08 HTML: Código HTML possui entre 400-800 caracteres
+lang pt_BR describe HTML_IMAGE_ONLY_12 HTML: Código HTML possui entre 800-1200 caracteres
+lang pt_BR describe HTML_IMAGE_ONLY_16 HTML: Código HTML possui entre 1200-1600 caracteres
+lang pt_BR describe HTML_IMAGE_ONLY_20 HTML: Código HTML possui entre 1600-2000 caracteres
+lang pt_BR describe HTML_IMAGE_ONLY_24 HTML: Código HTML possui entre 2000-2400 caracteres
+lang pt_BR describe HTML_IMAGE_ONLY_28 HTML: Código HTML possui entre 2400-2800 caracteres
+lang pt_BR describe HTML_IMAGE_ONLY_32 HTML: Código HTML possui entre 2800-320000 caracteres
+lang pt_BR describe HTML_IMAGE_RATIO_02 O HTML tem pouco texto em relação às imagens
+lang pt_BR describe HTML_IMAGE_RATIO_02 O HTML tem pouco texto em relação às imagens
+lang pt_BR describe HTML_IMAGE_RATIO_02 O HTML tem pouco texto em relação às imagens
+lang pt_BR describe HTML_IMAGE_RATIO_02 O HTML tem pouco texto em relação às imagens
+lang pt_BR describe HTML_OBFUSCATE_05_10 HTML possui de 5% a 10% de tags vazias ou desnecessárias
+lang pt_BR describe HTML_OBFUSCATE_10_20 HTML possui de 10% a 20% de tags vazias ou desnecessárias
+lang pt_BR describe HTML_OBFUSCATE_20_30 HTML possui de 20% a 30% de tags vazias ou desnecessárias
+lang pt_BR describe HTML_OBFUSCATE_30_40 HTML possui de 30% a 40% de tags vazias ou desnecessárias
+lang pt_BR describe HTML_OBFUSCATE_50_60 HTML possui de 50% a 60% de tags vazias ou desnecessárias
+lang pt_BR describe HTML_OBFUSCATE_70_80 HTML possui de 70% a 80% de tags vazias ou desnecessárias
+lang pt_BR describe HTML_TAG_BALANCE_BODY HTML possui uma tag "body" que não foi aberta ou fechada
+lang pt_BR describe HTML_TAG_BALANCE_HEAD HTML possui uma tag "head" que não foi aberta ou fechada
+lang pt_BR describe HTML_TAG_EXIST_BGSOUND O HTML contém uma tag "bgsound"
+lang pt_BR describe HTML_BADTAG_40_50 HTML da mensagem possui de 40% a 50% de tags inválidas
+lang pt_BR describe HTML_BADTAG_40_50 HTML da mensagem possui de 50% a 60% de tags inválidas
+lang pt_BR describe HTML_BADTAG_40_50 HTML da mensagem possui de 60% a 70% de tags inválidas
+lang pt_BR describe HTML_BADTAG_40_50 HTML da mensagem possui de 90% a 100% de tags inválidas
+lang pt_BR describe HTML_NONELEMENT_30_40 O HTML usa de 30% a 40% de elementos fora dos padrões
+lang pt_BR describe HTML_NONELEMENT_30_40 O HTML usa de 40% a 50% de elementos fora dos padrões
+lang pt_BR describe HTML_NONELEMENT_30_40 O HTML usa de 60% a 70% de elementos fora dos padrões
+lang pt_BR describe HTML_NONELEMENT_30_40 O HTML usa de 80% a 90% de elementos fora dos padrões
+lang pt_BR describe HTML_BADTAG_40_50 HTML da mensagem possui tah IFRAME com URL no src
 
 # 20_imageinfo.cf
 lang pt_BR describe __DC_IMG_HTML_RATIO Low rawbody to pixel area ratio
