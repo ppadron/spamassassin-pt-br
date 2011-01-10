@@ -449,23 +449,23 @@ lang pt_BR describe RATWARE_NAME_ID Detectado como email em massa já conhecido (
 lang pt_BR describe RATWARE_EFROM Detectado como email em massa já conhecido (envfrom)
 
 # 20_uri_tests.cf
-lang pt_BR describe NUMERIC_HTTP_ADDR Uses a numeric IP address in URL
-lang pt_BR describe HTTP_ESCAPED_HOST Uses %-escapes inside a URL's hostname
-lang pt_BR describe HTTP_EXCESSIVE_ESCAPES Completely unnecessary %-escapes inside a URL
-lang pt_BR describe IP_LINK_PLUS Dotted-decimal IP address followed by CGI
-lang pt_BR describe WEIRD_PORT Uses non-standard port number for HTTP
-lang pt_BR describe YAHOO_RD_REDIR Has Yahoo Redirect URI
-lang pt_BR describe YAHOO_DRS_REDIR Has Yahoo Redirect URI
-lang pt_BR describe HTTP_77 Contains an URL-encoded hostname (HTTP77)
-lang pt_BR describe SPOOF_COM2OTH URI contains ".com" in middle
-lang pt_BR describe SPOOF_COM2COM URI contains ".com" in middle and end
-lang pt_BR describe SPOOF_NET2COM URI contains ".net" or ".org", then ".com"
-lang pt_BR describe URI_HEX URI hostname has long hexadecimal sequence
-lang pt_BR describe URI_NOVOWEL URI hostname has long non-vowel sequence
-lang pt_BR describe URI_UNSUBSCRIBE URI contains suspicious unsubscribe link
-lang pt_BR describe URI_NO_WWW_INFO_CGI CGI in .info TLD other than third-level "www"
-lang pt_BR describe URI_NO_WWW_BIZ_CGI CGI in .biz TLD other than third-level "www"
-lang pt_BR describe NORMAL_HTTP_TO_IP Uses a dotted-decimal IP address in URL
+lang pt_BR describe NUMERIC_HTTP_ADDR Utiliza um endereço em número IP na URL
+lang pt_BR describe HTTP_ESCAPED_HOST Usa %-escapes no hostname de uma URL
+lang pt_BR describe HTTP_EXCESSIVE_ESCAPES Usa %-escapes desnecessários dentro de uma URL
+lang pt_BR describe WEIRD_PORT Usa um número de porta não padrão para o HTTP
+lang pt_BR describe YAHOO_RD_REDIR Possui URI de Redirecionamento do Yahoo
+lang pt_BR describe YAHOO_DRS_REDIR Possui URI de Redirecionamento do Yahoo
+lang pt_BR describe SPOOF_COM2OTH URI contém ".com" no meio
+lang pt_BR describe SPOOF_COM2COM URI contém ".com" no meio e no fim
+lang pt_BR describe SPOOF_NET2COM URI contém ".net" ou ".org" e depois ".com"
+lang pt_BR describe URI_HEX Hostname apresenta uma longa seqüência hexadecimal
+lang pt_BR describe URI_NOVOWEL Hostname da URI contém uma longa seqüência sem vogal
+lang pt_BR describe URI_UNSUBSCRIBE Contém link suspeito de opt-out
+lang pt_BR describe IP_LINK_PLUS Endereço IP seguido de arquivo CGI
+lang pt_BR describe NORMAL_HTTP_TO_IP Usa um endereço IP na URL
+lang pt_BR describe URI_NO_WWW_INFO_CGI Domínio .info possui string suspeita ao invés de "www"
+lang pt_BR describe URI_NO_WWW_BIZ_CGI Domínio .biz possui string suspeita ao invés de "www"
+lang pt_BR describe HTTP_77 Contém uma URL codificada (URL-encoded) (HTTP77)
 
 # 20_vbounce.cf
 lang pt_BR describe BOUNCE_MESSAGE Mensagem de bounce do MTA
