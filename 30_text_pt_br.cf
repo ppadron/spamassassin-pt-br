@@ -671,16 +671,16 @@ lang pt_BR describe FB_LOWER_PAYM Contém: lower your monthly payments
 lang pt_BR describe FB_MORE_SIZE Contém: more size
 lang pt_BR describe FB_NOT_PHONE_NUM1 Parece ter um número de telefone falso (1)
 lang pt_BR describe FB_NOT_PHONE_NUM3 Parece ter um número de telefone falso (3)
-lang pt_BR describe FB_NOT_SCHOOL Looks like school but it's not!
+lang pt_BR describe FB_NOT_SCHOOL Tentativa de esconder a palavra "school"
 lang pt_BR describe FB_NO_SCRIP_NEEDED Contém: no prescription needed.
-lang pt_BR describe FB_NUMYO Speaks of teenager.
-lang pt_BR describe FB_NUMYO2 Speaks of 20+ year old.
-lang pt_BR describe FB_ODD_SPACED_MONEY Looks like money but has odd spacing.
-lang pt_BR describe FB_ONIINE Mis-spelled online
+lang pt_BR describe FB_NUMYO Fala sobre adolescentes (Contém: "14yo", "13ys", "12y")
+lang pt_BR describe FB_NUMYO2 Fala sobre maiores de idade (Contém: +20yo)
+lang pt_BR describe FB_ODD_SPACED_MONEY Contém algo que parece ser dinheiro, mas tem espaçamento estranho
+lang pt_BR describe FB_ONIINE "Online" escrito errado
 lang pt_BR describe FB_P1LL Contém: p1ll
 lang pt_BR describe FB_PENIS_GROWTH Contém: penis growth
 lang pt_BR describe FB_PIPEDOLLAR Contém: Dollar, with pipes or 0's.
-lang pt_BR describe FB_PIPE_ILLION Looks like illion, but it's not
+lang pt_BR describe FB_PIPE_ILLION Tentativa de esconder palavras como "million", "billion"...
 lang pt_BR describe FB_PROLONGED_HARD Talks about prolonged hardness
 lang pt_BR describe FB_QUALITY_REPLICA Contém: quality replica
 lang pt_BR describe FB_REF_CODE_SPACE Refcode with spacing
