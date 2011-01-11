@@ -613,99 +613,99 @@ lang pt_BR describe SUBJECT_IN_WHITELIST Assunto contém palavra que está na whit
 lang pt_BR describe SUBJECT_IN_BLACKLIST Assunto contém palavra que está na blacklist do usuário
 
 # 72_active.cf
-lang pt_BR describe APOSTROPHE_FROM From address contains an apostrophe
-lang pt_BR describe AXB_HELO_HOME_UN HELO from home  - untrusted
-lang pt_BR describe AXB_XMID_1212 Barbera Fingerprint
-lang pt_BR describe AXB_XMID_1510 Brunello Fingerprint
-lang pt_BR describe AXB_XMID_OEGOESNULL Amarone Fingerprint
-lang pt_BR describe AXB_XM_SENDMAIL_NOT Nebbiolo fingerprint
-lang pt_BR describe BANKING_LAWS Talks about banking laws
-lang pt_BR describe CORRUPT_FROM_LINE_IN_HDRS Informational: message is corrupt, with a From line in its headers
+lang pt_BR describe APOSTROPHE_FROM Endereço do From: contém apóstrofo
+lang pt_BR describe AXB_HELO_HOME_UN Mensagem enviada a partir de uma conexão doméstica
+lang pt_BR describe AXB_XMID_1212 Spam conhecido (Barbera)
+lang pt_BR describe AXB_XMID_1510 Spam conhecido (Brunello)
+lang pt_BR describe AXB_XMID_OEGOESNULL Spam conhecido (Amarone)
+lang pt_BR describe AXB_XM_SENDMAIL_NOT Spam conhecido (Nebbiolo)
+lang pt_BR describe BANKING_LAWS Mensagem fala sobre leis bancárias
+lang pt_BR describe CORRUPT_FROM_LINE_IN_HDRS Informação: mensagem está corrompida (problemas no cabeçalho)
 lang pt_BR describe CTYPE_8SPACE_GIF Stock spam image part 'Content-Type' found (8 spc)
-lang pt_BR describe DEAR_BENEFICIARY Dear Beneficiary:
-lang pt_BR describe DEAR_EMAIL Message contains Dear email address
-lang pt_BR describe DOS_ANAL_SPAM_MAILER X-mailer pattern common to anal porn site spam
-lang pt_BR describe DOS_FIX_MY_URI Looks like a "fix my obfu'd URI please" spam
-lang pt_BR describe DOS_HIGHBIT_HDRS_BODY Headers need encoding and body is highbit
-lang pt_BR describe DOS_HIGH_BAT_TO_MX The Bat! Direct to MX with High Bits
-lang pt_BR describe DOS_LET_GO_JOB Let go from their job and now makes lots of dough!
-lang pt_BR describe DOS_OE_TO_MX Delivered direct to MX with OE headers
-lang pt_BR describe DOS_OE_TO_MX_IMAGE Direct to MX with OE headers and an image
-lang pt_BR describe DOS_OUTLOOK_TO_MX Delivered direct to MX with Outlook headers
-lang pt_BR describe DOS_RCVD_IP_TWICE_C Received from the same IP twice in a row (only one external relay; empty or IP helo)
-lang pt_BR describe DOS_STOCK_BAT Probable pump and dump stock spam
-lang pt_BR describe DOS_URI_ASTERISK Found an asterisk in a URI
-lang pt_BR describe DOS_YOUR_PLACE Russian dating spam
-lang pt_BR describe DRUGS_STOCK_MIMEOLE Stock-spam forged headers found (5510)
-lang pt_BR describe DYN_RDNS_AND_INLINE_IMAGE Contains image, and was sent by dynamic rDNS
-lang pt_BR describe DYN_RDNS_SHORT_HELO_HTML Sent by dynamic rDNS, short HELO, and HTML
-lang pt_BR describe DYN_RDNS_SHORT_HELO_IMAGE Short HELO string, dynamic rDNS, inline image
-lang pt_BR describe FB_ADD_INCHES Add / Gain inches
-lang pt_BR describe FB_ALMOST_SEX It's almost sex, but not!
-lang pt_BR describe FB_ANA_TRIM Broken AnaTrim phrase.
-lang pt_BR describe FB_ANUI Phrase: A_U_N_I
-lang pt_BR describe FB_BILLI0N Phrase: [BM]Illi0n
-lang pt_BR describe FB_C0MPANY Phrase: C0mpany
-lang pt_BR describe FB_CAN_LONGER Phrase: can last longer
-lang pt_BR describe FB_CIALIS_LEO3 Uses a mis-spelled version of cialis.
+lang pt_BR describe DEAR_BENEFICIARY Contém o texto "Dear Beneficiary:"
+lang pt_BR describe DEAR_EMAIL Contém o texto "Dear <email>"
+lang pt_BR describe DOS_ANAL_SPAM_MAILER Padrão do cabeçalho X-mailer comumente encontrado em spam de sites pornográficos
+lang pt_BR describe DOS_FIX_MY_URI Parece ser um spam do tipo "fix my obfu'd URI please"
+lang pt_BR describe DOS_HIGHBIT_HDRS_BODY Corpo da mensagem possui caracteres especiais, mas o cabeçalho não especifica
+lang pt_BR describe DOS_HIGH_BAT_TO_MX Enviado pelo "The Bat!" direto ao MX e o corpo da mensagem possui caracteres especiais
+lang pt_BR describe DOS_LET_GO_JOB Spam conhecido "Let go from their job and now makes lots of dough!"
+lang pt_BR describe DOS_OE_TO_MX Mensagem foi entregue direto ao MX, mas possui headers do Outlook Express
+lang pt_BR describe DOS_OE_TO_MX_IMAGE Mensagem foi entregue direto ao MX, mas possui headers do Outlook Express e uma imagem
+lang pt_BR describe DOS_OUTLOOK_TO_MX Mensagem foi entregue direto ao MX, mas possui headers do Outlook Express
+lang pt_BR describe DOS_RCVD_IP_TWICE_C Mensagem passou pelo mesmo IP duas vezes seguidas (apenas um relay externo; HELO vazio ou IP)
+lang pt_BR describe DOS_STOCK_BAT Spam conhecido "pump and dump stock"
+lang pt_BR describe DOS_URI_ASTERISK Possui uma URI com asterisco
+lang pt_BR describe DOS_YOUR_PLACE Spam de site de encontros russo
+lang pt_BR describe DRUGS_STOCK_MIMEOLE Cabeçalhos forjados já conhecidos como stock-spam (5510)
+lang pt_BR describe DYN_RDNS_AND_INLINE_IMAGE Mensagem contém imagem e foi enviada por rDNS dinâmico
+lang pt_BR describe DYN_RDNS_SHORT_HELO_HTML Enviada por rDNS dinâmico, HELO curto e mensagem é HTML
+lang pt_BR describe DYN_RDNS_SHORT_HELO_IMAGE Enviada por rDNS dinâmico, HELO curto e mensagem possui imagem
+lang pt_BR describe FB_ADD_INCHES Contém "Add / Gain inches"
+lang pt_BR describe FB_ALMOST_SEX Tentativa de esconder a palavra "sex"
+lang pt_BR describe FB_ANA_TRIM Tentativa de esconder a palavra AnaTrim
+lang pt_BR describe FB_ANUI Spam conhecido. Contém o texto "A_U_N_I"
+lang pt_BR describe FB_BILLI0N Contém: [BM]Illi0n
+lang pt_BR describe FB_C0MPANY Contém: C0mpany
+lang pt_BR describe FB_CAN_LONGER Contém: can last longer
+lang pt_BR describe FB_CIALIS_LEO3 Tentativa de esconder a palavra "cialis"
 lang pt_BR describe FB_DOUBLE_0WORDS Looks like double 0 words
-lang pt_BR describe FB_EMAIL_HIER Phrase: email hier
-lang pt_BR describe FB_EXTRA_INCHES Phrase: extra inches
-lang pt_BR describe FB_FAKE_NUMBERS Looks like numbers with O's insted of 0's
-lang pt_BR describe FB_FAKE_NUMS4 Looks like fake numbers (4)
-lang pt_BR describe FB_FHARMACY Phrase: Farmacy
-lang pt_BR describe FB_FORWARD_LOOK Phrase: forward look with 0's
-lang pt_BR describe FB_GAPPY_ADDRESS Too much spacing in Address
-lang pt_BR describe FB_GET_MEDS Looks like trying to sell meds
-lang pt_BR describe FB_GVR Looks like generic viagra
-lang pt_BR describe FB_HEY_BRO_COMMA Phrase hey bro,
-lang pt_BR describe FB_HG_H_CAP Phrase: HGH
-lang pt_BR describe FB_HOMELOAN Phrase $x home loan
-lang pt_BR describe FB_IMPRESS_GIRL Phrase: impress ... girl
-lang pt_BR describe FB_INCREASE_YOUR Phrase: Increase your energy
-lang pt_BR describe FB_INDEPEND_RWD Phrase: independent reward
-lang pt_BR describe FB_L0AN Phrase: L0an
-lang pt_BR describe FB_LETTERS_21B Special people leave special signs!
-lang pt_BR describe FB_LOSE_WEIGHT_CAP Phrase: LOSE WEIGHT
-lang pt_BR describe FB_LOWER_PAYM Phrase: lower your monthly payments
-lang pt_BR describe FB_MORE_SIZE Phrase: more size
-lang pt_BR describe FB_NOT_PHONE_NUM1 Looks like a fake phone number (1)
-lang pt_BR describe FB_NOT_PHONE_NUM3 Looks like a fake phone number (3)
+lang pt_BR describe FB_EMAIL_HIER Contém: "email hier"
+lang pt_BR describe FB_EXTRA_INCHES Contém: extra inches
+lang pt_BR describe FB_FAKE_NUMBERS Parece ter números como O's ao invés de 0's
+lang pt_BR describe FB_FAKE_NUMS4 Parece ter números falsos (4)
+lang pt_BR describe FB_FHARMACY Contém: "Pharmacy"
+lang pt_BR describe FB_FORWARD_LOOK Contém: "forward look" com 0's
+lang pt_BR describe FB_GAPPY_ADDRESS Muitos espaços em um endereço
+lang pt_BR describe FB_GET_MEDS Parece estar tentando vender remédios
+lang pt_BR describe FB_GVR Parece ser spam de viagra genérico
+lang pt_BR describe FB_HEY_BRO_COMMA Contém: "hey bro,"
+lang pt_BR describe FB_HG_H_CAP Contém: HGH
+lang pt_BR describe FB_HOMELOAN Contém: $x home loan
+lang pt_BR describe FB_IMPRESS_GIRL Contém: impress ... girl
+lang pt_BR describe FB_INCREASE_YOUR Contém: Increase your energy
+lang pt_BR describe FB_INDEPEND_RWD Contém: independent reward
+lang pt_BR describe FB_L0AN Contém: L0an
+lang pt_BR describe FB_LETTERS_21B Spam conhecido
+lang pt_BR describe FB_LOSE_WEIGHT_CAP Contém: LOSE WEIGHT
+lang pt_BR describe FB_LOWER_PAYM Contém: lower your monthly payments
+lang pt_BR describe FB_MORE_SIZE Contém: more size
+lang pt_BR describe FB_NOT_PHONE_NUM1 Parece ter um número de telefone falso (1)
+lang pt_BR describe FB_NOT_PHONE_NUM3 Parece ter um número de telefone falso (3)
 lang pt_BR describe FB_NOT_SCHOOL Looks like school but it's not!
-lang pt_BR describe FB_NO_SCRIP_NEEDED Phrase: no prescription needed.
+lang pt_BR describe FB_NO_SCRIP_NEEDED Contém: no prescription needed.
 lang pt_BR describe FB_NUMYO Speaks of teenager.
 lang pt_BR describe FB_NUMYO2 Speaks of 20+ year old.
 lang pt_BR describe FB_ODD_SPACED_MONEY Looks like money but has odd spacing.
 lang pt_BR describe FB_ONIINE Mis-spelled online
-lang pt_BR describe FB_P1LL Phrase: p1ll
-lang pt_BR describe FB_PENIS_GROWTH Phrase: penis growth
-lang pt_BR describe FB_PIPEDOLLAR Phrase: Dollar, with pipes or 0's.
+lang pt_BR describe FB_P1LL Contém: p1ll
+lang pt_BR describe FB_PENIS_GROWTH Contém: penis growth
+lang pt_BR describe FB_PIPEDOLLAR Contém: Dollar, with pipes or 0's.
 lang pt_BR describe FB_PIPE_ILLION Looks like illion, but it's not
 lang pt_BR describe FB_PROLONGED_HARD Talks about prolonged hardness
-lang pt_BR describe FB_QUALITY_REPLICA Phrase: quality replica
+lang pt_BR describe FB_QUALITY_REPLICA Contém: quality replica
 lang pt_BR describe FB_REF_CODE_SPACE Refcode with spacing
-lang pt_BR describe FB_REPLICA_ROLEX Phrase: Replica Rolex
-lang pt_BR describe FB_REPLIC_CAP Phrase: REPLICA
+lang pt_BR describe FB_REPLICA_ROLEX Contém: Replica Rolex
+lang pt_BR describe FB_REPLIC_CAP Contém: REPLICA
 lang pt_BR describe FB_RE_FI Looks like refi.
-lang pt_BR describe FB_ROLLER_IS_T Phrase: Roller is th
-lang pt_BR describe FB_ROLX Phrase: rolx
-lang pt_BR describe FB_SAVE_PERSC Phrase: save ... prescription.
-lang pt_BR describe FB_SOFTTABS Phrase: Softabs
-lang pt_BR describe FB_SPACED_FREE Phrase: F R E E
+lang pt_BR describe FB_ROLLER_IS_T Contém: Roller is th
+lang pt_BR describe FB_ROLX Contém: rolx
+lang pt_BR describe FB_SAVE_PERSC Contém: save ... prescription.
+lang pt_BR describe FB_SOFTTABS Contém: Softabs
+lang pt_BR describe FB_SPACED_FREE Contém: F R E E
 lang pt_BR describe FB_SPACED_PHN_3B Phone number with -- spacing. (B)
 lang pt_BR describe FB_SPACEY_ZIP Looks like a  s p a c e d zipcode.
-lang pt_BR describe FB_SPUR_M Phrase: SPUR-M
-lang pt_BR describe FB_SSEX Phrase: ssex
+lang pt_BR describe FB_SPUR_M Contém: SPUR-M
+lang pt_BR describe FB_SSEX Contém: ssex
 lang pt_BR describe FB_STOCK_EXPLODE Looks like stocks exploding.
 lang pt_BR describe FB_SYMBLO Mis-spelled symbol.
-lang pt_BR describe FB_THIS_ADVERT Phrase: this advertiser
-lang pt_BR describe FB_THOUS_PERSONAL Phrase: thousand personal
-lang pt_BR describe FB_TO_STOP_DISTRO Phrase: to stop further distribution
-lang pt_BR describe FB_ULTRA_ALLURE Phrase: Ultra Allure
-lang pt_BR describe FB_UNLOCK_YOUR_G Phrase: lock to your girlfriend
+lang pt_BR describe FB_THIS_ADVERT Contém: this advertiser
+lang pt_BR describe FB_THOUS_PERSONAL Contém: thousand personal
+lang pt_BR describe FB_TO_STOP_DISTRO Contém: to stop further distribution
+lang pt_BR describe FB_ULTRA_ALLURE Contém: Ultra Allure
+lang pt_BR describe FB_UNLOCK_YOUR_G Contém: lock to your girlfriend
 lang pt_BR describe FB_UNRESOLV_PROV Pattern Replacement PROV_D
-lang pt_BR describe FB_YOURSELF_MASTER Phrase: yourself master
-lang pt_BR describe FB_YOUR_REFI Phrase: Your refi
+lang pt_BR describe FB_YOURSELF_MASTER Contém: yourself master
+lang pt_BR describe FB_YOUR_REFI Contém: Your refi
 lang pt_BR describe FH_BAD_OEV1441 Bad X-Mailer version
 lang pt_BR describe FH_DATE_IS_19XX The date is not 19xx.
 lang pt_BR describe FH_FAKE_RCVD_LINE RCVD line looks faked (A)
@@ -803,11 +803,11 @@ lang pt_BR describe FR_TITLE_NUMS HTML Title is only numbers
 lang pt_BR describe FS_ABIGGER Subject has "a bigger"
 lang pt_BR describe FS_APPROVE_YOU Subject says approve you
 lang pt_BR describe FS_AT_NO_COST Subject says "At No Cost"
-lang pt_BR describe FS_CHEAP_CAP Phrase: Cheap in Caps in Subject.
+lang pt_BR describe FS_CHEAP_CAP Contém: Cheap in Caps in Subject.
 lang pt_BR describe FS_DOLLAR_BONUS Subject talks about money bonus!
-lang pt_BR describe FS_EJACULA Phrase: ejaculation in subject.
-lang pt_BR describe FS_ERECTION Phrase: erection in subject.
-lang pt_BR describe FS_HUGECOCK Phrase: Huge Cock
+lang pt_BR describe FS_EJACULA Contém: ejaculation in subject.
+lang pt_BR describe FS_ERECTION Contém: erection in subject.
+lang pt_BR describe FS_HUGECOCK Contém: Huge Cock
 lang pt_BR describe FS_LARGE_PERCENT2 Larger than 100% in subj.
 lang pt_BR describe FS_LOW_RATES Subject says low rates
 lang pt_BR describe FS_NEW_SOFT_UPLOAD Subj starts with New software uploaded
@@ -820,11 +820,11 @@ lang pt_BR describe FS_PHARMASUB2 Looks like Phramacy subject.
 lang pt_BR describe FS_RAMROD Subject says Ramrod
 lang pt_BR describe FS_REPLICA Subject says "replica"
 lang pt_BR describe FS_REPLICAWATCH Subject says Replica watch
-lang pt_BR describe FS_RE_APPROV Phrase: re approved
+lang pt_BR describe FS_RE_APPROV Contém: re approved
 lang pt_BR describe FS_START_DOYOU2 Subject starts with Do you dream,have,want,love, etc.
 lang pt_BR describe FS_START_LOSE Subject starts with Lose
 lang pt_BR describe FS_TEEN_BAD Subject says something bad about teens
-lang pt_BR describe FS_TIP_DDD Phrase: subject = tip ddd
+lang pt_BR describe FS_TIP_DDD Contém: subject = tip ddd
 lang pt_BR describe FS_WEIGHT_LOSS Subject says Weight Loss
 lang pt_BR describe FS_WILL_HELP Subject says will help
 lang pt_BR describe FS_WITH_SMALL Subject says With ... small
@@ -840,11 +840,11 @@ lang pt_BR describe HDRS_MISSP Misspaced headers
 lang pt_BR describe HDR_ORDER_FTSDMCXX_001C Header order similar to spam (FTSDMCXX/MID variant)
 lang pt_BR describe HDR_ORDER_FTSDMCXX_BAT Header order similar to spam (FTSDMCXX/boundary variant)
 lang pt_BR describe HEADER_COUNT_SUBJECT Multiple Subject headers found
-lang pt_BR describe HELO_NO_DOMAIN Relay reports its domain incorrectly
-lang pt_BR describe HK_FAKENAME_EBAY From name mentions eBay, but not relayed from there
-lang pt_BR describe HK_NAME_DRUGS From name contains drugs
-lang pt_BR describe HK_NAME_FREE From name mentions free stuff
-lang pt_BR describe HK_RANDOM_ENVFROM Envelope sender username looks random
+lang pt_BR describe HELO_NO_DOMAIN Relay informa o domínio incorreto
+lang pt_BR describe HK_FAKENAME_EBAY From: diz que é do eBay, mas a mensagem não passou por lá
+lang pt_BR describe HK_NAME_DRUGS From: contém nomes de drogas
+lang pt_BR describe HK_NAME_FREE From: indica coisas gratuitas
+lang pt_BR describe HK_RANDOM_ENVFROM Nome de usuário do remetente parece ter sido gerado aleatoriamente
 lang pt_BR describe HS_BOBAX_MID_2 Bobax? Message-Id: <0IX000EJXVWDA000@example.com>
 lang pt_BR describe HS_BODY_UPLOADED_SOFTWARE Somebody has uploaded some new software for you
 lang pt_BR describe HS_DRUG_DOLLAR_1 Contains a drug and price-like pattern.
