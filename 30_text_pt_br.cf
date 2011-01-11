@@ -44,7 +44,7 @@ lang pt_BR report _SUMMARY_
 
 lang pt_BR describe USER_IN_BLACKLIST Endereço do From: está na blacklist do usuário
 lang pt_BR describe USER_IN_WHITELIST Endereço do From: está na whitelist do usuário
-lang pt_BR describe USER_IN_DEF_WHITELIST ndereço do From: está na whitelist padrão
+lang pt_BR describe USER_IN_DEF_WHITELIST Endereço do From: está na whitelist padrão
 lang pt_BR describe USER_IN_BLACKLIST_TO Usuário está listado na 'blacklist_to'
 lang pt_BR describe USER_IN_WHITELIST_TO Usuário está listado na 'whitelist_to'
 lang pt_BR describe USER_IN_MORE_SPAM_TO Usuário está listado na 'more_spam_to'
@@ -189,34 +189,34 @@ lang pt_BR describe FREEMAIL_REPLYTO_END_DIGIT Nome de usuário de email gratuito
 lang pt_BR describe FREEMAIL_FORGED_REPLYTO Email gratuito usado no Reply-To, mas não no From:
 
 # 20_head_tests.cf
-lang pt_BR describe FRAGMENTED_MESSAGE Partial message
-lang pt_BR describe FROM_BLANK_NAME From: contains empty name
-lang pt_BR describe FROM_STARTS_WITH_NUMS From: starts with many numbers
-lang pt_BR describe FROM_OFFERS From address is "at something-offers"
-lang pt_BR describe FROM_NO_USER From: has no local-part before @ sign
-lang pt_BR describe PLING_QUERY Subject has exclamation mark and question mark
-lang pt_BR describe MSGID_SPAM_CAPS Spam tool Message-Id: (caps variant)
-lang pt_BR describe MSGID_SPAM_LETTERS Spam tool Message-Id: (letters variant)
-lang pt_BR describe MSGID_RANDY Message-Id has pattern used in spam
-lang pt_BR describe MSGID_YAHOO_CAPS Message-ID has ALLCAPS@yahoo.com
-lang pt_BR describe FORGED_MSGID_AOL Message-ID is forged, (aol.com)
-lang pt_BR describe FORGED_MSGID_EXCITE Message-ID is forged, (excite.com)
-lang pt_BR describe FORGED_MSGID_HOTMAIL Message-ID is forged, (hotmail.com)
-lang pt_BR describe FORGED_MSGID_MSN Message-ID is forged, (msn.com)
-lang pt_BR describe FORGED_MSGID_YAHOO Message-ID is forged, (yahoo.com)
-lang pt_BR describe MSGID_FROM_MTA_HEADER Message-Id was added by a relay
-lang pt_BR describe MSGID_SHORT Message-ID is unusually short
-lang pt_BR describe MSGID_MULTIPLE_AT Message-ID contains multiple '@' characters
-lang pt_BR describe DATE_SPAMWARE_Y2K Date header uses unusual Y2K formatting
-lang pt_BR describe INVALID_DATE Invalid Date: header (not RFC 2822)
-lang pt_BR describe INVALID_DATE_TZ_ABSURD Invalid Date: header (timezone does not exist)
-lang pt_BR describe INVALID_TZ_CST Invalid date in header (wrong CST timezone)
-lang pt_BR describe INVALID_TZ_EST Invalid date in header (wrong EST timezone)
-lang pt_BR describe FROM_EXCESS_BASE64 From: base64 encoded unnecessarily
-lang pt_BR describe ENGLISH_UCE_SUBJECT Subject contains an English UCE tag
-lang pt_BR describe JAPANESE_UCE_SUBJECT Subject contains a Japanese UCE tag
-lang pt_BR describe JAPANESE_UCE_BODY Body contains Japanese UCE tag
-lang pt_BR describe KOREAN_UCE_SUBJECT Subject: contains Korean unsolicited email tag
+lang pt_BR describe FRAGMENTED_MESSAGE Mensagem fragmentada
+lang pt_BR describe FROM_BLANK_NAME From: contém um nome vazio
+lang pt_BR describe FROM_STARTS_WITH_NUMS From: começa com muitos números
+lang pt_BR describe FROM_OFFERS Endereço do From: contém "offers"
+lang pt_BR describe FROM_NO_USER From: não tem nenhum nome de usuário antes do @
+lang pt_BR describe PLING_QUERY Assunto contém exclamação e interrogação
+lang pt_BR describe MSGID_SPAM_CAPS Message-Id conhecido como spam (caps variant)
+lang pt_BR describe MSGID_SPAM_LETTERS Message-Id conhecido como spam (letters variant)
+lang pt_BR describe MSGID_RANDY Message-Id tem padrão comum encontrado em spam
+lang pt_BR describe MSGID_YAHOO_CAPS Message-ID possui MAIUSCULAS@yahoo.com
+lang pt_BR describe FORGED_MSGID_AOL Message-ID é forjado (aol.com)
+lang pt_BR describe FORGED_MSGID_EXCITE Message-ID é forjado (excite.com)
+lang pt_BR describe FORGED_MSGID_HOTMAIL Message-ID é forjado (hotmail.com)
+lang pt_BR describe FORGED_MSGID_MSN Message-ID é forjado (msn.com)
+lang pt_BR describe FORGED_MSGID_YAHOO Message-ID é forjado (yahoo.com)
+lang pt_BR describe MSGID_FROM_MTA_HEADER Message-Id foi adicionado por um relay
+lang pt_BR describe MSGID_SHORT Message-ID é curto demais
+lang pt_BR describe MSGID_MULTIPLE_AT Message-ID contém múltiplos "@"
+lang pt_BR describe DATE_SPAMWARE_Y2K Data no cabeçalho usa formatação estranha
+lang pt_BR describe INVALID_DATE Cabeçalho Date: é inválido (não segue a RFC 2822)
+lang pt_BR describe INVALID_DATE_TZ_ABSURD Cabeçalho Date: é inválido (timezone não existe)
+lang pt_BR describe INVALID_TZ_CST Data inválida no header (timezone CST incorreta)
+lang pt_BR describe INVALID_TZ_EST Data inválida no header (timezone EST incorreta)
+lang pt_BR describe FROM_EXCESS_BASE64 Endereço do From: está desnecessariamente codificado em base64
+lang pt_BR describe ENGLISH_UCE_SUBJECT Assunto contém um texto comum de UCE (unsolicited commercial email) em inglês
+lang pt_BR describe JAPANESE_UCE_SUBJECT Assunto contém um texto comum de UCE (unsolicited commercial email) em japonês
+lang pt_BR describe JAPANESE_UCE_BODY Corpo da mensagem contém um texto comum de UCE (unsolicited commercial email) em japonês
+lang pt_BR describe KOREAN_UCE_SUBJECT Assunto contém um texto comum de UCE (unsolicited commercial email) em coreano
 lang pt_BR describe RCVD_DOUBLE_IP_SPAM Bulk email fingerprint (double IP) found
 lang pt_BR describe RCVD_DOUBLE_IP_LOOSE Received: by and from look like IP addresses
 lang pt_BR describe FORGED_TELESP_RCVD Contains forged hostname for a DSL IP in Brazil
