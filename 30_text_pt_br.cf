@@ -24,8 +24,6 @@
 
 # pt_BR translation by W3P Projetos Web (http://www.w3p.com.br/)
 
-lang pt_BR report_charset utf-8
-
 lang pt_BR clear_report_template
 lang pt_BR report O filtro de spam do servidor "_HOSTNAME_" identificou este
 lang pt_BR report e-mail como um spam.  A mensagem original está anexa a este
@@ -163,8 +161,8 @@ lang pt_BR describe __RDNS_DYNAMIC_CHELLO_NL Comando HELO enviado usando hostnam
 lang pt_BR describe __RDNS_DYNAMIC_VELOX Comando HELO enviado usando hostname suspeito (Veloxzone)
 lang pt_BR describe __RDNS_DYNAMIC_NTL Comando HELO enviado usando hostname suspeito (NTL)
 lang pt_BR describe __RDNS_DYNAMIC_HOME_NL Comando HELO enviado usando hostname suspeito (Home.nl)
-lang pt_BR describe RDNS_DYNAMIC Delivered to internal network by host with dynamic-looking rDNS
-lang pt_BR describe RDNS_NONE Delivered to internal network by a host with no rDNS
+lang pt_BR describe RDNS_DYNAMIC Entregue a uma rede interna por um host com rDNS que parece ser dinâmico
+lang pt_BR describe RDNS_NONE Entregue a uma rede interna por um host sem rDNS
 
 # 20_fake_helo_tests.cf
 lang pt_BR describe HELO_STATIC_HOST Comando HELO enviado usando hostname estatico
@@ -217,75 +215,75 @@ lang pt_BR describe ENGLISH_UCE_SUBJECT Assunto contém um texto comum de UCE (un
 lang pt_BR describe JAPANESE_UCE_SUBJECT Assunto contém um texto comum de UCE (unsolicited commercial email) em japonês
 lang pt_BR describe JAPANESE_UCE_BODY Corpo da mensagem contém um texto comum de UCE (unsolicited commercial email) em japonês
 lang pt_BR describe KOREAN_UCE_SUBJECT Assunto contém um texto comum de UCE (unsolicited commercial email) em coreano
-lang pt_BR describe RCVD_DOUBLE_IP_SPAM Bulk email fingerprint (double IP) found
-lang pt_BR describe RCVD_DOUBLE_IP_LOOSE Received: by and from look like IP addresses
-lang pt_BR describe FORGED_TELESP_RCVD Contains forged hostname for a DSL IP in Brazil
-lang pt_BR describe CONFIRMED_FORGED Received headers are forged
-lang pt_BR describe MULTI_FORGED Received headers indicate multiple forgeries
-lang pt_BR describe NONEXISTENT_CHARSET Character set doesn't exist
-lang pt_BR describe MISSING_MID Missing Message-Id: header
-lang pt_BR describe MISSING_DATE Missing Date: header
-lang pt_BR describe MISSING_SUBJECT Missing Subject: header
-lang pt_BR describe GAPPY_SUBJECT Subject: contains G.a.p.p.y-T.e.x.t
-lang pt_BR describe PREVENT_NONDELIVERY Message has Prevent-NonDelivery-Report header
-lang pt_BR describe X_IP Message has X-IP header
-lang pt_BR describe MISSING_MIMEOLE Message has X-MSMail-Priority, but no X-MimeOLE
-lang pt_BR describe SUBJ_AS_SEEN Subject contains "As Seen"
-lang pt_BR describe SUBJ_DOLLARS Subject starts with dollar amount
-lang pt_BR describe SUBJ_YOUR_DEBT Subject contains "Your Bills" or similar
-lang pt_BR describe SUBJ_YOUR_FAMILY Subject contains "Your Family"
-lang pt_BR describe RCVD_FAKE_HELO_DOTCOM Received contains a faked HELO hostname
-lang pt_BR describe SUBJECT_DIET Subject talks about losing pounds
-lang pt_BR describe EXTRA_MPART_TYPE Header has extraneous Content-type:...type= entry
-lang pt_BR describe MIME_BOUND_DD_DIGITS Spam tool pattern in MIME boundary
-lang pt_BR describe MIME_BOUND_DIGITS_15 Spam tool pattern in MIME boundary
-lang pt_BR describe MIME_BOUND_MANY_HEX Spam tool pattern in MIME boundary
-lang pt_BR describe FAKE_OUTBLAZE_RCVD Received header contains faked 'mr.outblaze.com'
-lang pt_BR describe TO_MALFORMED To: has a malformed address
-lang pt_BR describe MIME_HEADER_CTYPE_ONLY 'Content-Type' found without required MIME headers
-lang pt_BR describe WITH_LC_SMTP Received line contains spam-sign (lowercase smtp)
-lang pt_BR describe SUBJ_BUY Subject line starts with Buy or Buying
-lang pt_BR describe RCVD_AM_PM Received headers forged (AM/PM)
-lang pt_BR describe UNCLOSED_BRACKET Headers contain an unclosed bracket
-lang pt_BR describe FROM_DOMAIN_NOVOWEL From: domain has series of non-vowel letters
-lang pt_BR describe FROM_LOCAL_NOVOWEL From: localpart has series of non-vowel letters
-lang pt_BR describe FROM_LOCAL_HEX From: localpart has long hexadecimal sequence
-lang pt_BR describe FROM_LOCAL_DIGITS From: localpart has long digit sequence
-lang pt_BR describe X_PRIORITY_CC Cc: after X-Priority: (bulk email fingerprint)
-lang pt_BR describe BAD_ENC_HEADER Message has bad MIME encoding in the header
-lang pt_BR describe __VIA_ML Mail from a mailing list
-lang pt_BR describe RCVD_ILLEGAL_IP Received: contains illegal IP address
-lang pt_BR describe CHARSET_FARAWAY_HEADER A foreign language charset used in headers
-lang pt_BR describe SUBJ_ILLEGAL_CHARS Subject: has too many raw illegal characters
-lang pt_BR describe FROM_ILLEGAL_CHARS From: has too many raw illegal characters
-lang pt_BR describe HEAD_ILLEGAL_CHARS Headers have too many raw illegal characters
-lang pt_BR describe FORGED_HOTMAIL_RCVD2 hotmail.com 'From' address, but no 'Received:'
-lang pt_BR describe FORGED_YAHOO_RCVD 'From' yahoo.com does not match 'Received' headers
-lang pt_BR describe SORTED_RECIPS Recipient list is sorted by address
-lang pt_BR describe SUSPICIOUS_RECIPS Similar addresses in recipient list
-lang pt_BR describe MISSING_HEADERS Missing To: header
-lang pt_BR describe DATE_IN_PAST_03_06 Date: is 3 to 6 hours before Received: date
-lang pt_BR describe DATE_IN_PAST_06_12 Date: is 6 to 12 hours before Received: date
-lang pt_BR describe DATE_IN_PAST_12_24 Date: is 12 to 24 hours before Received: date
-lang pt_BR describe DATE_IN_PAST_24_48 Date: is 24 to 48 hours before Received: date
-lang pt_BR describe DATE_IN_PAST_96_XX Date: is 96 hours or more before Received: date
-lang pt_BR describe DATE_IN_FUTURE_03_06 Date: is 3 to 6 hours after Received: date
-lang pt_BR describe DATE_IN_FUTURE_06_12 Date: is 6 to 12 hours after Received: date
-lang pt_BR describe DATE_IN_FUTURE_12_24 Date: is 12 to 24 hours after Received: date
-lang pt_BR describe DATE_IN_FUTURE_24_48 Date: is 24 to 48 hours after Received: date
-lang pt_BR describe DATE_IN_FUTURE_48_96 Date: is 48 to 96 hours after Received: date
-lang pt_BR describe DATE_IN_FUTURE_96_XX Date: is 96 hours or more after Received: date
-lang pt_BR describe UNRESOLVED_TEMPLATE Headers contain an unresolved template
-lang pt_BR describe SUBJ_ALL_CAPS Subject is all capitals
-lang pt_BR describe LOCALPART_IN_SUBJECT Local part of To: address appears in Subject
-lang pt_BR describe MSGID_OUTLOOK_INVALID Message-Id is fake (in Outlook Express format)
-lang pt_BR describe HEADER_COUNT_CTYPE Multiple Content-Type headers found
-lang pt_BR describe HEAD_LONG Message headers are very long
-lang pt_BR describe MISSING_HB_SEP Missing blank line between message header and body
-lang pt_BR describe UNPARSEABLE_RELAY Informational: message has unparseable relay lines
-lang pt_BR describe RCVD_HELO_IP_MISMATCH Received: HELO and IP do not match, but should
-lang pt_BR describe RCVD_NUMERIC_HELO Received: contains an IP address used for HELO
-lang pt_BR describe NO_RDNS_DOTCOM_HELO Host HELO'd as a big ISP, but had no rDNS
+lang pt_BR describe RCVD_DOUBLE_IP_SPAM Spam conhecido (double IP)
+lang pt_BR describe RCVD_DOUBLE_IP_LOOSE "Received by" e "From" parecem ser endereços IP
+lang pt_BR describe FORGED_TELESP_RCVD Contém um hostname forjado para um IP DSL do Brasil
+lang pt_BR describe CONFIRMED_FORGED Cabeçalho Received é forjado
+lang pt_BR describe MULTI_FORGED Cabeçalho Received contém várias entradas forjadas
+lang pt_BR describe NONEXISTENT_CHARSET Codificação inexistente
+lang pt_BR describe MISSING_MID Não possui header Message-Id
+lang pt_BR describe MISSING_DATE Não possui header Date
+lang pt_BR describe MISSING_SUBJECT Não possui header Subject
+lang pt_BR describe GAPPY_SUBJECT Assunto contém T.e.x.t.o-E.s.t.r.a.n.h.o
+lang pt_BR describe PREVENT_NONDELIVERY Mensagem possui cabeçaho Prevent-NonDelivery-Report
+lang pt_BR describe X_IP Mensagem possui cabeçalho X-IP
+lang pt_BR describe MISSING_MIMEOLE Mensagem possui X-MSMail-Priority mas não possui X-MimeOLE
+lang pt_BR describe SUBJ_AS_SEEN Assunto contém "As Seen"
+lang pt_BR describe SUBJ_DOLLARS Assunto começa com um valor em dólar
+lang pt_BR describe SUBJ_YOUR_DEBT Assunto contém "Your Bills" ou algo parecido
+lang pt_BR describe SUBJ_YOUR_FAMILY Assunto contém "Your Family" ou algo parecido
+lang pt_BR describe RCVD_FAKE_HELO_DOTCOM Cabeçalho Received contém um hostname de HELO falso
+lang pt_BR describe SUBJECT_DIET Assunto fala sobre perda de peso
+lang pt_BR describe EXTRA_MPART_TYPE Cabeçalho possui Content-type:...type= malformado
+lang pt_BR describe MIME_BOUND_DD_DIGITS Padrão de spam conhecido em MIME boundary
+lang pt_BR describe MIME_BOUND_DIGITS_15 Padrão de spam conhecido em MIME boundary
+lang pt_BR describe MIME_BOUND_MANY_HEX Padrão de spam conhecido em MIME boundary
+lang pt_BR describe FAKE_OUTBLAZE_RCVD Cabeçalho Received contém o hostname forjado 'mr.outblaze.com'
+lang pt_BR describe TO_MALFORMED Cabeçalho To: possui um endereço malformado
+lang pt_BR describe MIME_HEADER_CTYPE_ONLY 'Content-Type' encontrado mas não existe MIME headers necessários
+lang pt_BR describe WITH_LC_SMTP Cabeçalho Received contém um indício de spam ("smtp" em caixa baixa)
+lang pt_BR describe SUBJ_BUY Assunto começa com "Buy" ou "Buying"
+lang pt_BR describe RCVD_AM_PM Cabeçalho Received forjado (AM/PM)
+lang pt_BR describe UNCLOSED_BRACKET Cabeçalho contém um colchete aberto que não foi fechado
+lang pt_BR describe FROM_DOMAIN_NOVOWEL Domínio do From: contém uma série de consoantes
+lang pt_BR describe FROM_LOCAL_NOVOWEL Usuário do From: contém uma série de consoantes
+lang pt_BR describe FROM_LOCAL_HEX Usuário do From: contém uma longa sequencia de hexadecimais
+lang pt_BR describe FROM_LOCAL_DIGITS Usuário do From: contém uma longa sequencia de hexadecimais
+lang pt_BR describe X_PRIORITY_CC Cabeçalho "Cc:" posicionado depois de "X-Priority:" (spam conhecido)
+lang pt_BR describe BAD_ENC_HEADER Mensagem possui MIME encoding incorreto
+lang pt_BR describe __VIA_ML Email de uma mailing list
+lang pt_BR describe RCVD_ILLEGAL_IP Cabeçalho "Received:" contém endereço IP ilegal
+lang pt_BR describe CHARSET_FARAWAY_HEADER Charset estrangeiro utilizado no header
+lang pt_BR describe SUBJ_ILLEGAL_CHARS Assunto possui muitos caracteres ilegais
+lang pt_BR describe FROM_ILLEGAL_CHARS "From:" possui muitos caracteres ilegais
+lang pt_BR describe HEAD_ILLEGAL_CHARS Cabeçalho possui muitos caracteres ilegais
+lang pt_BR describe FORGED_HOTMAIL_RCVD2 Endereço do From é do hotmail.com, mas não há hotmail.com no 'Received:'
+lang pt_BR describe FORGED_YAHOO_RCVD Endereço do From é do yahoo.com, mas não há yahoo.com no 'Received:'
+lang pt_BR describe SORTED_RECIPS Lista de destinatários está ordenada alfabeticamente
+lang pt_BR describe SUSPICIOUS_RECIPS Lista de destinatários possui endereços semelhantes
+lang pt_BR describe MISSING_HEADERS Não possui o cabeçalho To:
+lang pt_BR describe DATE_IN_PAST_03_06 Date: é 3 a 6 horas antes da data do Received:
+lang pt_BR describe DATE_IN_PAST_06_12 Date: é 6 a 12 horas antes da data Received:
+lang pt_BR describe DATE_IN_PAST_12_24 Date: é 12 a 24 horas antes da data do Received:
+lang pt_BR describe DATE_IN_PAST_24_48 Date: é 24 a 48 horas antes da data do Received:
+lang pt_BR describe DATE_IN_PAST_96_XX Date: é 96 horas ou mais antes da data do Received: 
+lang pt_BR describe DATE_IN_FUTURE_03_06 Date: é 3 a 6 horas depois do Received:
+lang pt_BR describe DATE_IN_FUTURE_06_12 Date: é 6 a 12 horas depois do Received:
+lang pt_BR describe DATE_IN_FUTURE_12_24 Date: é 12 a 24 horas depois do Received:
+lang pt_BR describe DATE_IN_FUTURE_24_48 Date: é 24 a 48 horas depois do Received:
+lang pt_BR describe DATE_IN_FUTURE_48_96 Date: é 48 a 96 horas depois do Received:
+lang pt_BR describe DATE_IN_FUTURE_96_XX Date: é 96 horas ou mais depois do Received:
+lang pt_BR describe UNRESOLVED_TEMPLATE Cabeçalho contém um template não substituído
+lang pt_BR describe SUBJ_ALL_CAPS Assunto é composto apenas por letras maiúsculas
+lang pt_BR describe LOCALPART_IN_SUBJECT Destinatário do email aparece no assunto da mensagem
+lang pt_BR describe MSGID_OUTLOOK_INVALID Message-Id é falso (no formato do Outlook Express)
+lang pt_BR describe HEADER_COUNT_CTYPE Vários cabeçalhos Content-Type foram encontrados
+lang pt_BR describe HEAD_LONG Cabeçalhos da mensagem são muito longos
+lang pt_BR describe MISSING_HB_SEP Não há uma linha separando o cabeçalho do corpo da mensagem
+lang pt_BR describe UNPARSEABLE_RELAY Info: mensagem possui dados de relay que não puderam ser lidos
+lang pt_BR describe RCVD_HELO_IP_MISMATCH HELO e IP no "Received:" não conferem
+lang pt_BR describe RCVD_NUMERIC_HELO "Received:" contém um endereço IP utilizado no comando HELO
+lang pt_BR describe NO_RDNS_DOTCOM_HELO Comando HELO enviado como um provedor confiável, mas não possui rDNS
 
 # 20_html_tests.cf
 lang pt_BR describe HTML_SHORT_LINK_IMG_1 O código HTML é muito pequeno, com uma imagem com link
