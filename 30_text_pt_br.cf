@@ -8,7 +8,7 @@
 # contributor license agreements.  See the NOTICE file distributed with
 # this work for additional information regarding copyright ownership.
 # The ASF licenses this file to you under the Apache License, Version 2.0
-# (the "License"); you may not use this file except_BR in compliance with
+# (the "License"); you may not use this file except in compliance with
 # the License.  You may obtain a copy of the License at:
 # 
 #     http://www.apache.org/licenses/LICENSE-2.0
@@ -53,7 +53,7 @@ lang pt_BR describe AWL Endereço do From: está na auto whitelist
 lang pt_BR describe ADVANCE_FEE_2 Aparenta ser fraude (Nigerian 419)
 lang pt_BR describe ADVANCE_FEE_3 Aparenta ser fraude (Nigerian 419)
 lang pt_BR describe ADVANCE_FEE_4 Aparenta ser fraude (Nigerian 419)
-
+	
 # 20_body_tests.cf
 lang pt_BR describe GTUBE Generic Test for Unsolicited Bulk Email
 lang pt_BR describe TRACKER_ID Mensagem contém um código rastramento
@@ -293,7 +293,7 @@ lang pt_BR describe HTML_SHORT_CENTER O código HTML é muito curto e usa uma tag 
 lang pt_BR describe HTML_CHARSET_FARAWAY Um idioma estrangeiro foi declarado no charset do HTML
 lang pt_BR describe HTML_MIME_NO_HTML_TAG A mensagem é em HTML, mas não há uma tag HTML
 lang pt_BR describe HTML_MISSING_CTYPE A mensagem é em HTML mas não tem a declaração HTML Content-Type
-lang pt_BR describe HIDE_WIN_STATUS Uso de Javascript_BR para ocultar as URLS no navegador
+lang pt_BR describe HIDE_WIN_STATUS Uso de Javascript para ocultar as URLS no navegador
 lang pt_BR describe OBFUSCATING_COMMENT HTML possui comentários com texto suspeito
 lang pt_BR describe JS_FROMCHARCODE Documento construído a partir de um array em Javascript
 lang pt_BR describe HTML_MESSAGE HTML incluso na mensagem
@@ -554,7 +554,7 @@ lang pt_BR describe FUZZY_OBLIGATION Tentativa de esconder palavras na mensagem
 lang pt_BR describe FUZZY_OFFERS Tentativa de esconder palavras na mensagem
 lang pt_BR describe FUZZY_PHARMACY Tentativa de esconder palavras na mensagem
 lang pt_BR describe FUZZY_PHENT Tentativa de esconder palavras na mensagem
-lang pt_BR describe FUZZY_PRESCRIpt_BR Tentativa de esconder palavras na mensagem
+lang pt_BR describe FUZZY_PRESCRIPT Tentativa de esconder palavras na mensagem
 lang pt_BR describe FUZZY_PRICES Tentativa de esconder palavras na mensagem
 lang pt_BR describe FUZZY_REFINANCE Tentativa de esconder palavras na mensagem
 lang pt_BR describe FUZZY_REMOVE Tentativa de esconder palavras na mensagem
@@ -608,4 +608,4 @@ lang pt_BR describe ENV_AND_HDR_SPF_MATCH Endereço do From: confere com Envelope
 
 # 60_whitelist_subject.cf
 lang pt_BR describe SUBJECT_IN_WHITELIST Assunto contém palavra que está na whitelist do usuário
-lang pt_BR describe SUBJECT_IN_BLACKLIST Assunto contém palavra que está na blacklist do usuário
+lang pt_BR describe SUBJECT_IN_BLACKLIST Assunto contém palavra que está na blacklist do usuário	
