@@ -1,18 +1,18 @@
 # 72_active.cf
-lang pt_BR describe APOSTROPHE_FROM Endere√ßo do From: cont√©m ap√≥strofo
-lang pt_BR describe AXB_HELO_HOME_UN Mensagem enviada a partir de uma conex√£o dom√©stica
+lang pt_BR describe APOSTROPHE_FROM EndereÁo do From: contÈm apÛstrofo
+lang pt_BR describe AXB_HELO_HOME_UN Mensagem enviada a partir de uma conex„o domÈstica
 lang pt_BR describe AXB_XMID_1212 Spam conhecido (Barbera)
 lang pt_BR describe AXB_XMID_1510 Spam conhecido (Brunello)
 lang pt_BR describe AXB_XMID_OEGOESNULL Spam conhecido (Amarone)
 lang pt_BR describe AXB_XM_SENDMAIL_NOT Spam conhecido (Nebbiolo)
-lang pt_BR describe BANKING_LAWS Mensagem fala sobre leis banc√°rias
-lang pt_BR describe CORRUPT_FROM_LINE_IN_HDRS Informa√ß√£o: mensagem est√° corrompida (problemas no cabe√ßalho)
+lang pt_BR describe BANKING_LAWS Mensagem fala sobre leis banc·rias
+lang pt_BR describe CORRUPT_FROM_LINE_IN_HDRS InformaÁ„o: mensagem est· corrompida (problemas no cabeÁalho)
 lang pt_BR describe CTYPE_8SPACE_GIF Stock spam image part 'Content-Type' found (8 spc)
-lang pt_BR describe DEAR_BENEFICIARY Cont√©m o texto "Dear Beneficiary:"
-lang pt_BR describe DEAR_EMAIL Cont√©m o texto "Dear <email>"
-lang pt_BR describe DOS_ANAL_SPAM_MAILER Padr√£o do cabe√ßalho X-mailer comumente encontrado em spam de sites pornogr√°ficos
+lang pt_BR describe DEAR_BENEFICIARY ContÈm o texto "Dear Beneficiary:"
+lang pt_BR describe DEAR_EMAIL ContÈm o texto "Dear <email>"
+lang pt_BR describe DOS_ANAL_SPAM_MAILER Padr„o do cabeÁalho X-mailer comumente encontrado em spam de sites pornogr·ficos
 lang pt_BR describe DOS_FIX_MY_URI Parece ser um spam do tipo "fix my obfu'd URI please"
-lang pt_BR describe DOS_HIGHBIT_HDRS_BODY Corpo da mensagem possui caracteres especiais, mas o cabe√ßalho n√£o especifica
+lang pt_BR describe DOS_HIGHBIT_HDRS_BODY Corpo da mensagem possui caracteres especiais, mas o cabeÁalho n„o especifica
 lang pt_BR describe DOS_HIGH_BAT_TO_MX Enviado pelo "The Bat!" direto ao MX e o corpo da mensagem possui caracteres especiais
 lang pt_BR describe DOS_LET_GO_JOB Spam conhecido "Let go from their job and now makes lots of dough!"
 lang pt_BR describe DOS_OE_TO_MX Mensagem foi entregue direto ao MX, mas possui headers do Outlook Express
@@ -22,78 +22,78 @@ lang pt_BR describe DOS_RCVD_IP_TWICE_C Mensagem passou pelo mesmo IP duas vezes
 lang pt_BR describe DOS_STOCK_BAT Spam conhecido "pump and dump stock"
 lang pt_BR describe DOS_URI_ASTERISK Possui uma URI com asterisco
 lang pt_BR describe DOS_YOUR_PLACE Spam de site de encontros russo
-lang pt_BR describe DRUGS_STOCK_MIMEOLE Cabe√ßalhos forjados j√° conhecidos como stock-spam (5510)
-lang pt_BR describe DYN_RDNS_AND_INLINE_IMAGE Mensagem cont√©m imagem e foi enviada por rDNS din√¢mico
-lang pt_BR describe DYN_RDNS_SHORT_HELO_HTML Enviada por rDNS din√¢mico, HELO curto e mensagem √© HTML
-lang pt_BR describe DYN_RDNS_SHORT_HELO_IMAGE Enviada por rDNS din√¢mico, HELO curto e mensagem possui imagem
-lang pt_BR describe FB_ADD_INCHES Cont√©m "Add / Gain inches"
+lang pt_BR describe DRUGS_STOCK_MIMEOLE CabeÁalhos forjados j· conhecidos como stock-spam (5510)
+lang pt_BR describe DYN_RDNS_AND_INLINE_IMAGE Mensagem contÈm imagem e foi enviada por rDNS din‚mico
+lang pt_BR describe DYN_RDNS_SHORT_HELO_HTML Enviada por rDNS din‚mico, HELO curto e mensagem È HTML
+lang pt_BR describe DYN_RDNS_SHORT_HELO_IMAGE Enviada por rDNS din‚mico, HELO curto e mensagem possui imagem
+lang pt_BR describe FB_ADD_INCHES ContÈm "Add / Gain inches"
 lang pt_BR describe FB_ALMOST_SEX Tentativa de esconder a palavra "sex"
 lang pt_BR describe FB_ANA_TRIM Tentativa de esconder a palavra AnaTrim
-lang pt_BR describe FB_ANUI Spam conhecido. Cont√©m o texto "A_U_N_I"
-lang pt_BR describe FB_BILLI0N Cont√©m: [BM]Illi0n
-lang pt_BR describe FB_C0MPANY Cont√©m: C0mpany
-lang pt_BR describe FB_CAN_LONGER Cont√©m: can last longer
+lang pt_BR describe FB_ANUI Spam conhecido. ContÈm o texto "A_U_N_I"
+lang pt_BR describe FB_BILLI0N ContÈm: [BM]Illi0n
+lang pt_BR describe FB_C0MPANY ContÈm: C0mpany
+lang pt_BR describe FB_CAN_LONGER ContÈm: can last longer
 lang pt_BR describe FB_CIALIS_LEO3 Tentativa de esconder a palavra "cialis"
 lang pt_BR describe FB_DOUBLE_0WORDS Looks like double 0 words
-lang pt_BR describe FB_EMAIL_HIER Cont√©m: "email hier"
-lang pt_BR describe FB_EXTRA_INCHES Cont√©m: extra inches
-lang pt_BR describe FB_FAKE_NUMBERS Parece ter n√∫meros como O's ao inv√©s de 0's
-lang pt_BR describe FB_FAKE_NUMS4 Parece ter n√∫meros falsos (4)
-lang pt_BR describe FB_FHARMACY Cont√©m: "Pharmacy"
-lang pt_BR describe FB_FORWARD_LOOK Cont√©m: "forward look" com 0's
-lang pt_BR describe FB_GAPPY_ADDRESS Muitos espa√ßos em um endere√ßo
-lang pt_BR describe FB_GET_MEDS Parece estar tentando vender rem√©dios
-lang pt_BR describe FB_GVR Parece ser spam de viagra gen√©rico
-lang pt_BR describe FB_HEY_BRO_COMMA Cont√©m: "hey bro,"
-lang pt_BR describe FB_HG_H_CAP Cont√©m: HGH
-lang pt_BR describe FB_HOMELOAN Cont√©m: $x home loan
-lang pt_BR describe FB_IMPRESS_GIRL Cont√©m: impress ... girl
-lang pt_BR describe FB_INCREASE_YOUR Cont√©m: Increase your energy
-lang pt_BR describe FB_INDEPEND_RWD Cont√©m: independent reward
-lang pt_BR describe FB_L0AN Cont√©m: L0an
+lang pt_BR describe FB_EMAIL_HIER ContÈm: "email hier"
+lang pt_BR describe FB_EXTRA_INCHES ContÈm: extra inches
+lang pt_BR describe FB_FAKE_NUMBERS Parece ter n˙meros como O's ao invÈs de 0's
+lang pt_BR describe FB_FAKE_NUMS4 Parece ter n˙meros falsos (4)
+lang pt_BR describe FB_FHARMACY ContÈm: "Pharmacy"
+lang pt_BR describe FB_FORWARD_LOOK ContÈm: "forward look" com 0's
+lang pt_BR describe FB_GAPPY_ADDRESS Muitos espaÁos em um endereÁo
+lang pt_BR describe FB_GET_MEDS Parece estar tentando vender remÈdios
+lang pt_BR describe FB_GVR Parece ser spam de viagra genÈrico
+lang pt_BR describe FB_HEY_BRO_COMMA ContÈm: "hey bro,"
+lang pt_BR describe FB_HG_H_CAP ContÈm: HGH
+lang pt_BR describe FB_HOMELOAN ContÈm: $x home loan
+lang pt_BR describe FB_IMPRESS_GIRL ContÈm: impress ... girl
+lang pt_BR describe FB_INCREASE_YOUR ContÈm: Increase your energy
+lang pt_BR describe FB_INDEPEND_RWD ContÈm: independent reward
+lang pt_BR describe FB_L0AN ContÈm: L0an
 lang pt_BR describe FB_LETTERS_21B Spam conhecido
-lang pt_BR describe FB_LOSE_WEIGHT_CAP Cont√©m: LOSE WEIGHT
-lang pt_BR describe FB_LOWER_PAYM Cont√©m: lower your monthly payments
-lang pt_BR describe FB_MORE_SIZE Cont√©m: more size
-lang pt_BR describe FB_NOT_PHONE_NUM1 Parece ter um n√∫mero de telefone falso (1)
-lang pt_BR describe FB_NOT_PHONE_NUM3 Parece ter um n√∫mero de telefone falso (3)
+lang pt_BR describe FB_LOSE_WEIGHT_CAP ContÈm: LOSE WEIGHT
+lang pt_BR describe FB_LOWER_PAYM ContÈm: lower your monthly payments
+lang pt_BR describe FB_MORE_SIZE ContÈm: more size
+lang pt_BR describe FB_NOT_PHONE_NUM1 Parece ter um n˙mero de telefone falso (1)
+lang pt_BR describe FB_NOT_PHONE_NUM3 Parece ter um n˙mero de telefone falso (3)
 lang pt_BR describe FB_NOT_SCHOOL Tentativa de esconder a palavra "school"
-lang pt_BR describe FB_NO_SCRIP_NEEDED Cont√©m: no prescription needed.
-lang pt_BR describe FB_NUMYO Fala sobre adolescentes (Cont√©m: "14yo", "13ys", "12y")
-lang pt_BR describe FB_NUMYO2 Fala sobre maiores de idade (Cont√©m: +20yo)
-lang pt_BR describe FB_ODD_SPACED_MONEY Cont√©m algo que parece ser dinheiro, mas tem espa√ßamento estranho
+lang pt_BR describe FB_NO_SCRIP_NEEDED ContÈm: no prescription needed.
+lang pt_BR describe FB_NUMYO Fala sobre adolescentes (ContÈm: "14yo", "13ys", "12y")
+lang pt_BR describe FB_NUMYO2 Fala sobre maiores de idade (ContÈm: +20yo)
+lang pt_BR describe FB_ODD_SPACED_MONEY ContÈm algo que parece ser dinheiro, mas tem espaÁamento estranho
 lang pt_BR describe FB_ONIINE "Online" escrito errado
-lang pt_BR describe FB_P1LL Cont√©m: p1ll
-lang pt_BR describe FB_PENIS_GROWTH Cont√©m: penis growth
-lang pt_BR describe FB_PIPEDOLLAR Cont√©m: Dollar, with pipes or 0's.
+lang pt_BR describe FB_P1LL ContÈm: p1ll
+lang pt_BR describe FB_PENIS_GROWTH ContÈm: penis growth
+lang pt_BR describe FB_PIPEDOLLAR ContÈm: Dollar, with pipes or 0's.
 lang pt_BR describe FB_PIPE_ILLION Tentativa de esconder palavras como "million", "billion"...
-lang pt_BR describe FB_PROLONGED_HARD Fala sobre prolongar a ere√ß√£o
-lang pt_BR describe FB_QUALITY_REPLICA Cont√©m: quality replica
+lang pt_BR describe FB_PROLONGED_HARD Fala sobre prolongar a ereÁ„o
+lang pt_BR describe FB_QUALITY_REPLICA ContÈm: quality replica
 lang pt_BR describe FB_REF_CODE_SPACE Refcode with spacing
-lang pt_BR describe FB_REPLICA_ROLEX Cont√©m: Replica Rolex
-lang pt_BR describe FB_REPLIC_CAP Cont√©m: REPLICA
+lang pt_BR describe FB_REPLICA_ROLEX ContÈm: Replica Rolex
+lang pt_BR describe FB_REPLIC_CAP ContÈm: REPLICA
 lang pt_BR describe FB_RE_FI Parece ser sobre refinanciamento
-lang pt_BR describe FB_ROLLER_IS_T Cont√©m: Roller is th
-lang pt_BR describe FB_ROLX Cont√©m: rolx
-lang pt_BR describe FB_SAVE_PERSC Cont√©m: save ... prescription.
-lang pt_BR describe FB_SOFTTABS Cont√©m: Softabs
-lang pt_BR describe FB_SPACED_FREE Cont√©m: F R E E
+lang pt_BR describe FB_ROLLER_IS_T ContÈm: Roller is th
+lang pt_BR describe FB_ROLX ContÈm: rolx
+lang pt_BR describe FB_SAVE_PERSC ContÈm: save ... prescription.
+lang pt_BR describe FB_SOFTTABS ContÈm: Softabs
+lang pt_BR describe FB_SPACED_FREE ContÈm: F R E E
 
 lang pt_BR describe FB_SPACED_PHN_3B Phone number with -- spacing. (B)
 lang pt_BR describe FB_SPACEY_ZIP Looks like a  s p a c e d zipcode.
 
-lang pt_BR describe FB_SPUR_M Cont√©m: SPUR-M
-lang pt_BR describe FB_SSEX Cont√©m: ssex
+lang pt_BR describe FB_SPUR_M ContÈm: SPUR-M
+lang pt_BR describe FB_SSEX ContÈm: ssex
 lang pt_BR describe FB_STOCK_EXPLODE Looks like stocks exploding.
 lang pt_BR describe FB_SYMBLO Mis-spelled symbol.
-lang pt_BR describe FB_THIS_ADVERT Cont√©m: this advertiser
-lang pt_BR describe FB_THOUS_PERSONAL Cont√©m: thousand personal
-lang pt_BR describe FB_TO_STOP_DISTRO Cont√©m: to stop further distribution
-lang pt_BR describe FB_ULTRA_ALLURE Cont√©m: Ultra Allure
-lang pt_BR describe FB_UNLOCK_YOUR_G Cont√©m: lock to your girlfriend
+lang pt_BR describe FB_THIS_ADVERT ContÈm: this advertiser
+lang pt_BR describe FB_THOUS_PERSONAL ContÈm: thousand personal
+lang pt_BR describe FB_TO_STOP_DISTRO ContÈm: to stop further distribution
+lang pt_BR describe FB_ULTRA_ALLURE ContÈm: Ultra Allure
+lang pt_BR describe FB_UNLOCK_YOUR_G ContÈm: lock to your girlfriend
 lang pt_BR describe FB_UNRESOLV_PROV Pattern Replacement PROV_D
-lang pt_BR describe FB_YOURSELF_MASTER Cont√©m: yourself master
-lang pt_BR describe FB_YOUR_REFI Cont√©m: Your refi
+lang pt_BR describe FB_YOURSELF_MASTER ContÈm: yourself master
+lang pt_BR describe FB_YOUR_REFI ContÈm: Your refi
 lang pt_BR describe FH_BAD_OEV1441 Bad X-Mailer version
 lang pt_BR describe FH_DATE_IS_19XX The date is not 19xx.
 lang pt_BR describe FH_FAKE_RCVD_LINE RCVD line looks faked (A)
@@ -191,11 +191,11 @@ lang pt_BR describe FR_TITLE_NUMS HTML Title is only numbers
 lang pt_BR describe FS_ABIGGER Subject has "a bigger"
 lang pt_BR describe FS_APPROVE_YOU Subject says approve you
 lang pt_BR describe FS_AT_NO_COST Subject says "At No Cost"
-lang pt_BR describe FS_CHEAP_CAP Cont√©m: Cheap in Caps in Subject.
+lang pt_BR describe FS_CHEAP_CAP ContÈm: Cheap in Caps in Subject.
 lang pt_BR describe FS_DOLLAR_BONUS Subject talks about money bonus!
-lang pt_BR describe FS_EJACULA Cont√©m: ejaculation in subject.
-lang pt_BR describe FS_ERECTION Cont√©m: erection in subject.
-lang pt_BR describe FS_HUGECOCK Cont√©m: Huge Cock
+lang pt_BR describe FS_EJACULA ContÈm: ejaculation in subject.
+lang pt_BR describe FS_ERECTION ContÈm: erection in subject.
+lang pt_BR describe FS_HUGECOCK ContÈm: Huge Cock
 lang pt_BR describe FS_LARGE_PERCENT2 Larger than 100% in subj.
 lang pt_BR describe FS_LOW_RATES Subject says low rates
 lang pt_BR describe FS_NEW_SOFT_UPLOAD Subj starts with New software uploaded
@@ -208,11 +208,11 @@ lang pt_BR describe FS_PHARMASUB2 Looks like Phramacy subject.
 lang pt_BR describe FS_RAMROD Subject says Ramrod
 lang pt_BR describe FS_REPLICA Subject says "replica"
 lang pt_BR describe FS_REPLICAWATCH Subject says Replica watch
-lang pt_BR describe FS_RE_APPROV Cont√©m: re approved
+lang pt_BR describe FS_RE_APPROV ContÈm: re approved
 lang pt_BR describe FS_START_DOYOU2 Subject starts with Do you dream,have,want,love, etc.
 lang pt_BR describe FS_START_LOSE Subject starts with Lose
 lang pt_BR describe FS_TEEN_BAD Subject says something bad about teens
-lang pt_BR describe FS_TIP_DDD Cont√©m: subject = tip ddd
+lang pt_BR describe FS_TIP_DDD ContÈm: subject = tip ddd
 lang pt_BR describe FS_WEIGHT_LOSS Subject says Weight Loss
 lang pt_BR describe FS_WILL_HELP Subject says will help
 lang pt_BR describe FS_WITH_SMALL Subject says With ... small
@@ -228,11 +228,11 @@ lang pt_BR describe HDRS_MISSP Misspaced headers
 lang pt_BR describe HDR_ORDER_FTSDMCXX_001C Header order similar to spam (FTSDMCXX/MID variant)
 lang pt_BR describe HDR_ORDER_FTSDMCXX_BAT Header order similar to spam (FTSDMCXX/boundary variant)
 lang pt_BR describe HEADER_COUNT_SUBJECT Multiple Subject headers found
-lang pt_BR describe HELO_NO_DOMAIN Relay informa o dom√≠nio incorreto
-lang pt_BR describe HK_FAKENAME_EBAY From: diz que √© do eBay, mas a mensagem n√£o passou por l√°
-lang pt_BR describe HK_NAME_DRUGS From: cont√©m nomes de drogas
+lang pt_BR describe HELO_NO_DOMAIN Relay informa o domÌnio incorreto
+lang pt_BR describe HK_FAKENAME_EBAY From: diz que È do eBay, mas a mensagem n„o passou por l·
+lang pt_BR describe HK_NAME_DRUGS From: contÈm nomes de drogas
 lang pt_BR describe HK_NAME_FREE From: indica coisas gratuitas
-lang pt_BR describe HK_RANDOM_ENVFROM Nome de usu√°rio do remetente parece ter sido gerado aleatoriamente
+lang pt_BR describe HK_RANDOM_ENVFROM Nome de usu·rio do remetente parece ter sido gerado aleatoriamente
 lang pt_BR describe HS_BOBAX_MID_2 Bobax? Message-Id: <0IX000EJXVWDA000@example.com>
 lang pt_BR describe HS_BODY_UPLOADED_SOFTWARE Somebody has uploaded some new software for you
 lang pt_BR describe HS_DRUG_DOLLAR_1 Contains a drug and price-like pattern.
