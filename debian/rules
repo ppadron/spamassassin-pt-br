@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+# Sample debian/rules that uses cdbs.  Originaly written by Robert Millan.
+# This file is public domain.
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+
+binary-install/spamassassin-rules-pt-br::
+	cp *.cf $(DEB_DESTDIR)/usr/share/spamassassin/

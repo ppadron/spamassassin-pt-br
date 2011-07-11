@@ -1,0 +1,19 @@
+Source: spamassassin-rules-pt-br
+Section: mail
+Priority: optional
+Maintainer: Pedro Padron <ppadron@w3p.com.br>
+Build-Depends: cdbs, debhelper (>= 4.0.0)
+Standards-Version: 3.7.2
+
+Package: spamassassin-rules-pt-br
+Architecture: all
+Depends: spamassassin
+Replaces: spamassassin (<= 3.3.1-1)
+Description: Brazilian Portuguese filter rules for spam assassin
+ This package inclues Brazilian Portuguese filter rules for spamassassin.
+ .
+ spamassassin is a very powerful and fully configurable spam filter
+ with numerous features including automatic white-listing, RBL
+ testing, header and body text analysis. It is designed to be called
+ from a user's .procmail or .forward file, but can be integrated into
+ your Mail Transport Agent (MTA).

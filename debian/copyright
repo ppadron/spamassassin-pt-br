@@ -1,0 +1,26 @@
+This is spamassassin-rules-pt-br, maintained by Pedro Padron <ppadron2w3p.com.br>
+on Mon, 11 Jul 2011 05:09:11 +0300.
+
+The original source can always be found at: https://github.com/w3p/spamassassin-pt-br
+
+This package contains work by Daniel Lafraia.
+Original sources of his work can always be found at: http://www.lafraia.com.br/spambr/br_rules.cf
+
+Copyright (C) 2011 Pedro Padron
+
+  This program is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation; either version 2 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this package; if not, write to the Free Software
+  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+
+On Debian systems, the complete text of the GNU General
+Public License can be found in `/usr/share/common-licenses/GPL'.

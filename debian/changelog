@@ -1,0 +1,9 @@
+spamassassin-rules-pt-br (1) stable; urgency=low
+
+  * Initial Release.
+
+ -- Pedro Padron <ppadron@w3p.com.br>  Mon, 11 Jul 2011 05:05:20 +0300
+
+Local variables:
+mode: debian-changelog
+End:
