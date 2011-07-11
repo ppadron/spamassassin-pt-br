@@ -1,0 +1,48 @@
+body	 __BR_ROMANCE		/\bromance\b/i
+body	 BR_COPYRIGHT		/todos\s+os\s+direitos\s+reservados/i
+body     BR_MEPPS		/\bM\.*E\.*P\.*P\.*S\.*\b/i
+body	 BR_DIVULGUE_SUA	/divulgue\s+(?:sua|seu)/i
+body	 BR_AUMENTE_PENIS	/aument[ae]\s+(?:seu){0,1}\s*p(?:e|ê|Ê|&ecirc\;)nis/i
+body	 BR_PERDER_TEMPO	/perca\s+(?:mais){0,1}\s*tempo/i
+body	 BR_24_HORAS		/\b24\s*(?:horas|h|hr|hrs)\b/i
+body	 BR_SUA_EMPRESA		/\b(?:de|para)\s+sua\s+empresa\b/i
+body	 BR_HOSPEDAGEM		/\bhospedagem\b/i
+body	 BR_NAO_RESPONDA	/\b(?:ã|Ã|a|\&atilde\;)o\s+responda\s+(?:esta\s+mensagem|este\s+e\-*mail)/i
+body     BR_DESCULPE		/desculpe\s+o\s+(?:inc(?:o|ô|Ô|\&ocirc\;)modo|transtorno)/i
+body     BR_CONSULTE		/\bconsulte\-*nos\b/i
+body     BR_ESPIONAGEM		/\b(?:espionagem|detetive)\b/i
+body     BR_DESPACHO		/Despachamos\s+para\s+todo\s+o\s+Brasil/i
+body     BR_EMAIL_COUNT		/(?:[\d\.]{7,}|\d+\s*milh.{0,3}(?:es|o))\s+(?:de\s+)e\-*mail[\'s]{0,2}\b/i
+body     BR_TELEMARKETING	/tele.{0,3}marketing/i
+body     BR_TRABALHAR_CASA	/trabalh(?:ar|e)\s+(?:de|em)\s+casa\b/i
+body     BR_SAIBA_MAIS		/\bsaiba\s+mais/i
+body     BR_SAIBA_MAIS		/\bimperd(?:.{1,3}|\&iacute\;)vel\b/i
+body     BR_VISITE		/visite\s+nosso\s+site/i
+body     BR_APROVEITE		/\baproveitem?\s+(?:nossa|es[st]a)\s+promo/i
+body     BR_KEYWORD_JA		/\b(?:garanta|compre|ligue|adi*quira)\s+.{0,10}\s*(?:j(?:a|á|Á|\&aacute\;)|agora)\b/i
+body     BR_CURSO_BODY		/\bcurs[o0]s?\b/i
+body     BR_GRATIS		/\bgr.tis\b/i
+body     BR_FRETE_GRATIS	/\bfrete\s+gr.tis\b/i
+body     BR_REMOVER_EMAIL	/\b(?:para\s+){0,1}remover(?:\s+(?:seu|o\s+seu)){0,1}\s+e\-*mail\b/i
+body     BR_TEMPO_LIMITADO	/tempo\s+limitado/i
+body     BR_RENDA_EXTRA_BODY	/\baument(e|ar|ou|ando)\s+(?:a\s+sua|sua|o\s+seu|o|a){0,1}\s+(?:renda|ganho)|(?:renda|ganho|dinheiro)[\s\-]+extra\b/i
+body	 BR_UMA_VEZ		/esta\s+mensagem\s+(?:(?:s(?:o|ó|Ó|\&oacute\;)\s+){0,1}(?:vai\s+ser|ser(?:a|á|Á|\&aacute\;))|est(?:a|á|Á)\ssendo|foi)\s+enviada(?:\sapenas){0,1}\s+uma{0,1}(?:\s+(?:u|ú|Ú|\&uacute\;)nica)\s+ve[zs]/i
+body     BR_A_PARTIR_DE		/\ba\s*partir\s+de\s+[a-z]{0,3}\$\s*[\d\.\,]+/i
+body     BR_APENAS		/\bapenas\s+[a-z]{0,3}\$\s*[\d\.\,]+/i
+body	 BR_WWW_SUAEMPRESA	/\.(?:(?:sua\-*){0,1}empresa|voce)\.com/i
+body     BR_ESPECIALMENTE_VC    /\bespecialmente\s+p(?:\/|\.|a{0,1}ra)\s+v(?:c|oc(?:.{1,2}|\&ecirc\;))[\s\.\!]/i
+body	 BR_AGENCIA_DE_XXXX     /\bAg(?:..|e|ê|Ê|\&ecirc\;)ncia\s+de\s+(?:aproxima|modelo)/i
+body	 BR_E_CONFIRA		/\be\s+confira/i
+body     BR_GANHE_ENVIANDO	/ganhe dinheiro.{0,20}enviando e\-*mail/i
+body	 BR_INCLUIR_PIRAMIDE    /meu nome.{0,10}inclu.{1,3}do.{0,15}sua lista de correspond.{1,3}ncia/i
+body	 BR_TRABALHE_EM_CASA    /trabalhe (?:a partir )?(?:de|em) casa/i
+body	 BR_ENVIOU_1REAL        /(?:mand|envi)(?:e|ou|aram|ar.{1,3}o)\s+(?:imediatamente\s*)?r\$\s*1[\,\.]00\b/i
+body     BR_TENHA_SEU_SITE      /tenha seu site na internet/i
+rawbody  __BR_SAVED_URI		/url\=\(\d+\)http:\/\//i
+rawbody  BR_MAILTO_KEYS		/mailto\:\S*(?:cadastro|curso|promo|remov|sexo|gostosa|oportunidade|renda)\S*\@(?:bol|ig)\.com\.br/i
+rawbody  BR_NEDSTAT		/nedstatbasic/i
+rawbody  BR_MALADIRETA		/mala.{0,5}direta/i
+rawbody  BR_MALADIRETA2		/mala.{0,5}direta\s+de\s+e\-*mail\'*s*/i
+rawbody  BR_REMOVER_QUOTE	/[\"\'\>\;]+remover*[(?:\&quote\;)\<\"\']+/i
+rawbody  BR_CALL_KITNET		/src\=\S+kit\.net/i
+rawbody	 BR_INTERNET_EMAIL	/\(0022\)http\:\/\/internet\.e\-mail \-+\>/

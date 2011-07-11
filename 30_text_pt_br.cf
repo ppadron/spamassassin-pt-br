@@ -618,3 +618,113 @@ lang pt_BR describe ENV_AND_HDR_SPF_MATCH Endereço do From: confere com Envelope
 # 60_whitelist_subject.cf
 lang pt_BR describe SUBJECT_IN_WHITELIST Assunto contém palavra que está na whitelist do usuário
 lang pt_BR describe SUBJECT_IN_BLACKLIST Assunto contém palavra que está na blacklist do usuário
+
+# br rules
+lang pt_BR describe BR_KNOWN_MAILER X-Mailer conhecido
+lang pt_BR describe BR_MALFORMED_FROM_1 From com formatacao errada
+lang pt_BR describe BR_MALFORMED_FROM_2 From com formatacao errada
+lang pt_BR describe BR_MALFORMED_FROM_3 From com formatacao errada
+lang pt_BR describe BR_MAILTO_KEYS      Mailto para um endereco suspeito
+lang pt_BR describe BR_COPYRIGHT        Todos os direitos reservados
+lang pt_BR describe BR_LINK_UNSAFE      Links para arquivos exe,pif,scr e outros
+lang pt_BR describe BR_HOAX_SUBJ        Hoax conhecidos no Subject
+lang pt_BR describe BR_SIGILO_ABSOLUTO  Sigilo Absoluto
+lang pt_BR describe BR_DUVIDAS_CONJUGAIS    Duvidas Conjugais
+lang pt_BR describe BR_GRAVADOR_TELEFONICO Grampo?
+lang pt_BR describe BR_REDEBIZ      Redebiz.com.br
+lang pt_BR describe BR_DETETIVE_MOREIRA Detetive Moreira
+lang pt_BR describe BR_TENHA_SEU_SITE      Tenha seu site na Internet
+lang pt_BR describe BR_ENVIOU_1REAL Enviou R$1,00
+lang pt_BR describe BR_GANHE_ENVIANDO      Ganhe dinheiro enviando e-mails
+lang pt_BR describe BR_INCLUIR_PIRAMIDE    Incluir meu nome na piramide
+lang pt_BR describe BR_TRABALHE_EM_CASA    Trabalhe em casa
+lang pt_BR describe BR_MEPPS        MEPPS
+lang pt_BR describe BR_MEPPS_SUBJ       MEPPS no subject
+lang pt_BR describe BR_RETIRAR_EMAIL    Para retirar seu e-mail da lista
+lang pt_BR describe BR_DIVULGUE_SUA Divulgue sua/seu
+lang pt_BR describe BR_PERDER_TEMPO Fala sobre nao perder tempo
+lang pt_BR describe BR_USER_URI     Chamada para URI de usuario
+lang pt_BR describe BR_FAKE_HELO        SMTP HELO possivelmente falso
+lang pt_BR describe BR_24_HORAS     24 Horas
+lang pt_BR describe BR_SUA_EMPRESA      Contem 'de/para sua empresa'
+lang pt_BR describe BR_HOSPEDAGEM       Contem a palavra 'hospedagem'
+lang pt_BR describe BR_HOSPEDAGEM_SUBJ  Contem a palavra 'hospedagem' no Subject
+lang pt_BR describe BR_AUMENTE_PENIS    Fala sobre aumento de penis
+lang pt_BR describe BR_AUMENTE_PENIS_SUBJ   Fala sobre aumento de penis
+lang pt_BR describe BR_PESO_KG      Subject: xx kg
+lang pt_BR describe BR_VAGAS_ABERTAS_SUBJ  Subject: Vagas Abertas
+lang pt_BR describe BR_INTERNET_EMAIL      Saved URL com internet.e-mail
+lang pt_BR describe BR_HTML_TITLE       Title suspeito
+lang pt_BR describe BR_HTML_TITLE_KEYS  Palavras-chave no title
+lang pt_BR describe BR_VIDEO_PORNO_SUBJ    Videos porno no subject
+lang pt_BR describe BR_E_CONFIRA        Texto 'e confira'
+lang pt_BR describe BR_AGENCIA_DE_XXXX     Agencia de Aproximacao/Modelos
+lang pt_BR describe BR_ESPECIALMENTE_VC    Especialmente para voce
+lang pt_BR describe BR_NAO_RESPONDA Fala para nao responder o e-mail
+lang pt_BR describe BR_PERDER_PESO      Fala sobre perder peso
+lang pt_BR describe BR_PERDER_PESO_2    Fala sobre perder peso
+lang pt_BR describe BR_PERDER_PESO_SUBJ Fala sobre perder peso no Subject
+lang pt_BR describe BR_SAVED_URI        Saved from URL
+lang pt_BR describe BR_DESCULPE     Pede desculpas pelo incomodo/transtorno
+lang pt_BR describe BR_CONSULTE     Consulte-nos!
+lang pt_BR describe BR_ESPIONAGEM       Detetive ou Espionagem
+lang pt_BR describe BR_DESPACHO     Despachamos para todo o Brasil
+lang pt_BR describe BR_FROM_EXCLAMACAO     Contem ponto de exclamacao no From
+lang pt_BR describe BR_EMAIL_COUNT      Provavelmente e' sobre venda de listas de e-mails
+lang pt_BR describe BR_TELEMARKETING    Fala sobre 'Telemarketing'
+lang pt_BR describe BR_TRABALHAR_CASA   Fala sobre 'Trabalhar em Casa'
+lang pt_BR describe BR_SAIBA_MAIS       Fala sobre 'e saiba mais'
+lang pt_BR describe BR_IMPERDIVEL       Fala sobre 'Imperdivel'
+lang pt_BR describe BR_NEDSTAT      Tracking do Nedstat
+lang pt_BR describe BR_VISITE       Fala sobre 'Visite nosso site'
+lang pt_BR describe BR_APROVEITE        Fala sobre 'Aproveite nossa promocao'
+lang pt_BR describe BR_KEYWORD_JA       XXXXX agora/ja
+lang pt_BR describe BR_SUBJ_KEYS        Palavras-chave no Subject
+lang pt_BR describe BR_CURSO_ONLINE 'Curso on-line' no subject
+lang pt_BR describe BR_CURSO_SUBJ       Curso no subject
+lang pt_BR describe BR_CURSO_BODY       Curso no body
+lang pt_BR describe BR_MALADIRETA       Inclui 'Mala Direta'
+lang pt_BR describe BR_MALADIRETA2      Inclui 'Mala Direta de e-mail'
+lang pt_BR describe BR_GRATIS       Inclui a palavra 'Gratis'
+lang pt_BR describe BR_FRETE_GRATIS Inclui o texto 'Frete Gratis'
+lang pt_BR describe BR_REMOVER_EMAIL    Inclui texto para remover email
+lang pt_BR describe BR_REMOVER_QUOTE    Inclui texto para remover email (quote)
+lang pt_BR describe BR_TEMPO_LIMITADO   Inclui a frase 'Tempo Limitado'
+lang pt_BR describe BR_RECEIVED_SPAMMER Received com endereco DSL ou Dial-Up de Spammers
+lang pt_BR describe BR_DECRETO      Falso Decreto sobre spam
+lang pt_BR describe BR_CONGRESSO        Congresso Base das Normativas Int. sobre Spam?
+lang pt_BR describe BR_CLIQUE_AQUI      Contem o texto 'Clique aqui'
+lang pt_BR describe BR_SPAMMER_URI      Texto suspeito
+lang pt_BR describe BR_RENDA_EXTRA_BODY Texto sobre 'Renda Extra'
+lang pt_BR describe BR_GANHE_DINHEIRO   Ganhe Dinheiro no Subject
+lang pt_BR describe BR_RENDA_EXTRA_SUBJ Texto sobre 'Renda Extra' no Subject
+lang pt_BR describe BR_FROM_KEYS        From com a palavras-chave
+lang pt_BR describe BR_PROMOCAO_SUBJ    Subject com a palavra 'Promocao'
+lang pt_BR describe BR_VOCE     Contem a palavra 'voce' no Subject
+lang pt_BR describe BR_CJB_URI      Link para sites no cjb.net
+lang pt_BR describe BR_KITNET_URI       Link para sites no kit.net
+lang pt_BR describe BR_CALL_KITNET      Chamando url no kit.net (src=)
+lang pt_BR describe BR_FREEHOST_URI Link para sites de hospedagem gratis
+lang pt_BR describe BR_HPG_URI      Link para sites no HPG
+lang pt_BR describe BR_ML_URI       Link para produtos no Mercado Livre
+lang pt_BR describe BR_NAO_MAIS     Texto sobre nao receber mais a mensagem
+lang pt_BR describe BR_NAO_MAIS_2       Texto sobre nao receber mais a mensagem
+lang pt_BR describe BR_NAO_MAIS_3       Texto sobre nao receber mais a mensagem
+lang pt_BR describe BR_UMA_VEZ      Dizendo que a msg sera enviada apenas uma vez
+lang pt_BR describe BR_NOT_SPAM     Dizendo que a msg não é um spam
+lang pt_BR describe BR_QUESTION_SUBJ    Interrogacao no subject
+lang pt_BR describe BR_A_PARTIR_DE      Texto 'A partir de $xx.xx'
+lang pt_BR describe BR_APENAS       Texto 'apenas $xx.xx'
+lang pt_BR describe BR_APENAS_SUBJ      Texto 'apenas $xx.xx' no Subject
+lang pt_BR describe BR_PRICE_SUBJ       Preco no Subject
+lang pt_BR describe BR_GLOBO_COM        Link para Globo.com
+lang pt_BR describe BR_WWW_SUAEMPRESA   www.suaempresa.com.br (e similares)
+lang pt_BR describe BR_WWW_SUAEMPRESA_URI   www.suaempresa.com.br (e similares)
+lang pt_BR describe BR_TMPSTR       Received com 'TmpStr'
+lang pt_BR describe BR_PRIORITY_SPAM    Spam com alta prioridade
+lang pt_BR describe BR_ADJUST_1     Fortes caracteristicas +1
+lang pt_BR describe BR_ADJUST_1B        Fortes caracteristicas +1.5
+lang pt_BR describe BR_ADJUST_1C        Fortes caracteristicas +1.5
+lang pt_BR describe BR_ADJUST_2     Fortes caracteristicas +2
+lang pt_BR describe BR_ADJUST_3     Fortes caracteristicas +3
+lang pt_BR describe BR_ADJUST_3B        Fortes caracteristicas +3.5

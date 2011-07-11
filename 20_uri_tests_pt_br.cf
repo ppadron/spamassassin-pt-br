@@ -1,0 +1,11 @@
+uri	 BR_LINK_UNSAFE		/\.(?:exe|vbs|pif|scr|bat|dll)$/i
+uri	 BR_USER_URI		/\/\~/
+uri      BR_SPAMMER_URI		/renda\-*extra|formulario|sexo|penis|gostosa|e\-*mail|mulheres|ninfeta|venda|ganhe|mala\-*direta|grampo|promo.{2}o|oportunidade|livre\-*se|divulg|respond|remov/i
+uri      BR_CJB_URI		/\.cjb\.net/i
+uri      BR_KITNET_URI		/\.kit\.net/i
+uri      BR_FREEHOST_URI	/\.freesites\.com\.br|netfirms\.com/i
+uri      BR_HPG_URI		/\.(?:hpg|ig)\.com\.br/i
+uri      BR_ML_URI		/\.mercadoli[vb]re\.com/i
+uri	 BR_GLOBO_COM		/[^(?:webmail)]\.(?:rede){0,1}globo\.com/i
+uri	 BR_WWW_SUAEMPRESA_URI	/\.(?:(?:sua\-*){0,1}empresa|voce)\.com/i
+uri	 BR_REDEBIZ		/redebiz\.com\.br/i

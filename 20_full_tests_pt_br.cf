@@ -1,0 +1,16 @@
+full	 BR_SIGILO_ABSOLUTO	/si[gj]ilo\s+absoluto/i
+full	 BR_DUVIDAS_CONJUGAIS   /d.{1,3}vidas\s+conjugais/i
+full	 BR_GRAVADOR_TELEFONICO /(?:gravador|grampo)\W+telef.{1,3}n(?:ico|e)/i
+full     BR_PERDER_PESO		/(?:precisa|quer)\W+perder\W+(?:peso|[\d\,\.]\s*(?:kg|kilos))/i
+full     BR_PERDER_PESO_2	/perca\W+(?:peso|[\d\,\.]\s*(?:kg|kilos))/i
+full     BR_DECRETO		/\bDecreto\s+S\.*\s*1618\b/i
+full     BR_CONGRESSO		/Congresso\W+(?:Base\W+){0,1}das\W+Normativas\W+Internacionais\W+sobre\W+(?:o\W+){0,1}SPAM/i
+full	 BR_CLIQUE_AQUI		/cli(?:que|[ck]+|[ck]+ar)(?:\W+|(?:\s*\<[^\>]+\>\s*)+)(?:aqui|abaixo)/i
+full	 BR_NAO_MAIS		/caso\W+n(?:ã|Ã|a|\&atilde\;)o\W+queira\W+receber\W+esta\W+mensage[mn]/i
+full	 BR_NAO_MAIS_2		/para\W+deixar\W+de\W+receber\W+estas*\W+mensage[mn]/i
+full	 BR_NAO_MAIS_3		/n(?:ã|Ã|a|\&atilde\;)o\W+(?:estaremos\W+enviando|enviaremos)\W+estas*\W+mensage[mn]\W+(?:novamente|de\s+novo|uma\s+segunda\s+vez)/i
+full     BR_RETIRAR_EMAIL	/para\W+(?:retirar|remover)\W+seu\W+e\-*mail/i
+full	 BR_NOT_SPAM		/est.\s+\S+\s*(?:\,*\s*segundo\s+a\s+nova\s+legisla.{1,2}(?:a|ã|Ã|\&atilde\;)o\s*\,*\s+){0,1}n(?:ã|Ã|a|\&atilde\;)o\s+(?:pode\s+ser|é|É|e|\&eacute\;)(?:\s+considerad[ao])(?:\s+um){0,1}\s+spam/i
+full	 BR_HTML_TITLE		/\<\s*title\s*\>\s*(.)\1+[^\<]*(.)\2+\s*\<\/title\>/i
+full	 BR_HTML_TITLE_KEYS	/\<\s*title\s*\>.*(?:divulg|melhor|livre\-se|oportunidade|marketing|earn|money|viagra|penis|sexo).*\<\/title\>/i
+full	 BR_DETETIVE_MOREIRA	/detetivemoreira\@globo\.com/i
